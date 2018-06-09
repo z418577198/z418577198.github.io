@@ -7,5 +7,6 @@ $(function () {
               $(this).get(0).play()
           }
         })
+
     })
-})
+});
