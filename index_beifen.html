@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" type="text/html" href="./node_modules/fullpage.js/dist/jquery.fullpage.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- jquery.easings.min.js 是必须的，用于 easing 参数，也可以使用完整的 jQuery UI 代替 -->
+    <script src="./vendors/jquery.easings.min.js"></script>
+
+    <!-- 如果 scrollOverflow 设置为 true，则需要引入 jquery.slimscroll.min.js，一般情况下不需要 -->
+    <!--<script src="js/jquery.slimscroll.min.js"></script>-->
+
+    <script src="./node_modules/fullpage.js/dist/jquery.fullpage.js"></script>
+
+
+    <!--[if IE]>
+    <script type="text/javascript">
+        var console = { log: function() {} };
+    </script>
+    <![endif]-->
+
+
+    <script type="text/javascript">
+        $(function(){
+            $('#fullpage').fullpage({
+                'verticalCentered': false,
+                'css3': true,
+                'sectionsColor': ['#F0F2F4', '#fff', '#fff', '#fff'],
+                'navigation': true,
+                'navigationPosition': 'right',
+                'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
+            });
+        });
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .img-sty {
+            width: 100%;
+            height: 100%;
+        }
+        .menu {
+            width: 0.8rem;
+            height: 0.8rem;
+            position: fixed;
+            top: 0.32rem;
+            right: 0.32rem;
+            cursor: pointer;
+            background: url("./image/menu.png") center / 0.8rem 0.8rem;
+        }
+        .menu-li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
+        .menu-li li{
+            width: 0.8rem;
+            height: 0.8rem;
+            list-style: none;
+            background: #241A37;
+            color: white;
+            display: flex;
+            font-size: 0.12rem;
+            font-family: "PingFang SC";
+            justify-content: center;
+            align-items: center;
+        }
+        .menu-li li:hover{
+            background-color: #C8023B !important;
+        }
+        .active {
+            background: #C8023B !important;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="fullpage">
+    <div class="section"><img class="img-sty" src="./image/full1.jpg" /></div>
+    <div class="section"><img class="img-sty" src="./image/full2.jpg" /></div>
+    <div class="section"><img class="img-sty" src="./image/full3.jpg" /></div>
+    <div class="section"><img class="img-sty" src="./image/full4.jpg" /></div>
+</div>
+<div class="menu" onclick="menu()" on>
+    <ul class="menu-li">
+        <li>HOME</li>
+        <li>ME</li>
+        <li>WORKS</li>
+        <li>CONTACT</li>
+    </ul>
+</div>
+
+<script>
+    function menu() {
+        var menuLi = $('.menu-li');
+        var menu = $('.menu');
+        var menuDis = menuLi.css('display');
+        if (menuDis !== 'none') {
+            menuLi.css({display: 'none'});
+            // menu.css({opacity: 1});
+        } else {
+            menuLi.css({display: 'block'})
+            // menu.css({opacity: 0})
+        }
+    }
+    /*$('.menu-li li').click(function (item, index) {
+        $(this).removeClass('.active');
+        console.log('item 1', item, index)
+    });*/
+
+    /*$('.menu-li li').each(function () {
+        $(this).click(function (item, index) {
+            $('.menu-li li').each(function () {
+                $(this).removeClass('active')
+            });
+            $(this).addBack('active')
+        });
+    })*/
+
+   /* $('.menu-li').click(function (item) {
+        console.log('item22', item)
+    })
+*/
+
+</script>
+</body>
+</html>
