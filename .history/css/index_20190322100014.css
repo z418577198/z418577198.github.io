@@ -11,3 +11,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.middle {
+	font-size: 0;
+}
