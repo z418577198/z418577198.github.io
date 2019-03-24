@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+
+}
+
+video {
+    width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.my-relative {
+    position: relative;
+}
+
+.pos-1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.pos-2 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.pos-3 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}

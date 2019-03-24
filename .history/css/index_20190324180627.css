@@ -22,31 +22,13 @@ body {
     top: 21%;
     width: 19.5%;
 }
-.pos-1-1 {
-    position: absolute;
-    left: 12.4%;
-    top: 16%;
-    width: 19.5%;
-}
 .pos-2 {
     position: absolute;
     left: 38.7%;
     top: 21%;
     width: 19.5%;
 }
-.pos-2-2 {
-    position: absolute;
-    left: 38.7%;
-    top: 18%;
-    width: 19.5%;
-}
 .pos-3 {
-    position: absolute;
-    left: 64.4%;
-    top: 21%;
-    width: 19.5%;
-}
-.pos-3-3 {
     position: absolute;
     left: 64.4%;
     top: 21%;
