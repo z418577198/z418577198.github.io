@@ -1,0 +1,604 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t0创建项目">创建项目</a></li><li><a href="#t1使用iview">使用iview</a></li><li><a href="#t2配置axios参数以及拦截器">配置axios参数以及拦截器</a></li><li><a href="#t3配置vuex存储用户状态">配置vuex存储用户状态</a></li><li><a href="#t4全局拦截器配置">全局拦截器配置</a></li><li><a href="#t5EventBus应用">EventBus应用</a></li><li><a href="#t6render函数">render函数</a></li><li><a href="#t7渲染dom元素">渲染dom元素</a></li><li><a href="#t8渲染组件">渲染组件</a></li><li><a href="#t9render函数优势">render函数优势</a></li><li><a href="#t10用jsx改写">用jsx改写</a></li><li><a href="#t11函数式组件">函数式组件</a></li><li><a href="#t12可编辑表格">可编辑表格</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t0&#x521B;&#x5EFA;&#x9879;&#x76EE;">&#x521B;&#x5EFA;&#x9879;&#x76EE; <a href="#t0&#x521B;&#x5EFA;&#x9879;&#x76EE;"> # </a></h2>
+<pre><code>vue create &lt;project&gt;
+cd project 
+yarn install axios iview
+</code></pre><h2 id="t1&#x4F7F;&#x7528;iview">&#x4F7F;&#x7528;iview <a href="#t1&#x4F7F;&#x7528;iview"> # </a></h2>
+<p>&#x5728;main.js&#x5F15;&#x5165;iview</p>
+<pre><code>import iView from &apos;iview&apos;;
+import &apos;iview/dist/styles/iview.css&apos;;
+Vue.use(iView);
+</code></pre><h2 id="t2&#x914D;&#x7F6E;axios&#x53C2;&#x6570;&#x4EE5;&#x53CA;&#x62E6;&#x622A;&#x5668;">&#x914D;&#x7F6E;axios&#x53C2;&#x6570;&#x4EE5;&#x53CA;&#x62E6;&#x622A;&#x5668; <a href="#t2&#x914D;&#x7F6E;axios&#x53C2;&#x6570;&#x4EE5;&#x53CA;&#x62E6;&#x622A;&#x5668;"> # </a></h2>
+<p>&#x5BF9;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x62E6;&#x622A;&#x5668;&#x8FDB;&#x884C;&#x5C01;&#x88C5;</p>
+<pre><code>import axios from &apos;axios&apos;;
+import store from &apos;../store&apos;;
+import {getLocal} from &apos;../libs/local&apos;
+class AjaxRequest{
+    constructor(){ // &#x914D;&#x7F6E;&#x57FA;&#x672C;&#x53C2;&#x6570;
+        this.baseURL = process.NODE_ENV === &apos;production&apos;?&apos;/&apos;:&apos;http://localhost:3000&apos;
+        this.timeout = 3000;
+        this.queue = {};
+    }
+    merge(options){
+        return {...options,baseURL:this.baseURL,timeout:this.timeout}
+    }
+    setIntercpetor(instance,url){
+        // &#x8BF7;&#x6C42;&#x524D; &#x6267;&#x884C;&#x6B64;&#x65B9;&#x6CD5;
+        instance.interceptors.request.use(config=&gt;{
+            config.headers.authorization = getLocal(&apos;token&apos;);
+            if(Object.keys(this.queue).length === 0){
+                store.commit(&apos;show_loading&apos;)
+            }
+            this.queue[url] = url;
+            return config;
+        });
+        // &#x8BF7;&#x6C42;&#x540E;&#x6267;&#x884C;&#x6B64;&#x65B9;&#x6CD5;
+        instance.interceptors.response.use(res=&gt;{
+            store.commit(&apos;hide_loading&apos;)
+            delete this.queue[url];
+            if( Object.keys(this.queue).length === 0){
+                store.commit(&apos;hide_loading&apos;)
+            }
+            return res.data;
+        });
+    }
+    request(options){
+        let instance = axios.create();
+        let config = this.merge(options);
+        this.setIntercpetor(instance,options.url);
+        return instance(config); // axios();
+    }
+}
+export default new AjaxRequest();
+</code></pre><h2 id="t3&#x914D;&#x7F6E;vuex&#x5B58;&#x50A8;&#x7528;&#x6237;&#x72B6;&#x6001;">&#x914D;&#x7F6E;vuex&#x5B58;&#x50A8;&#x7528;&#x6237;&#x72B6;&#x6001; <a href="#t3&#x914D;&#x7F6E;vuex&#x5B58;&#x50A8;&#x7528;&#x6237;&#x72B6;&#x6001;"> # </a></h2>
+<p>&#x7528;&#x6237;&#x4FE1;&#x606F;&#x901A;&#x8FC7;vuex&#x6765;&#x8FDB;&#x884C;&#x5B58;&#x50A8;</p>
+<pre><code>import {login, validate} from &apos;./api/user&apos;
+import {setLocal} from &apos;./libs/local&apos;
+export default new Vuex.Store({
+  state: {
+    username:&apos;&apos;, // &#x5B58;&#x50A8;&#x7528;&#x6237;
+    isShowLoading:false // &#x8C03;&#x7528;&#x63A5;&#x53E3;&#x65F6;&#x662F;&#x5426;&#x663E;&#x793A;loading
+  },
+  mutations: {
+    hide_loading(state){
+      state.isShowLoading = false;
+    },
+    show_loading(state){
+      state.isShowLoading = true;
+    },
+    set_user(state,payload){
+      state.username = payload
+    }
+  },
+  actions: {
+    async set_user({commit},username){
+       let data = await login(username)
+        if(data.code !== 0){
+          return Promise.reject(data.data);
+        }
+        commit(&apos;set_user&apos;,data.username);
+        setLocal(&apos;token&apos;,data.token);
+    },
+    async validate({commit}){
+      let r = await validate();
+      if(r.code === 0){
+        commit(&apos;set_user&apos;,r.username);
+        setLocal(&apos;token&apos;,r.token);
+      }
+      return r.code === 0;
+    }
+  }
+})
+</code></pre><h2 id="t4&#x5168;&#x5C40;&#x62E6;&#x622A;&#x5668;&#x914D;&#x7F6E;">&#x5168;&#x5C40;&#x62E6;&#x622A;&#x5668;&#x914D;&#x7F6E; <a href="#t4&#x5168;&#x5C40;&#x62E6;&#x622A;&#x5668;&#x914D;&#x7F6E;"> # </a></h2>
+<p>&#x9875;&#x9762;&#x5207;&#x6362;&#x65F6;&#x8FDB;&#x884C;&#x6743;&#x9650;&#x83B7;&#x53D6;</p>
+<pre><code>router.beforeEach(async (to,from,next)=&gt;{
+  let needLogin = to.matched.some(match=&gt;match.meta.needLogin);
+  let result = await store.dispatch(&apos;validate&apos;);
+  if(needLogin){ // &#x9700;&#x8981;&#x767B;&#x5F55;
+    if(result){
+      next();
+    }else{
+      next({path:&apos;/login&apos;})
+    }
+  }else{ // &#x4E0D;&#x9700;&#x8981;&#x767B;&#x5F55;
+    if(result &amp;&amp; to.path == &apos;/login&apos;){ // &#x5DF2;&#x7ECF;&#x767B;&#x5F55;&#x800C;&#x4E14;&#x8FD8;&#x662F;login
+      next({path:&apos;/&apos;});
+    }else{
+      next();
+    }
+  }
+});
+</code></pre><h2 id="t5EventBus&#x5E94;&#x7528;">EventBus&#x5E94;&#x7528; <a href="#t5EventBus&#x5E94;&#x7528;"> # </a></h2>
+<pre><code>// Boy&#x7EC4;&#x4EF6; &#x53D1;&#x5C04;dinner&#x4E8B;&#x4EF6;
+&lt;template&gt;
+    &lt;div&gt;&#x7537;&#x5B69;
+        &lt;button @click=&quot;sayToGirl()&quot;&gt;&#x5BF9;&#x5973;&#x5B69;&#x8BF4;&#x8BDD;&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+&lt;script&gt;
+export default {
+    methods: {
+        sayToGirl(){
+           this.$bus.$emit(&apos;dinner&apos;,&apos;&#x4F60;&#x997F;&#x5417;&apos;);
+        }
+    }
+}
+&lt;/script&gt;
+</code></pre><pre><code>// Girl&#x7EC4;&#x4EF6; &#x76D1;&#x542C;dinner&#x4E8B;&#x4EF6;
+&lt;template&gt;
+    &lt;div&gt;
+    &#x5973;&#x5B69; &lt;span&gt;&#x7537;&#x5B69;&#x5BF9;&#x6211;&#x8BF4;&#xFF1A; {{message}}&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+
+
+&lt;script&gt;
+export default {
+    data(){
+        return {message:&apos;&apos;}
+    },
+    mounted() {
+        this.$bus.$on(&apos;dinner&apos;,(data)=&gt;{
+            this.message = data;
+        })
+    }
+}
+&lt;/script&gt;
+</code></pre><h2 id="t6render&#x51FD;&#x6570;">render&#x51FD;&#x6570; <a href="#t6render&#x51FD;&#x6570;"> # </a></h2>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x6807;&#x7B7E;</li>
+<li>attrs,style,props,on,nativeOn,class,directives,slot,key,ref,domProps</li>
+<li>&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#x5185;&#x5BB9;</li>
+</ul>
+<h2 id="t7&#x6E32;&#x67D3;dom&#x5143;&#x7D20;">&#x6E32;&#x67D3;dom&#x5143;&#x7D20; <a href="#t7&#x6E32;&#x67D3;dom&#x5143;&#x7D20;"> # </a></h2>
+<pre><code>h(&apos;div&apos;,{
+    class:&apos;test&apos;,
+    attrs:{
+        id:1
+    },
+    style:{
+        color:&apos;red&apos;
+    },
+    on:{
+        click(){
+            alert(1)
+        }
+    }
+},&apos;hello world&apos;);
+</code></pre><h2 id="t8&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;">&#x6E32;&#x67D3;&#x7EC4;&#x4EF6; <a href="#t8&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;"> # </a></h2>
+<pre><code>h(Test,{
+    props:{
+      name:&apos;zf&apos;
+    },
+    on:{
+        change(){
+          alert(&apos;123&apos;)
+        }
+    },
+    nativeOn:{
+      click(){
+        alert(1);
+      }
+    }
+},&apos;hello world&apos;)
+</code></pre><h2 id="t9render&#x51FD;&#x6570;&#x4F18;&#x52BF;">render&#x51FD;&#x6570;&#x4F18;&#x52BF; <a href="#t9render&#x51FD;&#x6570;&#x4F18;&#x52BF;"> # </a></h2>
+<pre><code>Vue.component(&apos;MyTitle&apos;,{
+  props:{
+    level:{},
+  },
+  render(h){
+    return h(&apos;h&apos;+this._self.level,this.$slots.default)
+  }
+});
+new Vue({
+  router,
+  store,
+  render:h=&gt;{
+    return h(&apos;MyTitle&apos;,{
+      props:{
+        level:2
+      }
+    },&apos;hello world&apos;)
+  } 
+}).$mount(&apos;#app&apos;);
+</code></pre><h2 id="t10&#x7528;jsx&#x6539;&#x5199;">&#x7528;jsx&#x6539;&#x5199; <a href="#t10&#x7528;jsx&#x6539;&#x5199;"> # </a></h2>
+<pre><code>Vue.component(&apos;MyTitle&apos;,{
+  props:{
+    level:{},
+  },
+  render(h){
+    let tag = &apos;h&apos;+this.level;
+    return &lt;tag&gt;{this.$slots.default}&lt;/tag&gt;  
+  }
+});
+new Vue({
+  router,
+  store,
+  render:h=&gt;{
+    return &lt;MyTitle level=&quot;1&quot;&gt;hello world&lt;/MyTitle&gt;  
+  } 
+}).$mount(&apos;#app&apos;);
+</code></pre><h2 id="t11&#x51FD;&#x6570;&#x5F0F;&#x7EC4;&#x4EF6;">&#x51FD;&#x6570;&#x5F0F;&#x7EC4;&#x4EF6; <a href="#t11&#x51FD;&#x6570;&#x5F0F;&#x7EC4;&#x4EF6;"> # </a></h2>
+<p>&#x901A;&#x8FC7;render&#x51FD;&#x6570;&#x8BA2;&#x5236;&#x7EC4;&#x4EF6;</p>
+<pre><code>&lt;List :render=&quot;renderFn&quot;&gt;&lt;/List&gt;
+import List from &apos;./components/List.vue&apos;;
+export default {
+  components:{
+    List
+  },
+  methods:{
+    renderFn:(h,name)=&gt;{
+      return &lt;h1&gt;{name}&lt;/h1&gt;
+    }
+  }
+}
+
+// &#x901A;&#x8FC7;&#x51FD;&#x6570;&#x5F0F;&#x7EC4;&#x4EF6;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x8F6C;&#x5316;
+&lt;template&gt;
+    &lt;div&gt;
+        &lt;div v-for=&quot;i in 3&quot; :key=&quot;i&quot;&gt;
+            &lt;div v-if=&quot;!render&quot;&gt;{{i}}&lt;/div&gt;
+            &lt;Functional v-else :render=&quot;render&quot; :val=&quot;i&quot;&gt;&lt;/Functional&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+&lt;script&gt;
+import Functional from &apos;./Functional.js&apos;
+export default {
+   props:{
+       render:{}
+   },
+   components:{
+       Functional
+   }
+}
+&lt;/script&gt;
+
+// &#x51FD;&#x6570;&#x5F0F;&#x7EC4;&#x4EF6;
+export default {
+    functional:true,
+    render:(h,ctx)=&gt;{
+        return ctx.props.render(h,ctx.props.val);
+    }
+}
+</code></pre><h2 id="t12&#x53EF;&#x7F16;&#x8F91;&#x8868;&#x683C;">&#x53EF;&#x7F16;&#x8F91;&#x8868;&#x683C; <a href="#t12&#x53EF;&#x7F16;&#x8F91;&#x8868;&#x683C;"> # </a></h2>
+<p>&#x57FA;&#x4E8E;iview&#x4F7F;&#x7528;jsx&#x6269;&#x5C55;&#x6210;&#x53EF;&#x7F16;&#x8F91;&#x7684;&#x8868;&#x683C;</p>
+<pre><code>&lt;template&gt;
+     &lt;Table height=&quot;200&quot; :columns=&quot;innerColumn&quot; :data=&quot;data&quot;&gt;&lt;/Table&gt;
+&lt;/template&gt;
+&lt;script&gt;
+export default {
+    data(){
+        return {innerColumn:[],index:-1,}
+    },
+    methods:{
+        editor(key){
+            this.index = key;
+        },
+        save(){
+             this.index = -1;
+        },
+        change(row,column,value){
+            row[column[&apos;key&apos;]] =value
+        }
+    },
+    props:{
+        column:{},
+        data:{}
+    },
+    mounted(){
+        this.innerColumn = this.column.map(item=&gt;{
+            if(item.edit){
+                item.render = (h,{row,index,column})=&gt;{
+                    let flag = this.index== index
+                    return &lt;div&gt;
+                    {flag?
+                    &lt;i-input value={row[column[&apos;key&apos;]]} on-input={(value)=&gt;{
+                        this.change(row,column,value)
+                    }}/&gt;:
+                    &lt;span &gt;{row[column[&apos;key&apos;]]}&lt;/span&gt;
+                    }
+                       {!flag?
+                        &lt;i-button on-click={this.editor.bind(this,index)}&gt;
+                            &#x7F16;&#x8F91;
+                        &lt;/i-button&gt;:
+                         &lt;i-button on-click={this.save.bind(this,index)}&gt;
+                            &#x4FDD;&#x5B58;
+                        &lt;/i-button&gt;}
+                     &lt;/div&gt;
+                }
+                return item;
+            }
+            return item;
+        })
+    }
+}
+&lt;/script&gt;
+</code></pre>
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

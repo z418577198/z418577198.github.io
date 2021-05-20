@@ -1,0 +1,852 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 为什么需要设计数据库">1. 为什么需要设计数据库</a><ul><li><a href="#t11.1 良好的数据库设计">1.1 良好的数据库设计</a></li><li><a href="#t21.2 糟糕的数据库设计">1.2 糟糕的数据库设计</a></li></ul></li><li><a href="#t32. 软件项目开发周期中的数据库设计">2. 软件项目开发周期中的数据库设计</a></li><li><a href="#t43.设计数据库的步骤">3.设计数据库的步骤</a><ul><li><a href="#t53.1 收集信息">3.1 收集信息</a></li><li><a href="#t63.2 标示实体(Entity)">3.2 标示实体(Entity)</a></li><li><a href="#t73.3 标示实体的属性(Attribute)">3.3 标示实体的属性(Attribute)</a></li><li><a href="#t83.4 标示实体之间的关系(RelationShip)">3.4 标示实体之间的关系(RelationShip)</a></li></ul></li><li><a href="#t94. 数据库ER图">4. 数据库ER图</a><ul><li><a href="#t104.1 ER图的实体（entity）">4.1 ER图的实体（entity）</a></li><li><a href="#t114.2 ER图的属性（attribute）">4.2 ER图的属性（attribute）</a></li><li><a href="#t124.3 ER图的关系（relationship）">4.3 ER图的关系（relationship）</a></li><li><a href="#t134.4 ER图中关联关系">4.4 ER图中关联关系</a><ul><li><a href="#t144.4.1 1对1 (1:1)">4.4.1 1对1 (1:1)</a></li><li><a href="#t154.4.2 1对多（1:N）">4.4.2 1对多（1:N）</a></li><li><a href="#t164.4.3 多对多（M:N）">4.4.3 多对多（M:N）</a></li></ul></li></ul></li><li><a href="#t175. 数据库设计三大范式">5. 数据库设计三大范式</a><ul><li><a href="#t185.1 不合理的表设计">5.1 不合理的表设计</a></li><li><a href="#t195.2 三大范式">5.2 三大范式</a><ul><li><a href="#t205.2.1  第一范式（1NF）">5.2.1  第一范式（1NF）</a></li><li><a href="#t215.2.2 第二范式（2NF）">5.2.2 第二范式（2NF）</a></li><li><a href="#t225.2.3 第三范式（3NF）">5.2.3 第三范式（3NF）</a></li><li><a href="#t235.2.4 如何更好的区分三大范式">5.2.4 如何更好的区分三大范式</a></li></ul></li></ul></li><li><a href="#t245.RBAC">5.RBAC</a><ul><li><a href="#t255.1 安全原则">5.1 安全原则</a></li><li><a href="#t265.2 ER图">5.2 ER图</a></li><li><a href="#t275.2.1 用户表">5.2.1 用户表</a></li><li><a href="#t285.2.2 角色表">5.2.2 角色表</a></li><li><a href="#t295.2.3 资源表">5.2.3 资源表</a></li><li><a href="#t305.2.4 用户角色表">5.2.4 用户角色表</a></li><li><a href="#t315.2.5 角色资源">5.2.5 角色资源</a></li><li><a href="#t325.3 数据库脚本">5.3 数据库脚本</a></li></ul></li><li><a href="#t336.事务">6.事务</a><ul><li><a href="#t346.1 为什么需要事务">6.1 为什么需要事务</a></li><li><a href="#t356.2 什么是事务">6.2 什么是事务</a></li><li><a href="#t366.3 事务的特性">6.3 事务的特性</a></li><li><a href="#t376.4 如何创建事务">6.4 如何创建事务</a></li></ul></li><li><a href="#t387.在node中使用mysql">7.在node中使用mysql</a><ul><li><a href="#t397.1 使用mysql">7.1 使用mysql</a></li><li><a href="#t407.2 使用mysql连接池">7.2 使用mysql连接池</a></li><li><a href="#t417.3 使用mysql事务">7.3 使用mysql事务</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;">1. &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93; <a href="#t01. &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;"> # </a></h2>
+<h3 id="t11.1 &#x826F;&#x597D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;">1.1 &#x826F;&#x597D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1; <a href="#t11.1 &#x826F;&#x597D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;"> # </a></h3>
+<ul>
+<li>&#x8282;&#x7701;&#x6570;&#x636E;&#x7684;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;</li>
+<li>&#x80FD;&#x591F;&#x4FDD;&#x8BC1;&#x6570;&#x636E;&#x7684;&#x5B8C;&#x6574;&#x6027;</li>
+<li>&#x65B9;&#x4FBF;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5E93;&#x7CFB;&#x7EDF;&#x7684;&#x5F00;&#x53D1;</li>
+</ul>
+<h3 id="t21.2 &#x7CDF;&#x7CD5;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;">1.2 &#x7CDF;&#x7CD5;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1; <a href="#t21.2 &#x7CDF;&#x7CD5;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;"> # </a></h3>
+<ul>
+<li>&#x6570;&#x636E;&#x5197;&#x4F59;&#xFF0C;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x6D6A;&#x8D39;</li>
+<li>&#x5185;&#x5B58;&#x7A7A;&#x95F4;&#x6D6A;&#x8D39;</li>
+<li>&#x6570;&#x636E;&#x548C;&#x66F4;&#x65B0;&#x63D2;&#x5165;&#x5F02;&#x5E38;</li>
+</ul>
+<h2 id="t32. &#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x5468;&#x671F;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;">2. &#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x5468;&#x671F;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1; <a href="#t32. &#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x5468;&#x671F;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;"> # </a></h2>
+<ul>
+<li>&#x9700;&#x6C42;&#x5206;&#x6790;&#x9636;&#x6BB5;: &#x5206;&#x6790;&#x5BA2;&#x6237;&#x7684;&#x4E1A;&#x52A1;&#x548C;&#x6570;&#x636E;&#x5904;&#x7406;&#x9700;&#x6C42;</li>
+<li>&#x6982;&#x8981;&#x8BBE;&#x8BA1;&#x9636;&#x6BB5;&#xFF1A; &#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;&#x7684;E-R&#x6A21;&#x578B;&#x56FE;&#xFF0C;&#x786E;&#x8BA4;&#x9700;&#x6C42;&#x7684;&#x6B63;&#x786E;&#x548C;&#x5B8C;&#x6574;&#x6027;</li>
+<li>&#x8BE6;&#x7EC6;&#x8BBE;&#x8BA1;&#x9636;&#x6BB5;&#xFF1A; &#x5E94;&#x7528;&#x4E09;&#x5927;&#x8303;&#x5F0F;&#x5BA1;&#x6838;&#x6570;&#x636E;&#x5E93;</li>
+<li>&#x4EE3;&#x7801;&#x7F16;&#x5199;&#x9636;&#x6BB5;&#xFF1A; &#x7269;&#x7406;&#x5B9E;&#x73B0;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x7F16;&#x7801;&#x5B9E;&#x73B0;&#x5E94;&#x7528;</li>
+<li>&#x8F6F;&#x4EF6;&#x6D4B;&#x8BD5;&#x9636;&#x6BB5;</li>
+<li>&#x5B89;&#x88C5;&#x90E8;&#x7F72;</li>
+</ul>
+<blockquote>
+<p>&#x73B0;&#x5B9E;&#x4E16;&#x754C;-&gt;&#x4FE1;&#x606F;&#x4E16;&#x754C;-&gt;&#x6570;&#x636E;&#x5E93;&#x6A21;&#x578B;&#x56FE;-&gt;&#x6570;&#x636E;&#x5E93;</p>
+</blockquote>
+<h2 id="t43.&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6B65;&#x9AA4;">3.&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6B65;&#x9AA4; <a href="#t43.&#x8BBE;&#x8BA1;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6B65;&#x9AA4;"> # </a></h2>
+<h3 id="t53.1 &#x6536;&#x96C6;&#x4FE1;&#x606F;">3.1 &#x6536;&#x96C6;&#x4FE1;&#x606F; <a href="#t53.1 &#x6536;&#x96C6;&#x4FE1;&#x606F;"> # </a></h3>
+<p>&#x4E0E;&#x76F8;&#x5173;&#x4EBA;&#x5458;&#x8FDB;&#x884C;&#x4EA4;&#x6D41;&#x3001;&#x8BBF;&#x8C08;&#x5145;&#x5206;&#x4E86;&#x89E3;&#x7528;&#x6237;&#x9700;&#x6C42;&#xFF0C;&#x7406;&#x89E3;&#x6570;&#x636E;&#x5E93;&#x9700;&#x8981;&#x5B8C;&#x6210;&#x7684;&#x4EFB;&#x52A1;</p>
+<h3 id="t63.2 &#x6807;&#x793A;&#x5B9E;&#x4F53;(Entity)">3.2 &#x6807;&#x793A;&#x5B9E;&#x4F53;(Entity) <a href="#t63.2 &#x6807;&#x793A;&#x5B9E;&#x4F53;(Entity)"> # </a></h3>
+<p>&#x6807;&#x8BC6;&#x6570;&#x636E;&#x5E93;&#x8981;&#x7BA1;&#x7406;&#x7684;&#x5173;&#x952E;&#x5BF9;&#x8C61;&#x6216;&#x8005;&#x5B9E;&#x4F53;&#xFF0C;&#x5B9E;&#x4F53;&#x4E00;&#x822C;&#x662F;&#x540D;&#x8BCD;</p>
+<h3 id="t73.3 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x7684;&#x5C5E;&#x6027;(Attribute)">3.3 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x7684;&#x5C5E;&#x6027;(Attribute) <a href="#t73.3 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x7684;&#x5C5E;&#x6027;(Attribute)"> # </a></h3>
+<h3 id="t83.4 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;(RelationShip)">3.4 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;(RelationShip) <a href="#t83.4 &#x6807;&#x793A;&#x5B9E;&#x4F53;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;(RelationShip)"> # </a></h3>
+<h2 id="t94. &#x6570;&#x636E;&#x5E93;ER&#x56FE;">4. &#x6570;&#x636E;&#x5E93;ER&#x56FE; <a href="#t94. &#x6570;&#x636E;&#x5E93;ER&#x56FE;"> # </a></h2>
+<p>ER&#x56FE;&#xFF1A;&#x5B9E;&#x4F53;&#x5173;&#x7CFB;&#x56FE;&#xFF0C;&#x7B80;&#x8BB0;E-R&#x56FE;&#xFF0C;&#x662F;&#x6307;&#x4EE5;&#x5B9E;&#x4F53;&#x3001;&#x5173;&#x7CFB;&#x3001;&#x5C5E;&#x6027;&#x4E09;&#x4E2A;&#x57FA;&#x672C;&#x6982;&#x5FF5;&#x6982;&#x62EC;&#x6570;&#x636E;&#x7684;&#x57FA;&#x672C;&#x7ED3;&#x6784;&#xFF0C;&#x4ECE;&#x800C;&#x63CF;&#x8FF0;&#x9759;&#x6001;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x6982;&#x5FF5;&#x6A21;&#x5F0F;</p>
+<p><img src="../static/img/er.png" alt="er"></p>
+<h3 id="t104.1 ER&#x56FE;&#x7684;&#x5B9E;&#x4F53;&#xFF08;entity&#xFF09;">4.1 ER&#x56FE;&#x7684;&#x5B9E;&#x4F53;&#xFF08;entity&#xFF09; <a href="#t104.1 ER&#x56FE;&#x7684;&#x5B9E;&#x4F53;&#xFF08;entity&#xFF09;"> # </a></h3>
+<ul>
+<li>ER&#x56FE;&#x7684;&#x5B9E;&#x4F53;&#xFF08;entity&#xFF09;&#x5373;&#x6570;&#x636E;&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#xFF0C;&#x4F8B;&#x5982;&#x4EBA;&#x3001;&#x5B66;&#x751F;&#x3001;&#x97F3;&#x4E50;&#x90FD;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#xFF0C;&#x7528;&#x957F;&#x65B9;&#x4F53;&#x6765;&#x8868;&#x793A;</li>
+</ul>
+<h3 id="t114.2 ER&#x56FE;&#x7684;&#x5C5E;&#x6027;&#xFF08;attribute&#xFF09;">4.2 ER&#x56FE;&#x7684;&#x5C5E;&#x6027;&#xFF08;attribute&#xFF09; <a href="#t114.2 ER&#x56FE;&#x7684;&#x5C5E;&#x6027;&#xFF08;attribute&#xFF09;"> # </a></h3>
+<ul>
+<li>ER&#x56FE;&#x7684;&#x5C5E;&#x6027;&#xFF08;attribute&#xFF09;&#x5373;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#x6240;&#x5177;&#x6709;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4F8B;&#x5982;&#x5B66;&#x751F;&#x5177;&#x6709;&#x59D3;&#x540D;&#x3001;&#x5B66;&#x53F7;&#x3001;&#x5E74;&#x7EA7;&#x7B49;&#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x692D;&#x5706;&#x5F62;&#x8868;&#x793A;</li>
+<li>&#x5C5E;&#x6027;&#x5206;&#x4E3A;&#x552F;&#x4E00;&#x5C5E;&#x6027;&#xFF08; unique attribute&#xFF09;&#x548C;&#x975E;&#x552F;&#x4E00;&#x5C5E;&#x6027;</li>
+<li>&#x552F;&#x4E00;&#x5C5E;&#x6027;&#x6307;&#x7684;&#x662F;&#x552F;&#x4E00;&#x53EF;&#x7528;&#x6765;&#x6807;&#x8BC6;&#x8BE5;&#x5B9E;&#x4F53;&#x5B9E;&#x4F8B;&#x6216;&#x8005;&#x6210;&#x5458;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x7528;&#x4E0B;&#x5212;&#x7EBF;&#x8868;&#x793A;&#xFF0C;&#x4E00;&#x822C;&#x6765;&#x8BB2;&#x5B9E;&#x4F53;&#x90FD;&#x81F3;&#x5C11;&#x6709;&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x5C5E;&#x6027;&#x3002;</li>
+</ul>
+<h3 id="t124.3 ER&#x56FE;&#x7684;&#x5173;&#x7CFB;&#xFF08;relationship&#xFF09;">4.3 ER&#x56FE;&#x7684;&#x5173;&#x7CFB;&#xFF08;relationship&#xFF09; <a href="#t124.3 ER&#x56FE;&#x7684;&#x5173;&#x7CFB;&#xFF08;relationship&#xFF09;"> # </a></h3>
+<ul>
+<li>ER&#x56FE;&#x7684;&#x5173;&#x7CFB;&#xFF08;relationship&#xFF09;&#x7528;&#x6765;&#x8868;&#x73B0;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#x4E0E;&#x6570;&#x636E;&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x8054;&#x7CFB;</li>
+<li>&#x4F8B;&#x5982;&#x5B66;&#x751F;&#x7684;&#x5B9E;&#x4F53;&#x548C;&#x6210;&#x7EE9;&#x8868;&#x7684;&#x5B9E;&#x4F53;&#x4E4B;&#x95F4;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x8054;&#x7CFB;&#xFF0C;&#x6BCF;&#x4E2A;&#x5B66;&#x751F;&#x90FD;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x6210;&#x7EE9;&#x8868;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x4E00;&#x79CD;&#x5173;&#x7CFB;&#xFF0C;&#x5173;&#x7CFB;&#x7528;&#x83F1;&#x5F62;&#x6765;&#x8868;&#x793A;&#x3002;</li>
+</ul>
+<h3 id="t134.4 ER&#x56FE;&#x4E2D;&#x5173;&#x8054;&#x5173;&#x7CFB;">4.4 ER&#x56FE;&#x4E2D;&#x5173;&#x8054;&#x5173;&#x7CFB; <a href="#t134.4 ER&#x56FE;&#x4E2D;&#x5173;&#x8054;&#x5173;&#x7CFB;"> # </a></h3>
+<h4 id="t144.4.1 1&#x5BF9;1 (1:1)">4.4.1 1&#x5BF9;1 (1:1) <a href="#t144.4.1 1&#x5BF9;1 (1:1)"> # </a></h4>
+<p>1&#x5BF9;1&#x5173;&#x7CFB;&#x662F;&#x6307;&#x5BF9;&#x4E8E;&#x5B9E;&#x4F53;&#x96C6;A&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;B&#xFF0C;A&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x81F3;&#x591A;&#x4E0E;B&#x4E2D;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#xFF1B;&#x53CD;&#x4E4B;&#xFF0C;&#x5728;&#x5B9E;&#x4F53;&#x96C6;B&#x4E2D;&#x7684;&#x6BCF;&#x4E2A;&#x5B9E;&#x4F53;&#x81F3;&#x591A;&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;A&#x4E2D;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#x3002;</p>
+<p><img src="../static/img/onetoone.png" alt="er"></p>
+<h4 id="t154.4.2 1&#x5BF9;&#x591A;&#xFF08;1:N&#xFF09;">4.4.2 1&#x5BF9;&#x591A;&#xFF08;1:N&#xFF09; <a href="#t154.4.2 1&#x5BF9;&#x591A;&#xFF08;1:N&#xFF09;"> # </a></h4>
+<p>1&#x5BF9;&#x591A;&#x5173;&#x7CFB;&#x662F;&#x6307;&#x5B9E;&#x4F53;&#x96C6;A&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;B&#x4E2D;&#x81F3;&#x5C11;&#x6709;N(N&gt;0)&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#xFF1B;&#x5E76;&#x4E14;&#x5B9E;&#x4F53;&#x96C6;B&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x81F3;&#x591A;&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;A&#x4E2D;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#x3002;</p>
+<p><img src="../static/img/onetomany.png" alt="er"></p>
+<h4 id="t164.4.3 &#x591A;&#x5BF9;&#x591A;&#xFF08;M:N&#xFF09;">4.4.3 &#x591A;&#x5BF9;&#x591A;&#xFF08;M:N&#xFF09; <a href="#t164.4.3 &#x591A;&#x5BF9;&#x591A;&#xFF08;M:N&#xFF09;"> # </a></h4>
+<p>&#x591A;&#x5BF9;&#x591A;&#x5173;&#x7CFB;&#x662F;&#x6307;&#x5B9E;&#x4F53;&#x96C6;A&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;B&#x4E2D;&#x81F3;&#x5C11;&#x6709;M(M&gt;0)&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#xFF0C;&#x5E76;&#x4E14;&#x5B9E;&#x4F53;&#x96C6;B&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x4E0E;&#x5B9E;&#x4F53;&#x96C6;A&#x4E2D;&#x7684;&#x81F3;&#x5C11;N&#xFF08;N&gt;0&#xFF09;&#x4E2A;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7CFB;&#x3002;</p>
+<p><img src="../static/img/manytomany.png" alt="er"></p>
+<h2 id="t175. &#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x4E09;&#x5927;&#x8303;&#x5F0F;">5. &#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x4E09;&#x5927;&#x8303;&#x5F0F; <a href="#t175. &#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x4E09;&#x5927;&#x8303;&#x5F0F;"> # </a></h2>
+<h3 id="t185.1 &#x4E0D;&#x5408;&#x7406;&#x7684;&#x8868;&#x8BBE;&#x8BA1;">5.1 &#x4E0D;&#x5408;&#x7406;&#x7684;&#x8868;&#x8BBE;&#x8BA1; <a href="#t185.1 &#x4E0D;&#x5408;&#x7406;&#x7684;&#x8868;&#x8BBE;&#x8BA1;"> # </a></h3>
+<ul>
+<li>&#x4FE1;&#x606F;&#x91CD;&#x590D;</li>
+<li>&#x66F4;&#x65B0;&#x5F02;&#x5E38;</li>
+<li>&#x63D2;&#x5165;&#x5F02;&#x5E38;</li>
+<li>&#x5220;&#x9664;&#x5F02;&#x5E38;</li>
+</ul>
+<h3 id="t195.2 &#x4E09;&#x5927;&#x8303;&#x5F0F;">5.2 &#x4E09;&#x5927;&#x8303;&#x5F0F; <a href="#t195.2 &#x4E09;&#x5927;&#x8303;&#x5F0F;"> # </a></h3>
+<h4 id="t205.2.1  &#x7B2C;&#x4E00;&#x8303;&#x5F0F;&#xFF08;1NF&#xFF09;">5.2.1  &#x7B2C;&#x4E00;&#x8303;&#x5F0F;&#xFF08;1NF&#xFF09; <a href="#t205.2.1  &#x7B2C;&#x4E00;&#x8303;&#x5F0F;&#xFF08;1NF&#xFF09;"> # </a></h4>
+<ul>
+<li>&#x6570;&#x636E;&#x8868;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x5217;&#xFF08;&#x6BCF;&#x4E2A;&#x5B57;&#x6BB5;&#xFF09;&#x5FC5;&#x987B;&#x662F;&#x4E0D;&#x53EF;&#x62C6;&#x5206;&#x7684;&#x6700;&#x5C0F;&#x5355;&#x5143;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x786E;&#x4FDD;&#x6BCF;&#x4E00;&#x5217;&#x7684;&#x539F;&#x5B50;&#x6027;&#xFF1B;</li>
+</ul>
+<p><img src="../static/img/firstpattern.png" alt="firstpattern"></p>
+<h4 id="t215.2.2 &#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#xFF08;2NF&#xFF09;">5.2.2 &#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#xFF08;2NF&#xFF09; <a href="#t215.2.2 &#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#xFF08;2NF&#xFF09;"> # </a></h4>
+<ul>
+<li>&#x6EE1;&#x8DB3;1NF&#x540E;&#xFF0C;&#x8981;&#x6C42;&#x8868;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5217;&#xFF0C;&#x90FD;&#x5FC5;&#x987B;&#x4F9D;&#x8D56;&#x4E8E;&#x4E3B;&#x952E;&#xFF0C;&#x800C;&#x4E0D;&#x80FD;&#x6709;&#x4EFB;&#x4F55;&#x4E00;&#x5217;&#x4E0E;&#x4E3B;&#x952E;&#x6CA1;&#x6709;&#x5173;&#x7CFB;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x4E00;&#x4E2A;&#x8868;&#x53EA;&#x63CF;&#x8FF0;&#x4E00;&#x4EF6;&#x4E8B;&#x60C5;</li>
+</ul>
+<p><img src="../static/img/2th1.jpg" alt="2th1"></p>
+<p><img src="../static/img/2th2.jpg" alt="2th2"></p>
+<p><img src="../static/img/2th3.jpg" alt="2th3"></p>
+<blockquote>
+<p>&#x4E00;&#x4E2A;&#x4EBA;&#x540C;&#x65F6;&#x8BA2;&#x51E0;&#x4E2A;&#x623F;&#x95F4;&#xFF0C;&#x5C31;&#x4F1A;&#x51FA;&#x6765;&#x4E00;&#x4E2A;&#x8BA2;&#x5355;&#x53F7;&#x591A;&#x6761;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x6837;&#x5B50;&#x8054;&#x7CFB;&#x4EBA;&#x90FD;&#x662F;&#x91CD;&#x590D;&#x7684;&#xFF0C;&#x5C31;&#x4F1A;&#x9020;&#x6210;&#x6570;&#x636E;&#x5197;&#x4F59;</p>
+</blockquote>
+<h4 id="t225.2.3 &#x7B2C;&#x4E09;&#x8303;&#x5F0F;&#xFF08;3NF&#xFF09;">5.2.3 &#x7B2C;&#x4E09;&#x8303;&#x5F0F;&#xFF08;3NF&#xFF09; <a href="#t225.2.3 &#x7B2C;&#x4E09;&#x8303;&#x5F0F;&#xFF08;3NF&#xFF09;"> # </a></h4>
+<ul>
+<li>&#x5FC5;&#x987B;&#x5148;&#x6EE1;&#x8DB3;&#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#xFF08;2NF&#xFF09;&#xFF0C;&#x8981;&#x6C42;&#xFF1A;&#x8868;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x5217;&#x53EA;&#x4E0E;&#x4E3B;&#x952E;&#x76F4;&#x63A5;&#x76F8;&#x5173;&#x800C;&#x4E0D;&#x662F;&#x95F4;&#x63A5;&#x76F8;&#x5173;&#xFF0C;(&#x8868;&#x4E2D;&#x7684;&#x6BCF;&#x4E00;&#x5217;&#x53EA;&#x80FD;&#x4F9D;&#x8D56;&#x4E8E;&#x4E3B;&#x952E;)</li>
+<li>&#x6570;&#x636E;&#x4E0D;&#x80FD;&#x5B58;&#x5728;&#x4F20;&#x9012;&#x5173;&#x7CFB;,&#x5373;&#x6BCF;&#x4E2A;&#x5C5E;&#x6027;&#x90FD;&#x8DDF;&#x4E3B;&#x952E;&#x6709;&#x76F4;&#x63A5;&#x5173;&#x7CFB;&#x800C;&#x4E0D;&#x662F;&#x95F4;&#x63A5;&#x5173;&#x7CFB;</li>
+</ul>
+<p><img src="../static/img/thirdpattern.png" alt="thirdpattern"></p>
+<h4 id="t235.2.4 &#x5982;&#x4F55;&#x66F4;&#x597D;&#x7684;&#x533A;&#x5206;&#x4E09;&#x5927;&#x8303;&#x5F0F;">5.2.4 &#x5982;&#x4F55;&#x66F4;&#x597D;&#x7684;&#x533A;&#x5206;&#x4E09;&#x5927;&#x8303;&#x5F0F; <a href="#t235.2.4 &#x5982;&#x4F55;&#x66F4;&#x597D;&#x7684;&#x533A;&#x5206;&#x4E09;&#x5927;&#x8303;&#x5F0F;"> # </a></h4>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x8303;&#x5F0F;&#x548C;&#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;&#x6709;&#x6CA1;&#x6709;&#x5206;&#x51FA;&#x4E24;&#x5F20;&#x8868;,&#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#x662F;&#x8BF4;&#x4E00;&#x5F20;&#x8868;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x6240;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x5B9E;&#x4F53;&#x5C5E;&#x6027;&#xFF0C;&#x90A3;&#x4E48;&#x8981;&#x5FC5;&#x987B;&#x5206;&#x6210;&#x591A;&#x5F20;&#x8868;</li>
+<li>&#x7B2C;&#x4E09;&#x8303;&#x5F0F;&#x662F;&#x8981;&#x6C42;&#x5DF2;&#x7ECF;&#x5206;&#x6210;&#x4E86;&#x591A;&#x5F20;&#x8868;&#xFF0C;&#x90A3;&#x4E48;&#x4E00;&#x5F20;&#x8868;&#x4E2D;&#x53EA;&#x80FD;&#x6709;&#x53E6;&#x4E00;&#x5F20;&#x8868;&#x4E2D;&#x7684;id&#xFF08;&#x4E3B;&#x952E;&#xFF09;&#xFF0C;&#x800C;&#x4E0D;&#x80FD;&#x6709;&#x5176;&#x4ED6;&#x7684;&#x4EFB;&#x4F55;&#x4FE1;&#x606F;&#xFF08;&#x5176;&#x4ED6;&#x7684;&#x4FE1;&#x606F;&#x4E00;&#x5F8B;&#x7528;&#x5916;&#x952E;&#x5728;&#x53E6;&#x4E00;&#x8868;&#x7684;&#x4E3B;&#x952E;&#x770B;&#x67E5;&#x8BE2;&#xFF09;&#x3002;</li>
+</ul>
+<h2 id="t245.RBAC">5.RBAC <a href="#t245.RBAC"> # </a></h2>
+<ul>
+<li>&#x57FA;&#x4E8E;&#x89D2;&#x8272;&#x7684;&#x6743;&#x9650;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#xFF08;Role-Based Access Control&#xFF09; </li>
+<li>RBAC&#xFF08;Role-Based Access Control&#xFF0C;&#x57FA;&#x4E8E;&#x89D2;&#x8272;&#x7684;&#x8BBF;&#x95EE;&#x63A7;&#x5236;&#xFF09;&#xFF0C;&#x5C31;&#x662F;&#x7528;&#x6237;&#x901A;&#x8FC7;&#x89D2;&#x8272;&#x4E0E;&#x6743;&#x9650;&#x8FDB;&#x884C;&#x5173;&#x8054;</li>
+<li>&#x7B80;&#x5355;&#x5730;&#x8BF4;&#xFF0C;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x62E5;&#x6709;&#x82E5;&#x5E72;&#x89D2;&#x8272;&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x89D2;&#x8272;&#x62E5;&#x6709;&#x82E5;&#x5E72;&#x6743;&#x9650;&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x5C31;&#x6784;&#x9020;&#x6210;&#x201C;&#x7528;&#x6237;-&#x89D2;&#x8272;-&#x6743;&#x9650;-&#x8D44;&#x6E90;&#x201D;&#x7684;&#x6388;&#x6743;&#x6A21;&#x578B;</li>
+<li>&#x5728;&#x8FD9;&#x79CD;&#x6A21;&#x578B;&#x4E2D;&#xFF0C;&#x7528;&#x6237;&#x4E0E;&#x89D2;&#x8272;&#x4E4B;&#x95F4;&#xFF0C;&#x89D2;&#x8272;&#x4E0E;&#x6743;&#x9650;&#x4E4B;&#x95F4;&#xFF0C;&#x6743;&#x9650;&#x4E0E;&#x8D44;&#x6E90;&#x4E4B;&#x95F4;&#x4E00;&#x822C;&#x662F;&#x591A;&#x5BF9;&#x591A;&#x7684;&#x5173;&#x7CFB;&#x3002;</li>
+<li>&#x5728;RBAC&#x4E2D;&#x6700;&#x91CD;&#x8981;&#x7684;&#x6982;&#x5FF5;&#x5305;&#x62EC;&#xFF1A;&#x7528;&#x6237;(User)&#xFF0C;&#x89D2;&#x8272;(Role)&#xFF0C;&#x6743;&#x9650;(Permission)&#xFF0C;&#x8D44;&#x6E90;(Resource) <h3 id="t255.1 &#x5B89;&#x5168;&#x539F;&#x5219;">5.1 &#x5B89;&#x5168;&#x539F;&#x5219; <a href="#t255.1 &#x5B89;&#x5168;&#x539F;&#x5219;"> # </a></h3>
+</li>
+<li>&#x6700;&#x5C0F;&#x6743;&#x9650;&#x539F;&#x5219;&#x4E4B;&#x6240;&#x4EE5;&#x88AB;RBAC&#x6240;&#x652F;&#x6301;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;RBAC&#x53EF;&#x4EE5;&#x5C06;&#x5176;&#x89D2;&#x8272;&#x914D;&#x7F6E;&#x6210;&#x5176;&#x5B8C;&#x6210;&#x4EFB;&#x52A1;&#x6240;&#x9700;&#x8981;&#x7684;&#x6700;&#x5C0F;&#x7684;&#x6743;&#x9650;&#x96C6;</li>
+<li>&#x8D23;&#x4EFB;&#x5206;&#x79BB;&#x539F;&#x5219;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8C03;&#x7528;&#x76F8;&#x4E92;&#x72EC;&#x7ACB;&#x4E92;&#x65A5;&#x7684;&#x89D2;&#x8272;&#x6765;&#x5171;&#x540C;&#x5B8C;&#x6210;&#x654F;&#x611F;&#x7684;&#x4EFB;&#x52A1;&#x800C;&#x4F53;&#x73B0;&#xFF0C;&#x6BD4;&#x5982;&#x8981;&#x6C42;&#x4E00;&#x4E2A;&#x8BA1;&#x5E10;&#x5458;&#x548C;&#x8D22;&#x52A1;&#x7BA1;&#x7406;&#x5458;&#x5171;&#x53C2;&#x4E0E;&#x540C;&#x4E00;&#x8FC7;&#x5E10;&#x3002;</li>
+<li>&#x6570;&#x636E;&#x62BD;&#x8C61;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6743;&#x9650;&#x7684;&#x62BD;&#x8C61;&#x6765;&#x4F53;&#x73B0;&#xFF0C;&#x5982;&#x8D22;&#x52A1;&#x64CD;&#x4F5C;&#x7528;&#x501F;&#x6B3E;&#x3001;&#x5B58;&#x6B3E;&#x7B49;&#x62BD;&#x8C61;&#x6743;&#x9650;&#xFF0C;&#x800C;&#x4E0D;&#x7528;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x63D0;&#x4F9B;&#x7684;&#x5178;&#x578B;&#x7684;&#x8BFB;&#x3001;&#x5199;&#x3001;&#x6267;&#x884C;&#x6743;&#x9650;</li>
+</ul>
+<h3 id="t265.2 ER&#x56FE;">5.2 ER&#x56FE; <a href="#t265.2 ER&#x56FE;"> # </a></h3>
+<p><img src="../static/img/cms-er.png" alt="er"></p>
+<h3 id="t275.2.1 &#x7528;&#x6237;&#x8868;">5.2.1 &#x7528;&#x6237;&#x8868; <a href="#t275.2.1 &#x7528;&#x6237;&#x8868;"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x9ED8;&#x8BA4;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">ID</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">username</td>
+<td style="text-align:left">&#x7528;&#x6237;&#x540D;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">password</td>
+<td style="text-align:left">&#x5BC6;&#x7801;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">email</td>
+<td style="text-align:left">&#x90AE;&#x7BB1;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">phone</td>
+<td style="text-align:left">&#x624B;&#x673A;&#x53F7;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">gender</td>
+<td style="text-align:left">&#x6027;&#x522B;</td>
+<td style="text-align:left">tinyint</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">birthday</td>
+<td style="text-align:left">&#x751F;&#x65E5;</td>
+<td style="text-align:left">datetime</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">addresss</td>
+<td style="text-align:left">&#x5730;&#x5740;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">create_time</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x65F6;&#x95F4;</td>
+<td style="text-align:left">datetime</td>
+<td style="text-align:left">CURRENT_TIMESTAMP</td>
+</tr>
+<tr>
+<td style="text-align:left">last_login</td>
+<td style="text-align:left">&#x4E0A;&#x6B21;&#x767B;&#x5F55;&#x65F6;&#x95F4;</td>
+<td style="text-align:left">datetime</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">status</td>
+<td style="text-align:left">&#x72B6;&#x6001;</td>
+<td style="text-align:left">tinyint</td>
+<td style="text-align:left">1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t285.2.2 &#x89D2;&#x8272;&#x8868;">5.2.2 &#x89D2;&#x8272;&#x8868; <a href="#t285.2.2 &#x89D2;&#x8272;&#x8868;"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x9ED8;&#x8BA4;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">ID</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">name</td>
+<td style="text-align:left">&#x540D;&#x79F0;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">create_time</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x65F6;&#x95F4;</td>
+<td style="text-align:left">datetime</td>
+<td style="text-align:left">CURRENT_TIMESTAMP</td>
+</tr>
+<tr>
+<td style="text-align:left">status</td>
+<td style="text-align:left">&#x72B6;&#x6001;</td>
+<td style="text-align:left">tinyint</td>
+<td style="text-align:left">1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t295.2.3 &#x8D44;&#x6E90;&#x8868;">5.2.3 &#x8D44;&#x6E90;&#x8868; <a href="#t295.2.3 &#x8D44;&#x6E90;&#x8868;"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x9ED8;&#x8BA4;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">ID</td>
+<td style="text-align:left">int(11)</td>
+<td style="text-align:left"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">name</td>
+<td style="text-align:left">&#x540D;&#x79F0;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">key</td>
+<td style="text-align:left">&#x8DEF;&#x5F84;</td>
+<td style="text-align:left">varchar(255)</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">create_time</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x65F6;&#x95F4;</td>
+<td style="text-align:left">datetime</td>
+<td style="text-align:left">CURRENT_TIMESTAMP</td>
+</tr>
+<tr>
+<td style="text-align:left">status</td>
+<td style="text-align:left">&#x72B6;&#x6001;</td>
+<td style="text-align:left">tinyint</td>
+<td style="text-align:left">1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t305.2.4 &#x7528;&#x6237;&#x89D2;&#x8272;&#x8868;">5.2.4 &#x7528;&#x6237;&#x89D2;&#x8272;&#x8868; <a href="#t305.2.4 &#x7528;&#x6237;&#x89D2;&#x8272;&#x8868;"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">user_id</td>
+<td style="text-align:left">&#x7528;&#x6237;ID</td>
+<td style="text-align:left">int(11)</td>
+</tr>
+<tr>
+<td style="text-align:left">role_id</td>
+<td style="text-align:left">&#x89D2;&#x8272;ID</td>
+<td style="text-align:left">int(11)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t315.2.5 &#x89D2;&#x8272;&#x8D44;&#x6E90;">5.2.5 &#x89D2;&#x8272;&#x8D44;&#x6E90; <a href="#t315.2.5 &#x89D2;&#x8272;&#x8D44;&#x6E90;"> # </a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5B57;&#x6BB5;</th>
+<th style="text-align:left">&#x5B57;&#x6BB5;&#x540D;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">role_id</td>
+<td style="text-align:left">&#x89D2;&#x8272;ID</td>
+<td style="text-align:left">int(11)</td>
+</tr>
+<tr>
+<td style="text-align:left">resource_id</td>
+<td style="text-align:left">&#x8D44;&#x6E90;ID</td>
+<td style="text-align:left">int(11)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="t325.3 &#x6570;&#x636E;&#x5E93;&#x811A;&#x672C;">5.3 &#x6570;&#x636E;&#x5E93;&#x811A;&#x672C; <a href="#t325.3 &#x6570;&#x636E;&#x5E93;&#x811A;&#x672C;"> # </a></h3>
+<pre><code class="lang-sql"><span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`categories`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_category_parent_id`</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`articles`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_article_category_id`</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_user_role_user_id`</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_user_role_role_id`</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_role_resource_role_id`</span>;
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span> <span class="hljs-keyword">DROP</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> <span class="hljs-string">`fk_role_resource_resource_id`</span>;
+
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`users`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`carousels`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`categories`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`articles`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`navigations`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`links`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`config`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`roles`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`resources`</span>;
+<span class="hljs-keyword">DROP</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span>;
+
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`users`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`username`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`password`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`last_login`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+<span class="hljs-string">`email`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`phone`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`gender`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`birthday`</span> datetime <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`address`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`carousels`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`title`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`url`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`categories`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`title`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`description`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`keywords`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+<span class="hljs-string">`parent_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`articles`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`category_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`title`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`content`</span> <span class="hljs-built_in">text</span> <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`user_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`keywords`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+<span class="hljs-string">`pv`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`navigations`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`title`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`url`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`links`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`title`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`logo`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`url`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`config`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`name`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`logo`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`url`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+<span class="hljs-string">`keywords`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`description`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`icp`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`about`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`roles`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`name`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span> (
+<span class="hljs-string">`user_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`role_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`user_id`</span>, <span class="hljs-string">`role_id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`resources`</span> (
+<span class="hljs-string">`id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`name`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`key`</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span>,
+<span class="hljs-string">`create_time`</span> datetime <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-keyword">CURRENT_TIMESTAMP</span>,
+<span class="hljs-string">`status`</span> tinyint(<span class="hljs-number">255</span>) <span class="hljs-literal">NULL</span> <span class="hljs-keyword">DEFAULT</span> <span class="hljs-number">1</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`id`</span>) 
+);
+<span class="hljs-keyword">CREATE</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span> (
+<span class="hljs-string">`role_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">11</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span> AUTO_INCREMENT,
+<span class="hljs-string">`resource_id`</span> <span class="hljs-built_in">int</span>(<span class="hljs-number">255</span>) <span class="hljs-keyword">NOT</span> <span class="hljs-literal">NULL</span>,
+PRIMARY <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`role_id`</span>, <span class="hljs-string">`resource_id`</span>) 
+);
+
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`categories`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_category_parent_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`parent_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`categories`</span> (<span class="hljs-string">`id`</span>);
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`articles`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_article_category_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`category_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`categories`</span> (<span class="hljs-string">`id`</span>);
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_user_role_user_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`user_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`users`</span> (<span class="hljs-string">`id`</span>);
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`user_role`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_user_role_role_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`role_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`roles`</span> (<span class="hljs-string">`id`</span>);
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_role_resource_role_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`role_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`roles`</span> (<span class="hljs-string">`id`</span>);
+<span class="hljs-keyword">ALTER</span> <span class="hljs-keyword">TABLE</span> <span class="hljs-string">`role_resource`</span> <span class="hljs-keyword">ADD</span> <span class="hljs-keyword">CONSTRAINT</span> <span class="hljs-string">`fk_role_resource_resource_id`</span> <span class="hljs-keyword">FOREIGN</span> <span class="hljs-keyword">KEY</span> (<span class="hljs-string">`resource_id`</span>) <span class="hljs-keyword">REFERENCES</span> <span class="hljs-string">`resources`</span> (<span class="hljs-string">`id`</span>);
+</code></pre>
+<h2 id="t336.&#x4E8B;&#x52A1;">6.&#x4E8B;&#x52A1; <a href="#t336.&#x4E8B;&#x52A1;"> # </a></h2>
+<h3 id="t346.1 &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x4E8B;&#x52A1;">6.1 &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x4E8B;&#x52A1; <a href="#t346.1 &#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x4E8B;&#x52A1;"> # </a></h3>
+<ul>
+<li>&#x94F6;&#x884C;&#x8F6C;&#x8D26;&#x95EE;&#x9898;</li>
+<li>A&#x8D26;&#x6237;&#x8D44;&#x91D1;&#x51CF;&#x5C11;</li>
+<li>B&#x8D26;&#x6237;&#x8D44;&#x91D1;&#x589E;&#x52A0;</li>
+</ul>
+<pre><code class="lang-sql"><span class="hljs-keyword">create</span> <span class="hljs-keyword">database</span> bank;
+<span class="hljs-keyword">use</span> bank;
+<span class="hljs-keyword">create</span> <span class="hljs-keyword">table</span> <span class="hljs-keyword">account</span>
+(
+    <span class="hljs-keyword">name</span> <span class="hljs-built_in">varchar</span>(<span class="hljs-number">64</span>),
+    balance <span class="hljs-built_in">decimal</span>(<span class="hljs-number">10</span>,<span class="hljs-number">2</span>)
+)
+<span class="hljs-keyword">insert</span> <span class="hljs-keyword">into</span> <span class="hljs-keyword">account</span>(<span class="hljs-keyword">name</span>,balance) <span class="hljs-keyword">values</span>(<span class="hljs-string">&apos;&#x5F20;&#x4E09;&apos;</span>,<span class="hljs-number">100</span>);
+<span class="hljs-keyword">insert</span> <span class="hljs-keyword">into</span> <span class="hljs-keyword">account</span>(<span class="hljs-keyword">name</span>,balance) <span class="hljs-keyword">values</span>(<span class="hljs-string">&apos;&#x674E;&#x56DB;&apos;</span>,<span class="hljs-number">100</span>);
+
+<span class="hljs-keyword">update</span> <span class="hljs-keyword">account</span> <span class="hljs-keyword">set</span> balance = balance - <span class="hljs-number">10</span> <span class="hljs-keyword">where</span> <span class="hljs-keyword">name</span> = <span class="hljs-string">&apos;&#x5F20;&#x4E09;&apos;</span>;
+<span class="hljs-keyword">update</span> <span class="hljs-keyword">account</span> <span class="hljs-keyword">set</span> balance = balance + <span class="hljs-number">10</span> <span class="hljs-keyword">where</span> <span class="hljs-keyword">name</span> = <span class="hljs-string">&apos;&#x674E;&#x56DB;&apos;</span>;
+</code></pre>
+<h3 id="t356.2 &#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x52A1;">6.2 &#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x52A1; <a href="#t356.2 &#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x52A1;"> # </a></h3>
+<ul>
+<li>&#x4E8B;&#x52A1;&#x662F;&#x4F5C;&#x4E3A;&#x5355;&#x4E2A;&#x903B;&#x8F91;&#x5DE5;&#x4F5C;&#x5355;&#x5143;&#x6267;&#x884C;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x64CD;&#x4F5C;</li>
+<li>&#x591A;&#x4E2A;&#x64CD;&#x4F5C;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#x5411;&#x7CFB;&#x7EDF;&#x63D0;&#x4EA4;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x6267;&#x884C;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x4E0D;&#x6267;&#x884C;</li>
+<li>&#x4E8B;&#x52A1;&#x662F;&#x4E00;&#x4E2A;&#x4E0D;&#x53EF;&#x5206;&#x5272;&#x7684;&#x5DE5;&#x4F5C;&#x903B;&#x8F91;&#x5355;&#x5143;</li>
+</ul>
+<blockquote>
+<p>&#x8F6C;&#x8D26;&#x8FC7;&#x7A0B;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x6574;&#x4F53;&#xFF0C;&#x5B83;&#x9700;&#x8981;&#x4E24;&#x6761;UPDATE&#x8BED;&#x53E5;&#xFF0C;&#x5982;&#x679C;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x51FA;&#x9519;&#xFF0C;&#x5219;&#x6574;&#x4E2A;&#x8F6C;&#x8D26;&#x4E1A;&#x52A1;&#x53D6;&#x6D88;&#xFF0C;&#x4E24;&#x4E2A;&#x8D26;&#x6237;&#x7684;&#x4F59;&#x989D;&#x90FD;&#x6062;&#x590D;&#x5230;&#x539F;&#x6765;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x786E;&#x4FDD;&#x603B;&#x4F59;&#x989D;&#x4E0D;&#x53D8;</p>
+</blockquote>
+<h3 id="t366.3 &#x4E8B;&#x52A1;&#x7684;&#x7279;&#x6027;">6.3 &#x4E8B;&#x52A1;&#x7684;&#x7279;&#x6027; <a href="#t366.3 &#x4E8B;&#x52A1;&#x7684;&#x7279;&#x6027;"> # </a></h3>
+<ul>
+<li>&#x539F;&#x5B50;&#x6027;(Atomicity)  &#x4E8B;&#x52A1;&#x662F;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x4E8B;&#x52A1;&#x5404;&#x4E2A;&#x90E8;&#x5206;&#x662F;&#x4E0D;&#x53EF;&#x5206;&#x7684;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x6267;&#x884C;&#xFF0C;&#x8981;&#x4E48;&#x90FD;&#x4E0D;&#x6267;&#x884C;</li>
+<li>&#x4E00;&#x81F4;&#x6027;(Consistency)  &#x5F53;&#x4E8B;&#x52A1;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x6570;&#x636E;&#x5FC5;&#x987B;&#x5904;&#x7406;&#x5B8C;&#x6574;&#x7684;&#x72B6;&#x6001;</li>
+<li>&#x9694;&#x79BB;&#x6027;(Isolation) &#x5E76;&#x53D1;&#x4E8B;&#x52A1;&#x5F7C;&#x6B64;&#x9694;&#x79BB;&#x3001;&#x72EC;&#x7ACB;&#xFF0C;&#x5B83;&#x4E0D;&#x5E94;&#x8BE5;&#x4EE5;&#x4EFB;&#x4F55;&#x65B9;&#x5F0F;&#x4F9D;&#x8D56;&#x4E8E;&#x5176;&#x5B83;&#x4E8B;&#x52A1;</li>
+<li>&#x6301;&#x4E45;&#x6027;(Durability) &#x4E8B;&#x52A1;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x5B83;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x7684;&#x4FEE;&#x6539;&#x88AB;&#x6C38;&#x4E45;&#x4FDD;&#x6301;</li>
+</ul>
+<h3 id="t376.4 &#x5982;&#x4F55;&#x521B;&#x5EFA;&#x4E8B;&#x52A1;">6.4 &#x5982;&#x4F55;&#x521B;&#x5EFA;&#x4E8B;&#x52A1; <a href="#t376.4 &#x5982;&#x4F55;&#x521B;&#x5EFA;&#x4E8B;&#x52A1;"> # </a></h3>
+<ul>
+<li>&#x5F00;&#x59CB;&#x4E8B;&#x52A1; <code>START TRANSACTION</code> &#x6216;&#x8005; <code>BEGIN</code></li>
+<li>&#x63D0;&#x4EA4;&#x4E8B;&#x52A1; <code>COMMIT</code></li>
+<li>&#x56DE;&#x6EDA;&#x6216;&#x8005;&#x8BF4;&#x64A4;&#x9500;&#x4E8B;&#x52A1; <code>ROLLBACK</code></li>
+</ul>
+<pre><code class="lang-sql"><span class="hljs-keyword">BEGIN</span>;
+<span class="hljs-keyword">update</span> <span class="hljs-keyword">account</span> <span class="hljs-keyword">set</span> balance = balance - <span class="hljs-number">10</span> <span class="hljs-keyword">where</span> <span class="hljs-keyword">name</span> = <span class="hljs-string">&apos;&#x5F20;&#x4E09;&apos;</span>;
+<span class="hljs-keyword">ROLLBACK</span>;
+</code></pre>
+<ul>
+<li>&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6BCF;&#x6761;&#x5355;&#x72EC;&#x7684;SQL&#x8BED;&#x53E5;&#x89C6;&#x4E3A;&#x4E00;&#x4E2A;&#x4E8B;&#x52A1;</li>
+<li>&#x5173;&#x95ED;&#x9ED8;&#x8BA4;&#x63D0;&#x4EA4;&#x72B6;&#x6001;&#x540E;&#xFF0C;&#x53EF;&#x624B;&#x52A8;&#x5F00;&#x542F;&#x3001;&#x5173;&#x95ED;&#x4E8B;&#x52A1;</li>
+<li>&#x5173;&#x95ED;/&#x5F00;&#x542F;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x72B6;&#x6001; <code>SET autocommit 0|1</code> 0&#x5173;&#x95ED; 1&#x5F00;&#x542F;</li>
+</ul>
+<blockquote>
+<p>&#x5173;&#x95ED;&#x81EA;&#x52A8;&#x63D0;&#x4EA4;&#x540E;&#xFF0C;&#x4ECE;&#x4E0B;&#x4E00;&#x6761;SQL&#x8BED;&#x53E5;&#x5F00;&#x59CB;&#x5F00;&#x542F;&#x65B0;&#x7684;&#x4E8B;&#x52A1;&#xFF0C;&#x9700;&#x8981;&#x4F7F;&#x7528;COMMIT&#x6216;ROLLBACK&#x7ED3;&#x675F;&#x8BE5;&#x4E8B;&#x52A1;</p>
+</blockquote>
+<h2 id="t387.&#x5728;node&#x4E2D;&#x4F7F;&#x7528;mysql">7.&#x5728;node&#x4E2D;&#x4F7F;&#x7528;mysql <a href="#t387.&#x5728;node&#x4E2D;&#x4F7F;&#x7528;mysql"> # </a></h2>
+<ul>
+<li><a href="https://www.npmjs.com/package/mysql">mysql</a></li>
+</ul>
+<pre><code class="lang-js">npm install mysql
+</code></pre>
+<h3 id="t397.1 &#x4F7F;&#x7528;mysql">7.1 &#x4F7F;&#x7528;mysql <a href="#t397.1 &#x4F7F;&#x7528;mysql"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mysql      = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;mysql&apos;</span>);
+<span class="hljs-keyword">var</span> connection = mysql.createConnection({
+  <span class="hljs-attr">host</span>     : <span class="hljs-string">&apos;localhost&apos;</span>,
+  <span class="hljs-attr">user</span>     : <span class="hljs-string">&apos;me&apos;</span>,
+  <span class="hljs-attr">password</span> : <span class="hljs-string">&apos;secret&apos;</span>,
+  <span class="hljs-attr">database</span> : <span class="hljs-string">&apos;my_db&apos;</span>
+});
+
+connection.connect();
+
+connection.query(<span class="hljs-string">&apos;SELECT 1 + 1 AS solution&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, results, fields</span>) </span>{
+  <span class="hljs-keyword">if</span> (error) <span class="hljs-keyword">throw</span> error;
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The solution is: &apos;</span>, results[<span class="hljs-number">0</span>].solution);
+});
+
+connection.end();
+</code></pre>
+<h3 id="t407.2 &#x4F7F;&#x7528;mysql&#x8FDE;&#x63A5;&#x6C60;">7.2 &#x4F7F;&#x7528;mysql&#x8FDE;&#x63A5;&#x6C60; <a href="#t407.2 &#x4F7F;&#x7528;mysql&#x8FDE;&#x63A5;&#x6C60;"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> mysql = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;mysql&apos;</span>);
+<span class="hljs-keyword">var</span> pool  = mysql.createPool({
+  <span class="hljs-attr">connectionLimit</span> : <span class="hljs-number">10</span>,
+  <span class="hljs-attr">host</span>            : <span class="hljs-string">&apos;example.org&apos;</span>,
+  <span class="hljs-attr">user</span>            : <span class="hljs-string">&apos;bob&apos;</span>,
+  <span class="hljs-attr">password</span>        : <span class="hljs-string">&apos;secret&apos;</span>,
+  <span class="hljs-attr">database</span>        : <span class="hljs-string">&apos;my_db&apos;</span>
+});
+
+pool.query(<span class="hljs-string">&apos;SELECT 1 + 1 AS solution&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, results, fields</span>) </span>{
+  <span class="hljs-keyword">if</span> (error) <span class="hljs-keyword">throw</span> error;
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;The solution is: &apos;</span>, results[<span class="hljs-number">0</span>].solution);
+});
+</code></pre>
+<h3 id="t417.3 &#x4F7F;&#x7528;mysql&#x4E8B;&#x52A1;">7.3 &#x4F7F;&#x7528;mysql&#x4E8B;&#x52A1; <a href="#t417.3 &#x4F7F;&#x7528;mysql&#x4E8B;&#x52A1;"> # </a></h3>
+<pre><code class="lang-js">connection.beginTransaction(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>) </span>{
+  <span class="hljs-keyword">if</span> (err) { <span class="hljs-keyword">throw</span> err; }
+  connection.query(<span class="hljs-string">&apos;INSERT INTO posts SET title=?&apos;</span>, title, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, results, fields</span>) </span>{
+    <span class="hljs-keyword">if</span> (error) {
+      <span class="hljs-keyword">return</span> connection.rollback(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">throw</span> error;
+      });
+    }
+
+    <span class="hljs-keyword">var</span> log = <span class="hljs-string">&apos;Post &apos;</span> + results.insertId + <span class="hljs-string">&apos; added&apos;</span>;
+
+    connection.query(<span class="hljs-string">&apos;INSERT INTO log SET data=?&apos;</span>, log, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">error, results, fields</span>) </span>{
+      <span class="hljs-keyword">if</span> (error) {
+        <span class="hljs-keyword">return</span> connection.rollback(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+          <span class="hljs-keyword">throw</span> error;
+        });
+      }
+      connection.commit(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err</span>) </span>{
+        <span class="hljs-keyword">if</span> (err) {
+          <span class="hljs-keyword">return</span> connection.rollback(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">throw</span> err;
+          });
+        }
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;success!&apos;</span>);
+      });
+    });
+  });
+});
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

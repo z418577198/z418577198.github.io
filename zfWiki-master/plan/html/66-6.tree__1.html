@@ -1,0 +1,582 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t0基于elelemnt-ui二次封装tree组件">基于elelemnt-ui二次封装tree组件</a><ul><li><a href="#t1实现树菜单接口">实现树菜单接口</a></li><li><a href="#t2引入element-ui">引入element-ui</a></li><li><a href="#t3通过axios调取接口">通过axios调取接口</a></li><li><a href="#t4在组件中获取数据">在组件中获取数据</a></li><li><a href="#t5格式化数据-转化树列表">格式化数据-转化树列表</a></li><li><a href="#t6自定义tree组件">自定义tree组件</a></li><li><a href="#t7扩展操作列表">扩展操作列表</a></li><li><a href="#t8点击修改切换输入框">点击修改切换输入框</a></li><li><a href="#t9确认修改">确认修改</a></li><li><a href="#t10取消修改">取消修改</a></li><li><a href="#t11删除文件或文件夹">删除文件或文件夹</a></li><li><a href="#t12调用接口删除文件">调用接口删除文件</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h1 id="t0&#x57FA;&#x4E8E;elelemnt-ui&#x4E8C;&#x6B21;&#x5C01;&#x88C5;tree&#x7EC4;&#x4EF6;">&#x57FA;&#x4E8E;elelemnt-ui&#x4E8C;&#x6B21;&#x5C01;&#x88C5;tree&#x7EC4;&#x4EF6; <a href="#t0&#x57FA;&#x4E8E;elelemnt-ui&#x4E8C;&#x6B21;&#x5C01;&#x88C5;tree&#x7EC4;&#x4EF6;"> # </a></h1>
+<h2 id="t1&#x5B9E;&#x73B0;&#x6811;&#x83DC;&#x5355;&#x63A5;&#x53E3;">&#x5B9E;&#x73B0;&#x6811;&#x83DC;&#x5355;&#x63A5;&#x53E3; <a href="#t1&#x5B9E;&#x73B0;&#x6811;&#x83DC;&#x5355;&#x63A5;&#x53E3;"> # </a></h2>
+<p>&#x6570;&#x636E;&#x5206;&#x6210;&#x4E24;&#x90E8;&#x5206;&#x8FD4;&#x56DE;&#xFF0C;&#x6587;&#x4EF6;&#x5939;&#x5217;&#x8868;&#x4EE5;&#x53CA;&#x6587;&#x4EF6;&#x5217;&#x8868;,&#x56E0;&#x4E3A;&#x4E8C;&#x8005;&#x6709;&#x5305;&#x542B;&#x5173;&#x7CFB;&#xFF0C;&#x9700;&#x8981;&#x524D;&#x7AEF;&#x6839;&#x636E;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;&#x6E32;&#x67D3;&#x6210;&#x6811;&#x5F62;&#x7ED3;&#x6784;&#x6570;&#x636E;&#x3002;  </p>
+<ul>
+<li><p>&#x5B89;&#x88C5;express</p>
+<pre><code>npm init -y
+npm install express
+</code></pre></li>
+<li><p>parent&#x6570;&#x636E;&#x4EE3;&#x8868;&#x6587;&#x4EF6;&#x5939;&#x6570;&#x636E;&#xFF0C;child&#x7684;&#x6570;&#x636E;&#x4EE3;&#x8868;&#x6587;&#x4EF6;</p>
+<pre><code>let express = require(&apos;express&apos;);
+let app = express();
+app.all(&apos;*&apos;, function (req, res, next) {
+  res.header(&apos;Access-Control-Allow-Origin&apos;, &apos;*&apos;);
+  if(req.method === &apos;OPTIONS&apos;){
+      return res.send();
+  }
+  next();
+});
+app.get(&apos;/getTreeList&apos;,function(req,res){
+  res.json({
+      code:0,
+      parent:[
+              {name:&apos;&#x6587;&#x4EF6;&#x5939;1&apos;,pid:0,id:1},
+              {name:&apos;&#x6587;&#x4EF6;&#x5939;2&apos;,pid:0,id:2},
+              {name:&apos;&#x6587;&#x4EF6;&#x5939;3&apos;,pid:0,id:3},
+              {name:&apos;&#x6587;&#x4EF6;&#x5939;1-1&apos;,pid:1,id:4},
+              {name:&apos;&#x6587;&#x4EF6;&#x5939;2-1&apos;,pid:2,id:5},
+      ],
+      child:[
+              {name:&apos;&#x6587;&#x4EF6;1&apos;,pid:1,id:10001},
+              {name:&apos;&#x6587;&#x4EF6;2&apos;,pid:1,id:10002},
+              {name:&apos;&#x6587;&#x4EF6;2-1&apos;,pid:2,id:10003},
+              {name:&apos;&#x6587;&#x4EF6;2-2&apos;,pid:2,id:10004},
+              {name:&apos;&#x6587;&#x4EF6;1-1-1&apos;,pid:4,id:10005},
+              {name:&apos;&#x6587;&#x4EF6;2-1-1&apos;,pid:5,id:10006}
+      ]
+  });
+});
+app.listen(3000);
+</code></pre></li>
+</ul>
+<h2 id="t2&#x5F15;&#x5165;element-ui">&#x5F15;&#x5165;element-ui <a href="#t2&#x5F15;&#x5165;element-ui"> # </a></h2>
+<pre><code>import Vue from &apos;vue&apos;;
+// &#x5F15;&#x5165;&#x7EC4;&#x4EF6;&#x5E93;&#x884C;
+import ElementUI from &apos;element-ui&apos;;
+// &#x5F15;&#x5165;&#x7EC4;&#x4EF6;&#x5E93;&#x6837;&#x5F0F;
+import &apos;element-ui/lib/theme-chalk/index.css&apos;;
+// &#x5F15;&#x5165;App&#x6839;&#x7EC4;&#x4EF6;
+import App from &apos;./App.vue&apos;;
+// &#x4F7F;&#x7528;&#x63D2;&#x4EF6;
+Vue.use(ElementUI);
+export default new Vue({
+    el:&apos;#app&apos;,
+    render:h=&gt;h(App)
+});
+</code></pre><h2 id="t3&#x901A;&#x8FC7;axios&#x8C03;&#x53D6;&#x63A5;&#x53E3;">&#x901A;&#x8FC7;axios&#x8C03;&#x53D6;&#x63A5;&#x53E3; <a href="#t3&#x901A;&#x8FC7;axios&#x8C03;&#x53D6;&#x63A5;&#x53E3;"> # </a></h2>
+<p>&#x521B;&#x5EFA;api.js &#x5230;&#x51FA;&#x83B7;&#x53D6;&#x5217;&#x8868;&#x65B9;&#x6CD5;</p>
+<pre><code>import axios from &apos;axios&apos;;
+axios.defaults.baseURL = &apos;http://localhost:3000&apos;;
+export const getTreeList = async () =&gt;{
+    return axios.get(&apos;/getTreeList&apos;);
+}
+</code></pre><h2 id="t4&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E;">&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E; <a href="#t4&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E;"> # </a></h2>
+<p>&#x5BF9;elememnt-ui&#x6811;&#x7EC4;&#x4EF6;&#x8FDB;&#x884C;&#x4E8C;&#x6B21;&#x5C01;&#x88C5;&#xFF0C;&#x5C01;&#x88C5;TreeComponent&#x7EC4;&#x4EF6;</p>
+<pre><code>&lt;template&gt;
+    &lt;div&gt;
+        &lt;TreeComponent :data=&quot;treeList&quot;&gt;&lt;/TreeComponent&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+&lt;script&gt;
+import {getTreeList} from &apos;./api.js&apos;;
+import TreeComponent from &apos;./TreeComponent.vue&apos;;
+export default {
+    data(){
+        return {
+            treeList:[]
+        }
+    },
+    async mounted(){
+        let {data} = await getTreeList();
+        // &#x589E;&#x52A0;&#x6807;&#x793A; &#x5982;&#x679C;&#x662F;&#x6587;&#x4EF6;&#x5939; &#x589E;&#x52A0;type&#x6807;&#x793A;
+        let parent = data.parent.map(item=&gt;(item.type=&quot;child&quot;,item));
+        this.treeList = [...parent,...data.child];
+    },
+    components:{
+        TreeComponent
+    }
+}
+&lt;/script&gt;
+</code></pre><h2 id="t5&#x683C;&#x5F0F;&#x5316;&#x6570;&#x636E;-&#x8F6C;&#x5316;&#x6811;&#x5217;&#x8868;">&#x683C;&#x5F0F;&#x5316;&#x6570;&#x636E;-&#x8F6C;&#x5316;&#x6811;&#x5217;&#x8868; <a href="#t5&#x683C;&#x5F0F;&#x5316;&#x6570;&#x636E;-&#x8F6C;&#x5316;&#x6811;&#x5217;&#x8868;"> # </a></h2>
+<p>&#x5904;&#x7406;&#x6570;&#x636E;&#x65F6;&#x4E0D;&#x80FD;&#x5BF9;&#x7236;&#x7EC4;&#x4EF6;&#x4F20;&#x9012;&#x7684;&#x6570;&#x636E;&#x76F4;&#x63A5;&#x66F4;&#x6539;&#xFF0C;&#x6240;&#x4EE5;&#x64CD;&#x4F5C;&#x524D;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x62F7;&#x8D1D;  </p>
+<ul>
+<li>&#x5B89;&#x88C5;lodash  <pre><code>npm install lodash
+</code></pre></li>
+</ul>
+<pre><code>&lt;template&gt;
+    &lt;el-tree 
+        :data=&quot;treeList&quot;&gt;
+    &lt;/el-tree&gt;
+&lt;/template&gt;
+&lt;script&gt;
+import _ from &apos;lodash&apos;
+export default {
+    props:{
+        // &#x6811;&#x7684;&#x4FE1;&#x606F;&#x5217;&#x8868;
+        data:{
+            type:Array,
+            default:()=&gt;[]
+        }
+    },
+    data(){
+        return {
+            treeList:[] // &#x683C;&#x5F0F;&#x5316;&#x540E;&#x7684;&#x6811;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;
+        }
+    },
+    methods: {
+        processData(){
+            // &#x5982;&#x679C;&#x6CA1;&#x6709;&#x6570;&#x636E;&#x4E0D;&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x5904;&#x7406;
+            if(this.data.length != 0){
+                // &#x521B;&#x9020;&#x4E00;&#x4E2A;id&#x7684;&#x6620;&#x5C04;&#x8868;&#xFF0C;&#x901A;&#x8FC7;&#x6620;&#x5C04;&#x8868;&#x521B;&#x9020;&#x5173;&#x7CFB;,&#x591A;&#x6570;&#x636E;&#x64CD;&#x4F5C;&#x65F6;&#x4E0D;&#x8981;&#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x539F;&#x6570;&#x636E;
+                let cloneList = _.cloneDeep(this.data);
+                let mapList = cloneList.reduce((memo,current)=&gt;{
+                    memo[current[&apos;id&apos;]] = current;
+                    return memo;
+                },{}); 
+                // &#x53BB;&#x5217;&#x8868;&#x4E2D;&#x627E; &#x8FDB;&#x884C;&#x5206;&#x7C7B;,&#x6700;&#x540E;&#x8FD4;&#x56DE;&#x6570;&#x7EC4;&#x7ED3;&#x6784;
+                this.treeList = cloneList.reduce((result,current)=&gt;{
+                    current.label = current.name;// &#x6811;&#x7684;&#x7ED3;&#x6784;&#x5FC5;&#x987B;&#x8981;&#x6709;label&#x5C5E;&#x6027;
+                    let parent = mapList[current.pid]; // &#x62FF;&#x5230;&#x5F53;&#x524D;&#x9879;&#x7684;&#x7236;id&#x53BB;&#x5217;&#x8868;&#x4E2D;&#x67E5;&#x627E;&#xFF0C;&#x5982;&#x679C;&#x627E;&#x5230;&#x8BF4;&#x660E;&#x662F;&#x513F;&#x5B50;&#xFF0C;&#x5C31;&#x5C06;&#x5B83;&#x653E;&#x5230;&#x7236;&#x4EB2;&#x7684;children&#x5C5E;&#x6027;&#x4E2D;
+                    if(parent){
+                        parent.children? parent.children.push(current): parent.children = [current];
+                    }else if(current.pid === 0){ // &#x8BF4;&#x660E;&#x8FD9;&#x4E2A;&#x662F;&#x6839;&#x628A;&#x6839;&#x653E;&#x8FDB;&#x5230;result&#x4E2D;  
+                        result.push(current);
+                    }
+                    return result
+                },[]);
+            }
+        }
+    },
+    watch: {
+        data:{
+            handler(){ // &#x76D1;&#x63A7;data&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x5982;&#x679C;&#x6570;&#x636E;&#x6709;&#x66F4;&#x65B0;&#x91CD;&#x65B0;&#x5904;&#x7406;&#x6570;&#x636E;
+                this.processData(); 
+            },
+            immediate:true // &#x9ED8;&#x8BA4;&#x4E0A;&#x6765;&#x5C31;&#x8C03;&#x7528;&#x4E00;&#x6B21;
+        }
+    },
+}
+&lt;/script&gt;
+</code></pre><h2 id="t6&#x81EA;&#x5B9A;&#x4E49;tree&#x7EC4;&#x4EF6;">&#x81EA;&#x5B9A;&#x4E49;tree&#x7EC4;&#x4EF6; <a href="#t6&#x81EA;&#x5B9A;&#x4E49;tree&#x7EC4;&#x4EF6;"> # </a></h2>
+<p>&#x6587;&#x4EF6;&#x5939;&#x6DFB;&#x52A0;&#x6587;&#x4EF6;&#x5939;&#x6807;&#x8BC6;&#xFF0C;&#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x6587;&#x4EF6;&#x6807;&#x8BC6;</p>
+<p>&#x901A;&#x8FC7;render&#x51FD;&#x6570;&#x6269;&#x5C55;&#x6811;&#x7EC4;&#x4EF6;</p>
+<pre><code>&lt;el-tree 
+    :data=&quot;treeList&quot;
+    :render-content=&quot;renderFn&quot;
+    :expand-on-click-node=&quot;false&quot;
+    default-expand-all
+&gt;
+&lt;/el-tree&gt;
+isParent(type){
+    return type === &apos;parent&apos;;
+},
+renderFn(h, { node, data, store }){
+    let parent = this.isParent(data.type);
+    return (&lt;div&gt;
+        {parent? 
+            node.expanded?
+                &lt;i class=&quot;el-icon-folder-opened icon&quot;&gt;&lt;/i&gt;:
+                &lt;i class=&quot;el-icon-folder icon&quot;&gt;&lt;/i&gt;:
+        &lt;i class=&quot;el-icon-document icon&quot;&gt;&lt;/i&gt;}
+        {data.label}
+    &lt;/div&gt;)
+},
+</code></pre><h2 id="t7&#x6269;&#x5C55;&#x64CD;&#x4F5C;&#x5217;&#x8868;">&#x6269;&#x5C55;&#x64CD;&#x4F5C;&#x5217;&#x8868; <a href="#t7&#x6269;&#x5C55;&#x64CD;&#x4F5C;&#x5217;&#x8868;"> # </a></h2>
+<p>&#x5217;&#x8868;&#x6570;&#x636E;&#x5E94;&#x8BE5;&#x4ECE;&#x5916;&#x90E8;&#x4F20;&#x5165;&#xFF0C;&#x5BF9;&#x6587;&#x4EF6;&#x5939;&#x548C;&#x6587;&#x4EF6;&#x5B9E;&#x73B0;&#x4E0D;&#x540C;&#x7684;&#x64CD;&#x4F5C;</p>
+<pre><code>&lt;TreeComponent 
+    :data=&quot;treeList&quot;
+    :rootList=&quot;rootList&quot;
+    :childList=&quot;childList&quot;
+&gt;&lt;/TreeComponent&gt;
+rootList:[
+    {name:&apos;rename&apos;,text:&apos;&#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x5939;&#x540D;&#x5B57;&apos;},
+    {name:&apos;delete&apos;,text:&apos;&#x5220;&#x9664;&#x6587;&#x4EF6;&#x5939;&apos;}
+],
+childList:[
+    {name:&apos;rename&apos;,text:&apos;&#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x540D;&#x5B57;&apos;},
+    {name:&apos;delete&apos;,text:&apos;&#x5220;&#x9664;&#x6587;&#x4EF6;&apos;}
+]
+</code></pre><p>&#x5B9E;&#x73B0;&#x4E0B;&#x62C9;&#x83DC;&#x5355;</p>
+<pre><code>let list = parent? this.rootList:this.childList;
+&lt;el-dropdown 
+    placement=&quot;bottom-start&quot; 
+    trigger=&quot;click&quot;
+    on-command={this.handleCommand}
+&gt;
+    &lt;i class=&quot;el-icon-arrow-down el-icon--right&quot;&gt;&lt;/i&gt;
+    &lt;el-dropdown-menu slot=&quot;dropdown&quot;&gt;
+        {list.map(item=&gt;(
+            &lt;el-dropdown-item command={item.name}&gt;{item.text}&lt;/el-dropdown-item&gt;
+        ))}
+    &lt;/el-dropdown-menu&gt;
+&lt;/el-dropdown&gt;
+handleCommand(name){
+    if(name === &apos;rename&apos;){
+        // &#x4FEE;&#x6539;&#x6587;&#x4EF6;&#x540D;
+    }else{
+        // &#x5220;&#x9664;&#x6587;&#x4EF6;
+    }
+}
+</code></pre><h2 id="t8&#x70B9;&#x51FB;&#x4FEE;&#x6539;&#x5207;&#x6362;&#x8F93;&#x5165;&#x6846;">&#x70B9;&#x51FB;&#x4FEE;&#x6539;&#x5207;&#x6362;&#x8F93;&#x5165;&#x6846; <a href="#t8&#x70B9;&#x51FB;&#x4FEE;&#x6539;&#x5207;&#x6362;&#x8F93;&#x5165;&#x6846;"> # </a></h2>
+<pre><code>if(name === &apos;rename&apos;){
+    this.currentId = data.id;
+    this.currentContent = data.label;
+}
+{this.currentId === data.id?
+    &lt;span&gt;
+        &lt;el-input 
+            value={this.currentContent}
+            on-input={this.handleChange}
+        &gt;&lt;/el-input&gt;
+        &lt;el-button type=&quot;text&quot;&gt;
+            &lt;i class=&quot;el-icon-close&quot;&gt;&lt;/i&gt;
+        &lt;/el-button&gt;
+        &lt;el-button type=&quot;text&quot;&gt;
+            &lt;i class=&quot;el-icon-check&quot;&gt;&lt;/i&gt;
+        &lt;/el-button&gt;
+    &lt;/span&gt;
+    :data.label
+}
+</code></pre><h2 id="t9&#x786E;&#x8BA4;&#x4FEE;&#x6539;">&#x786E;&#x8BA4;&#x4FEE;&#x6539; <a href="#t9&#x786E;&#x8BA4;&#x4FEE;&#x6539;"> # </a></h2>
+<p>&#x4F7F;&#x7528;.sync &#x540C;&#x6B65;&#x4FEE;&#x6539;&#x540E;&#x7684;&#x6570;&#x636E;</p>
+<pre><code>&lt;el-button type=&quot;text&quot; on-click={this.check.bind(this,data)}&gt;
+    &lt;i class=&quot;el-icon-check&quot;&gt;&lt;/i&gt;
+&lt;/el-button&gt;
+
+check(data){
+    let list = _.cloneDeep(this.data);
+    list = list.map(item=&gt;{
+        if(item.id === data.id){
+            item.name = this.currentContent;
+        }
+        return item;
+    });
+    this.$emit(&apos;update:data&apos;,list);
+    this.currentId = &apos;&apos;;
+}
+</code></pre><h2 id="t10&#x53D6;&#x6D88;&#x4FEE;&#x6539;">&#x53D6;&#x6D88;&#x4FEE;&#x6539; <a href="#t10&#x53D6;&#x6D88;&#x4FEE;&#x6539;"> # </a></h2>
+<pre><code>&lt;el-button type=&quot;text&quot; on-click={this.close}&gt;
+    &lt;i class=&quot;el-icon-close&quot;&gt;&lt;/i&gt;
+&lt;/el-button&gt;
+close(){
+    this.currentId = &apos;&apos;;
+}
+</code></pre><h2 id="t11&#x5220;&#x9664;&#x6587;&#x4EF6;&#x6216;&#x6587;&#x4EF6;&#x5939;">&#x5220;&#x9664;&#x6587;&#x4EF6;&#x6216;&#x6587;&#x4EF6;&#x5939; <a href="#t11&#x5220;&#x9664;&#x6587;&#x4EF6;&#x6216;&#x6587;&#x4EF6;&#x5939;"> # </a></h2>
+<pre><code>this.$confirm(`&#x786E;&#x8BA4;&#x5220;&#x9664; ${data.type===&apos;parent&apos;?&apos;&#x6587;&#x4EF6;&#x5939;&apos;:&apos;&#x6587;&#x4EF6;&apos;}&#x5417;`,&quot;&#x786E;&#x8BA4;&#xFF1F;&quot;,{
+    confirmButtonText: &apos;&#x786E;&#x5B9A;&apos;,
+    cancelButtonText: &apos;&#x53D6;&#x6D88;&apos;,
+    type: &apos;warning&apos;  
+}).then(()=&gt;{
+    this.handleDelete(data); // &#x5220;&#x9664;&#x6587;&#x4EF6;
+    this.$message({
+        type:&apos;success&apos;,
+        message:&apos;&#x5220;&#x9664;&#x6210;&#x529F;&apos;
+    })
+}).catch(err=&gt;{
+    this.$message({
+        type:&apos;info&apos;,
+        message:&apos;&#x5DF2;&#x53D6;&#x6D88;&#x5220;&#x9664;&apos;
+    })
+});
+
+handleDelete(data){
+    let list = _.cloneDeep(this.data);
+    list = list.filter(item=&gt; item.id !== data.id);
+    this.$emit(&apos;update:data&apos;,list);
+    this.currentId = &apos;&apos;;
+}
+</code></pre><h2 id="t12&#x8C03;&#x7528;&#x63A5;&#x53E3;&#x5220;&#x9664;&#x6587;&#x4EF6;">&#x8C03;&#x7528;&#x63A5;&#x53E3;&#x5220;&#x9664;&#x6587;&#x4EF6; <a href="#t12&#x8C03;&#x7528;&#x63A5;&#x53E3;&#x5220;&#x9664;&#x6587;&#x4EF6;"> # </a></h2>
+<p>&#x5982;&#x679C;&#x7528;&#x6237;&#x4F20;&#x9012;&#x4E86;delete&#x65B9;&#x6CD5;&#xFF0C;&#x8C03;&#x7528;&#x6210;&#x529F;&#x540E;&#x5728;&#x66F4;&#x65B0;&#x9875;&#x9762;&#x6570;&#x636E;</p>
+<pre><code>&lt;TreeComponent 
+    :data.sync=&quot;treeList&quot;
+    :rootList=&quot;rootList&quot;
+    :childList=&quot;childList&quot;
+    :delete=&quot;deleteFn&quot;
+&gt;&lt;/TreeComponent&gt;
+
+this.delete &amp;&amp; this.delete(data.id).then(()=&gt;{
+    this.handleDelete(data);
+    this.$message({
+        type:&apos;success&apos;,
+        message:&apos;&#x5220;&#x9664;&#x6210;&#x529F;&apos;
+    })
+})
+</code></pre>
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

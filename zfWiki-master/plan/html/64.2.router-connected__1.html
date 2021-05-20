@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 生成项目并安装模块">1. 生成项目并安装模块</a></li><li><a href="#t12. 跑通项目">2. 跑通项目</a><ul><li><a href="#t22.1 src\index.js">2.1 src\index.js</a></li><li><a href="#t32.2 index.js">2.2 index.js</a></li><li><a href="#t42.3 history.js">2.3 history.js</a></li><li><a href="#t52.4 reducers\index.js">2.4 reducers\index.js</a></li><li><a href="#t62.5 reducers\counter.js">2.5 reducers\counter.js</a></li><li><a href="#t72.6 action-types.js">2.6 action-types.js</a></li><li><a href="#t82.7 actions\counter.js">2.7 actions\counter.js</a></li><li><a href="#t92.8 Home.js">2.8 Home.js</a></li><li><a href="#t102.9 Counter.js">2.9 Counter.js</a></li></ul></li><li><a href="#t113.实现connected-react-router">3.实现connected-react-router</a><ul><li><a href="#t123.1 index.js">3.1 index.js</a></li><li><a href="#t133.2 constants.js">3.2 constants.js</a></li><li><a href="#t143.3 push.js">3.3 push.js</a></li><li><a href="#t153.4 routerMiddleware.js">3.4 routerMiddleware.js</a></li><li><a href="#t163.5 ConnectedRouter.js">3.5 ConnectedRouter.js</a></li><li><a href="#t173.6 connectRouter.js">3.6 connectRouter.js</a></li></ul></li><li><a href="#t184.数据持久化">4.数据持久化</a><ul><li><a href="#t194.1 index.js">4.1 index.js</a></li><li><a href="#t204.2 store\index.js">4.2 store\index.js</a></li></ul></li><li><a href="#t215.redux-presist">5.redux-presist</a><ul><li><a href="#t225.1 index.js">5.1 index.js</a></li><li><a href="#t235.2 persistReducer.js">5.2 persistReducer.js</a></li><li><a href="#t245.3 persistStore.js">5.3 persistStore.js</a></li><li><a href="#t255.4 storage.js">5.4 storage.js</a></li><li><a href="#t265.5 react.js">5.5 react.js</a></li></ul></li><li><a href="#t27参考">参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x751F;&#x6210;&#x9879;&#x76EE;&#x5E76;&#x5B89;&#x88C5;&#x6A21;&#x5757;">1. &#x751F;&#x6210;&#x9879;&#x76EE;&#x5E76;&#x5B89;&#x88C5;&#x6A21;&#x5757; <a href="#t01. &#x751F;&#x6210;&#x9879;&#x76EE;&#x5E76;&#x5B89;&#x88C5;&#x6A21;&#x5757;"> # </a></h2>
+<ul>
+<li><a href="https://github.com/supasate/connected-react-router">connected-react-router</a></li>
+</ul>
+<pre><code class="lang-js">create-react-app zhufeng-connect
+cd zhufeng-connect
+cnpm i react-router-dom redux  react-redux connected-react-router -S
+</code></pre>
+<h2 id="t12. &#x8DD1;&#x901A;&#x9879;&#x76EE;">2. &#x8DD1;&#x901A;&#x9879;&#x76EE; <a href="#t12. &#x8DD1;&#x901A;&#x9879;&#x76EE;"> # </a></h2>
+<h3 id="t22.1 src\index.js">2.1 src\index.js <a href="#t22.1 src\index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> {Route,Link} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Home <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./components/Home&apos;</span>;
+<span class="hljs-keyword">import</span> Counter <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./components/Counter&apos;</span>;
+<span class="hljs-keyword">import</span> { ConnectedRouter } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;connected-react-router&apos;</span>
+<span class="hljs-keyword">import</span> history <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./history&apos;</span>;
+<span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./store&apos;</span>;
+<span class="hljs-keyword">import</span> { Provider } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>
+ReactDOM.render(
+  &lt;Provider store={store}&gt;
+    &lt;ConnectedRouter history={history}&gt;
+    &lt;&gt;
+      &lt;Link  to=&quot;/&quot;&gt;Home&lt;/Link&gt;
+      &lt;Link to=&quot;/counter&quot;&gt;Counter&lt;/Link&gt;
+      &lt;Route exact={true} path=&quot;/&quot; component={Home} /&gt;
+      &lt;Route path=&quot;/counter&quot; component={Counter} /&gt;
+    &lt;/&gt;
+    &lt;/ConnectedRouter&gt;
+  &lt;/Provider&gt;
+,document.getElementById(&apos;root&apos;));
+</code></pre>
+<h3 id="t32.2 index.js">2.2 index.js <a href="#t32.2 index.js"> # </a></h3>
+<p>src\store\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { applyMiddleware, createStore } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>
+<span class="hljs-keyword">import</span> { routerMiddleware } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;connected-react-router&apos;</span>
+<span class="hljs-keyword">import</span> history <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../history&apos;</span>;
+<span class="hljs-keyword">import</span> reducers <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./reducers&apos;</span>;
+<span class="hljs-keyword">const</span> store = applyMiddleware(routerMiddleware(history))(createStore)(reducers);
+<span class="hljs-built_in">window</span>.store = store;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span>  store;
+</code></pre>
+<h3 id="t42.3 history.js">2.3 history.js <a href="#t42.3 history.js"> # </a></h3>
+<p>src\history.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { createHashHistory } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;history&apos;</span>
+<span class="hljs-keyword">let</span> history = createHashHistory();
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> history;
+</code></pre>
+<h3 id="t52.4 reducers\index.js">2.4 reducers\index.js <a href="#t52.4 reducers\index.js"> # </a></h3>
+<p>src\store\reducers\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { combineReducers } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>
+<span class="hljs-keyword">import</span> { connectRouter } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;connected-react-router&apos;</span>
+<span class="hljs-keyword">import</span> counter <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./counter&apos;</span>;
+<span class="hljs-keyword">import</span> history <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../../history&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span>  combineReducers({
+  <span class="hljs-attr">router</span>: connectRouter(history),
+  counter
+})
+</code></pre>
+<h3 id="t62.5 reducers\counter.js">2.5 reducers\counter.js <a href="#t62.5 reducers\counter.js"> # </a></h3>
+<p>src\store\reducers\counter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../action-types&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state={number:<span class="hljs-number">0</span>}, action</span>) </span>{
+    <span class="hljs-keyword">switch</span> (action.type) {
+        <span class="hljs-keyword">case</span> types.INCREMENT:
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>:state.number+<span class="hljs-number">1</span>};
+        <span class="hljs-keyword">case</span> types.DECREMENT:
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>:state.number<span class="hljs-number">-1</span>};
+        <span class="hljs-keyword">default</span>:
+            <span class="hljs-keyword">return</span> state;
+    }
+}
+</code></pre>
+<h3 id="t72.6 action-types.js">2.6 action-types.js <a href="#t72.6 action-types.js"> # </a></h3>
+<p>src\store\action-types.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT = <span class="hljs-string">&apos;INCREMENT&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> DECREMENT = <span class="hljs-string">&apos;DECREMENT&apos;</span>;
+</code></pre>
+<h3 id="t82.7 actions\counter.js">2.7 actions\counter.js <a href="#t82.7 actions\counter.js"> # </a></h3>
+<p>src\store\actions\counter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span>  * <span class="hljs-keyword">as</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../action-types&apos;</span>;
+<span class="hljs-keyword">import</span> { push } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;connected-react-router&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+    increment(){
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.INCREMENT}
+    },
+    decrement(){
+        <span class="hljs-keyword">return</span> {<span class="hljs-attr">type</span>:types.DECREMENT}
+    },
+    go(path){
+        <span class="hljs-keyword">return</span> push(path);
+    }
+}
+</code></pre>
+<h3 id="t92.8 Home.js">2.8 Home.js <a href="#t92.8 Home.js"> # </a></h3>
+<p>src\components\Home.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Component} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Home</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+    render() {
+        <span class="hljs-keyword">return</span> (
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+        )
+    }
+}
+</code></pre>
+<h3 id="t102.9 Counter.js">2.9 Counter.js <a href="#t102.9 Counter.js"> # </a></h3>
+<p>src\components\Counter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>
+<span class="hljs-keyword">import</span> {connect} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>;
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../store/actions/counter&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+  render() {
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{this.props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.props.increment}</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>    
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{this.props.decrement}</span>&gt;</span>-<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>    
+          <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>this.props.go(&apos;/&apos;)}&gt;Home<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>    
+      <span class="hljs-tag">&lt;/&gt;</span>
+    )
+  }
+}
+export default connect(
+    state=&gt;state.counter,
+    actions
+)(Counter);
+</span></code></pre>
+<h2 id="t113.&#x5B9E;&#x73B0;connected-react-router">3.&#x5B9E;&#x73B0;connected-react-router <a href="#t113.&#x5B9E;&#x73B0;connected-react-router"> # </a></h2>
+<h3 id="t123.1 index.js">3.1 index.js <a href="#t123.1 index.js"> # </a></h3>
+<p>src\connected-react-router\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> push <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./push&apos;</span>;
+<span class="hljs-keyword">import</span> routerMiddleware <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./routerMiddleware&apos;</span>;
+<span class="hljs-keyword">import</span> ConnectedRouter <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./ConnectedRouter&apos;</span>;
+<span class="hljs-keyword">import</span> connectRouter <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./connectRouter&apos;</span>;
+<span class="hljs-keyword">export</span> {push,routerMiddleware,ConnectedRouter,connectRouter};
+</code></pre>
+<h3 id="t133.2 constants.js">3.2 constants.js <a href="#t133.2 constants.js"> # </a></h3>
+<p>src\connected-react-router\constants.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> CALL_HISTORY_METHOD = <span class="hljs-string">&apos;@@router/CALL_HISTORY_METHOD&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> LOCATION_CHANGE = <span class="hljs-string">&apos;@@router/LOCATION_CHANGE&apos;</span>
+</code></pre>
+<h3 id="t143.3 push.js">3.3 push.js <a href="#t143.3 push.js"> # </a></h3>
+<p>src\connected-react-router\push.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {CALL_HISTORY_METHOD} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./constants&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path</span>) </span>{
+    <span class="hljs-keyword">return</span> {
+        <span class="hljs-attr">type</span>: CALL_HISTORY_METHOD,
+        <span class="hljs-attr">payload</span>: {
+            <span class="hljs-attr">method</span>: <span class="hljs-string">&apos;push&apos;</span>,
+            path
+        }
+    };
+}
+</code></pre>
+<h3 id="t153.4 routerMiddleware.js">3.4 routerMiddleware.js <a href="#t153.4 routerMiddleware.js"> # </a></h3>
+<p>src\connected-react-router\routerMiddleware.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {CALL_HISTORY_METHOD} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./constants&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">routerMiddleware</span>(<span class="hljs-params">history</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">store</span>) </span>{
+      <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">next</span>) </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">action</span>) </span>{
+          <span class="hljs-keyword">if</span> (action.type !== CALL_HISTORY_METHOD) {
+            <span class="hljs-keyword">return</span> next(action);
+          }
+          <span class="hljs-keyword">let</span> {method,path} = action.payload;
+          history[method](path);
+        };
+      };
+    };
+  };
+</code></pre>
+<h3 id="t163.5 ConnectedRouter.js">3.5 ConnectedRouter.js <a href="#t163.5 ConnectedRouter.js"> # </a></h3>
+<p>src\connected-react-router\ConnectedRouter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>
+<span class="hljs-keyword">import</span> { Router } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router&apos;</span>
+<span class="hljs-keyword">import</span> { LOCATION_CHANGE } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./constants&apos;</span>;
+<span class="hljs-keyword">import</span> { ReactReduxContext } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ConnectedRouter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+  <span class="hljs-keyword">static</span> contextType = ReactReduxContext
+  componentDidMount() {
+    <span class="hljs-keyword">this</span>.unlisten = <span class="hljs-keyword">this</span>.props.history.listen(<span class="hljs-function">(<span class="hljs-params">location, action</span>) =&gt;</span> {
+      <span class="hljs-keyword">this</span>.context.store.dispatch({
+        <span class="hljs-attr">type</span>: LOCATION_CHANGE,
+        <span class="hljs-attr">payload</span>: {
+          location,
+          action
+        }
+      });
+    });
+  }
+  componentWillUnmount() {
+    <span class="hljs-keyword">this</span>.unlisten();
+  }
+  render() {
+    <span class="hljs-keyword">const</span> { history, children } = <span class="hljs-keyword">this</span>.props
+    <span class="hljs-keyword">return</span> (
+      <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Router</span> <span class="hljs-attr">history</span>=<span class="hljs-string">{history}</span>&gt;</span>
+        {children}
+      <span class="hljs-tag">&lt;/<span class="hljs-name">Router</span>&gt;</span></span>
+    )
+  }
+}
+</code></pre>
+<h3 id="t173.6 connectRouter.js">3.6 connectRouter.js <a href="#t173.6 connectRouter.js"> # </a></h3>
+<p>src\connected-react-router\connectRouter.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> {LOCATION_CHANGE} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./constants&apos;</span>;
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">history</span>) </span>{
+    <span class="hljs-keyword">let</span> initState = {<span class="hljs-attr">location</span>:history.location,<span class="hljs-attr">action</span>:history.action};
+    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">state=initState, action</span>) </span>{
+        <span class="hljs-keyword">if</span> (action.type === LOCATION_CHANGE) {
+            <span class="hljs-keyword">return</span> {
+                <span class="hljs-attr">location</span>: action.payload.location,
+                <span class="hljs-attr">action</span>: action.payload.action
+            }
+        }
+        <span class="hljs-keyword">return</span> state;
+    }
+}
+</code></pre>
+<h2 id="t184.&#x6570;&#x636E;&#x6301;&#x4E45;&#x5316;">4.&#x6570;&#x636E;&#x6301;&#x4E45;&#x5316; <a href="#t184.&#x6570;&#x636E;&#x6301;&#x4E45;&#x5316;"> # </a></h2>
+<ul>
+<li><a href="https://github.com/rt2zz/redux-persist">redux-persist</a></li>
+<li><a href="https://github.com/zalmoxisus/redux-devtools-extension">redux-devtools-extension</a></li>
+</ul>
+<h3 id="t194.1 index.js">4.1 index.js <a href="#t194.1 index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> {Route,Link} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+<span class="hljs-keyword">import</span> Home <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./components/Home&apos;</span>;
+<span class="hljs-keyword">import</span> Counter <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./components/Counter&apos;</span>;
+<span class="hljs-keyword">import</span> { ConnectedRouter } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./connected-react-router&apos;</span>
+<span class="hljs-keyword">import</span> history <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./history&apos;</span>;
+<span class="hljs-keyword">import</span> {store,persistor} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./store&apos;</span>;
+<span class="hljs-keyword">import</span> { Provider } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>
+<span class="hljs-keyword">import</span> { PersistGate } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-persist/integration/react&apos;</span>
+ReactDOM.render(
+  &lt;Provider store={store}&gt;
+    &lt;PersistGate loading={null} persistor={persistor}&gt;
+    &lt;ConnectedRouter history={history}&gt;
+    &lt;&gt;
+      &lt;Link  to=&quot;/&quot;&gt;Home&lt;/Link&gt;
+      &lt;Link to=&quot;/counter&quot;&gt;Counter&lt;/Link&gt;
+      &lt;Route exact={true} path=&quot;/&quot; component={Home} /&gt;
+      &lt;Route path=&quot;/counter&quot; component={Counter} /&gt;
+    &lt;/&gt;
+    &lt;/ConnectedRouter&gt;
+    &lt;/PersistGate&gt;
+  &lt;/Provider&gt;
+,document.getElementById(&apos;root&apos;));
+</code></pre>
+<h3 id="t204.2 store\index.js">4.2 store\index.js <a href="#t204.2 store\index.js"> # </a></h3>
+<p>src\store\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> { applyMiddleware, createStore,compose } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>
+<span class="hljs-keyword">import</span> { routerMiddleware } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../connected-react-router&apos;</span>
+<span class="hljs-keyword">import</span> history <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;../history&apos;</span>;
+<span class="hljs-keyword">import</span> reducers <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./reducers&apos;</span>;
+<span class="hljs-keyword">import</span> { persistStore, persistReducer } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-persist&apos;</span>
+<span class="hljs-keyword">import</span> storage <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-persist/lib/storage&apos;</span>
+<span class="hljs-keyword">const</span> persistConfig = {
+    <span class="hljs-attr">key</span>: <span class="hljs-string">&apos;root&apos;</span>,
+    storage,
+}
+<span class="hljs-keyword">const</span> composeEnhancers = <span class="hljs-built_in">window</span>.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+<span class="hljs-keyword">const</span> persistedReducer = persistReducer(persistConfig, reducers)
+<span class="hljs-comment">//const store = applyMiddleware(routerMiddleware(history))(createStore)(persistedReducer);</span>
+<span class="hljs-keyword">const</span> store = createStore(persistedReducer,composeEnhancers(applyMiddleware(routerMiddleware(history))));
+<span class="hljs-keyword">let</span> persistor = persistStore(store)
+<span class="hljs-built_in">window</span>.store = store;
+<span class="hljs-built_in">window</span>.persistor = persistor;
+<span class="hljs-keyword">export</span> {persistor,store}  ;
+</code></pre>
+<h2 id="t215.redux-presist">5.redux-presist <a href="#t215.redux-presist"> # </a></h2>
+<h3 id="t225.1 index.js">5.1 index.js <a href="#t225.1 index.js"> # </a></h3>
+<p>src\redux-persist\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> persistReducer <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./persistReducer&apos;</span>;
+<span class="hljs-keyword">import</span> persistStore <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./persistStore&apos;</span>;
+
+<span class="hljs-keyword">export</span> {
+    persistReducer,
+    persistStore
+}
+</code></pre>
+<h3 id="t235.2 persistReducer.js">5.2 persistReducer.js <a href="#t235.2 persistReducer.js"> # </a></h3>
+<p>src\redux-persist\persistReducer.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">persistConfig, reducers</span>) </span>{
+    <span class="hljs-keyword">let</span> isInited = <span class="hljs-literal">false</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-function">(<span class="hljs-params">state, action</span>) =&gt;</span> {
+        <span class="hljs-keyword">switch</span> (action.type) {
+            <span class="hljs-keyword">case</span> <span class="hljs-string">&apos;PERSIST_INIT&apos;</span>:
+                isInited = <span class="hljs-literal">true</span>;
+                <span class="hljs-keyword">let</span> value = persistConfig.storage.getItem(<span class="hljs-string">&apos;persist:&apos;</span>+ persistConfig.key);
+                state = value ? <span class="hljs-built_in">JSON</span>.parse(value) : <span class="hljs-literal">undefined</span>;
+                <span class="hljs-keyword">return</span> reducers(state, action)
+            <span class="hljs-keyword">default</span>:
+                <span class="hljs-keyword">if</span> (isInited) {
+                    state = reducers(state, action);
+                    persistConfig.storage.setItem(<span class="hljs-string">&apos;persist:&apos;</span>+ persistConfig.key, <span class="hljs-built_in">JSON</span>.stringify(state));
+                    <span class="hljs-keyword">return</span> state;
+                }
+                <span class="hljs-keyword">return</span> reducers(state, action);
+        }
+
+    }
+}
+</code></pre>
+<h3 id="t245.3 persistStore.js">5.3 persistStore.js <a href="#t245.3 persistStore.js"> # </a></h3>
+<p>src\redux-persist\persistStore.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">store</span>) </span>{
+    <span class="hljs-keyword">let</span> persistor = {
+        ...store,
+        initState() {
+            persistor.dispatch({
+                <span class="hljs-attr">type</span>: <span class="hljs-string">&apos;PERSIST_INIT&apos;</span>,
+            })
+        }
+    };
+    <span class="hljs-keyword">return</span> persistor;
+}
+</code></pre>
+<h3 id="t255.4 storage.js">5.4 storage.js <a href="#t255.4 storage.js"> # </a></h3>
+<p>src\redux-persist\lib\storage.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> storage = {
+    setItem(key,val) {
+        localStorage.setItem(key,val);
+    },
+    getItem(key) {
+        <span class="hljs-keyword">return</span> localStorage.getItem(key);
+    }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> storage;
+</code></pre>
+<h3 id="t265.5 react.js">5.5 react.js <a href="#t265.5 react.js"> # </a></h3>
+<p>src\redux-persist\integration\react.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PersistGate</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span> </span>{
+    componentDidMount() {
+        <span class="hljs-keyword">let</span> {initState} = <span class="hljs-keyword">this</span>.props.persistor;
+        initState();
+    }
+    render() {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.props.children;
+    }
+}
+
+<span class="hljs-keyword">export</span> {
+    PersistGate
+}
+</code></pre>
+<h2 id="t27&#x53C2;&#x8003;">&#x53C2;&#x8003; <a href="#t27&#x53C2;&#x8003;"> # </a></h2>
+<ul>
+<li><a href="https://gitee.com/zhufengpeixun/zhufeng_connect">zhufeng_connect</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

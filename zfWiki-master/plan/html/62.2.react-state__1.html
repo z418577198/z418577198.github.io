@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01. 原生JS实现计数器">1. 原生JS实现计数器</a></li><li><a href="#t12. HTML结构的复用">2. HTML结构的复用</a><ul><li><a href="#t22.1 index.html">2.1 index.html</a></li><li><a href="#t32.2 index.js">2.2 index.js</a></li></ul></li><li><a href="#t43.生成DOM元素并添加事件">3.生成DOM元素并添加事件</a><ul><li><a href="#t53.1 index.html">3.1 index.html</a></li><li><a href="#t63.2 index.js">3.2 index.js</a></li></ul></li><li><a href="#t74.抽象Component">4.抽象Component</a><ul><li><a href="#t84.1 index.html">4.1 index.html</a></li><li><a href="#t94.2 index.js">4.2 index.js</a></li></ul></li><li><a href="#t105.setState可能是异步的">5.setState可能是异步的</a><ul><li><a href="#t115.1 index.html">5.1 index.html</a></li><li><a href="#t125.2 index.js">5.2 index.js</a></li></ul></li><li><a href="#t136.事务">6.事务</a><ul><li><a href="#t146.1 transaction">6.1 transaction</a></li><li><a href="#t156.2 index.js">6.2 index.js</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01. &#x539F;&#x751F;JS&#x5B9E;&#x73B0;&#x8BA1;&#x6570;&#x5668;">1. &#x539F;&#x751F;JS&#x5B9E;&#x73B0;&#x8BA1;&#x6570;&#x5668; <a href="#t01. &#x539F;&#x751F;JS&#x5B9E;&#x73B0;&#x8BA1;&#x6570;&#x5668;"> # </a></h2>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;counter-btn&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+<span class="hljs-keyword">let</span> counterBtn = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;counter-btn&apos;</span>);
+<span class="hljs-keyword">let</span> number = <span class="hljs-number">0</span>;
+counterBtn.addEventListener(<span class="hljs-string">&apos;click&apos;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    counterBtn.innerHTML = ++number;
+});
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h2 id="t12. HTML&#x7ED3;&#x6784;&#x7684;&#x590D;&#x7528;">2. HTML&#x7ED3;&#x6784;&#x7684;&#x590D;&#x7528; <a href="#t12. HTML&#x7ED3;&#x6784;&#x7684;&#x590D;&#x7528;"> # </a></h2>
+<h3 id="t22.1 index.html">2.1 index.html <a href="#t22.1 index.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;counter-app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;index.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+<span class="hljs-keyword">let</span> counterApp = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;counter-app&apos;</span>);
+counterApp.innerHTML = <span class="hljs-keyword">new</span> Counter().render();
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3 id="t32.2 index.js">2.2 index.js <a href="#t32.2 index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span></span>{
+  render(){
+      <span class="hljs-keyword">return</span> (
+          <span class="hljs-string">`
+          &lt;button id=&quot;counter-btn&quot;&gt;
+            0
+          &lt;/button&gt;
+          `</span>
+      )
+  }
+}
+</code></pre>
+<h2 id="t43.&#x751F;&#x6210;DOM&#x5143;&#x7D20;&#x5E76;&#x6DFB;&#x52A0;&#x4E8B;&#x4EF6;">3.&#x751F;&#x6210;DOM&#x5143;&#x7D20;&#x5E76;&#x6DFB;&#x52A0;&#x4E8B;&#x4EF6; <a href="#t43.&#x751F;&#x6210;DOM&#x5143;&#x7D20;&#x5E76;&#x6DFB;&#x52A0;&#x4E8B;&#x4EF6;"> # </a></h2>
+<h3 id="t53.1 index.html">3.1 index.html <a href="#t53.1 index.html"> # </a></h3>
+<pre><code class="lang-js">&lt;body&gt;
+&lt;div id=&quot;counter-app&quot;&gt;&lt;/div&gt;
+
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+let counterApp = document.getElementById(&apos;counter-app&apos;);
+counterApp.appendChild(new Counter().render());
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h3 id="t63.2 index.js">3.2 index.js <a href="#t63.2 index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span></span>{
+  <span class="hljs-keyword">constructor</span>(){
+      <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }  
+  createDOMFromString(domString){
+    <span class="hljs-keyword">const</span> div = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;div&apos;</span>);
+    div.innerHTML = domString;
+    <span class="hljs-keyword">return</span> div.children[<span class="hljs-number">0</span>];
+  }
+  increment (){
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>};
+    <span class="hljs-keyword">let</span> oldElement = <span class="hljs-keyword">this</span>.domElement;
+    <span class="hljs-keyword">let</span> newElement = <span class="hljs-keyword">this</span>.render();
+    oldElement.parentElement.replaceChild(newElement,oldElement);
+  }
+  render(){
+     <span class="hljs-keyword">this</span>.domElement = <span class="hljs-keyword">this</span>.createDOMFromString(<span class="hljs-string">`
+     &lt;button id=&quot;counter-btn&quot;&gt;
+        <span class="hljs-subst">${<span class="hljs-keyword">this</span>.state.number}</span>
+     &lt;/button&gt;
+     `</span>);
+     <span class="hljs-keyword">this</span>.domElement.addEventListener(<span class="hljs-string">&apos;click&apos;</span>,<span class="hljs-keyword">this</span>.increment.bind(<span class="hljs-keyword">this</span>));
+     <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.domElement;
+  }
+}
+</code></pre>
+<h2 id="t74.&#x62BD;&#x8C61;Component">4.&#x62BD;&#x8C61;Component <a href="#t74.&#x62BD;&#x8C61;Component"> # </a></h2>
+<h3 id="t84.1 index.html">4.1 index.html <a href="#t84.1 index.html"> # </a></h3>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;counter-app&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;index.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+<span class="hljs-keyword">let</span> counterApp = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;counter-app&apos;</span>);
+<span class="hljs-keyword">new</span> Counter({<span class="hljs-attr">name</span>:<span class="hljs-string">&apos;&#x73E0;&#x5CF0;&#x67B6;&#x6784;&apos;</span>}).mount(counterApp);
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<h3 id="t94.2 index.js">4.2 index.js <a href="#t94.2 index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-built_in">window</span>.trigger = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event,name</span>)</span>{
+    <span class="hljs-keyword">let</span> component = event.target.component;
+    component[name].call(component,event);
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">this</span>.props = props;
+    }
+    createDOMFromString(domString){
+        <span class="hljs-keyword">const</span> div = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;div&apos;</span>);
+        div.innerHTML = domString;
+        <span class="hljs-keyword">return</span> div.children[<span class="hljs-number">0</span>];
+    }
+    setState(partialState){
+        <span class="hljs-keyword">this</span>.state = <span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>.state,partialState);
+        <span class="hljs-keyword">let</span> oldElement = <span class="hljs-keyword">this</span>.domElement;
+        <span class="hljs-keyword">let</span> newElement = <span class="hljs-keyword">this</span>.renderElement();
+        oldElement.parentElement.replaceChild(newElement,oldElement);
+    }
+    renderElement(){
+        <span class="hljs-keyword">let</span> renderString = <span class="hljs-keyword">this</span>.render();
+        <span class="hljs-keyword">this</span>.domElement = <span class="hljs-keyword">this</span>.createDOMFromString(renderString);
+        <span class="hljs-keyword">this</span>.domElement.component = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.domElement;
+    }
+    mount(container){
+        container.appendChild(<span class="hljs-keyword">this</span>.renderElement());
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+      <span class="hljs-keyword">super</span>(props);
+      <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }  
+  increment(){
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   },<span class="hljs-number">1000</span>);
+  }
+  render(){
+      <span class="hljs-keyword">return</span> (
+        <span class="hljs-string">`
+        &lt;button id=&quot;counter-btn&quot; onclick=&quot;trigger(event,&apos;increment&apos;)&quot;&gt;
+         <span class="hljs-subst">${<span class="hljs-keyword">this</span>.props.name}</span>:<span class="hljs-subst">${<span class="hljs-keyword">this</span>.state.number}</span>
+        &lt;/button&gt;
+        `</span>
+      )
+  }
+}
+</code></pre>
+<h2 id="t105.setState&#x53EF;&#x80FD;&#x662F;&#x5F02;&#x6B65;&#x7684;">5.setState&#x53EF;&#x80FD;&#x662F;&#x5F02;&#x6B65;&#x7684; <a href="#t105.setState&#x53EF;&#x80FD;&#x662F;&#x5F02;&#x6B65;&#x7684;"> # </a></h2>
+<ul>
+<li><a href="https://github.com/facebook/react/blob/35962a00084382b49d1f9e3bd36612925f360e5b/src/renderers/shared/reconciler/ReactUpdates.js#L199">&#x6E90;&#x7801;</a></li>
+</ul>
+<p><img src="../static/img/setState.png" alt="setState"></p>
+<h3 id="t115.1 index.html">5.1 index.html <a href="#t115.1 index.html"> # </a></h3>
+<pre><code class="lang-js">&lt;body&gt;
+&lt;div id=&quot;counter-app&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;index.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+let counterApp = document.getElementById(&apos;counter-app&apos;);
+new Counter({name:&apos;&#x73E0;&#x5CF0;&#x67B6;&#x6784;&apos;}).mount(counterApp);
+&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+<h3 id="t125.2 index.js">5.2 index.js <a href="#t125.2 index.js"> # </a></h3>
+<pre><code class="lang-js">
+<span class="hljs-keyword">let</span> batchingStrategy = {
+    <span class="hljs-attr">isBatchingUpdates</span>:<span class="hljs-literal">false</span>,
+    <span class="hljs-attr">updaters</span>:[],
+    batchedUpdates(){
+        <span class="hljs-keyword">this</span>.updaters.forEach(<span class="hljs-function"><span class="hljs-params">updater</span> =&gt;</span> {
+            updater.component.updateComponent();
+        });
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Updater</span></span>{
+    <span class="hljs-keyword">constructor</span>(component){
+        <span class="hljs-keyword">this</span>.component = component;
+        <span class="hljs-keyword">this</span>.pendingStates = [];
+    }
+    addState(particalState){
+        <span class="hljs-keyword">this</span>.pendingStates.push(particalState);
+        batchingStrategy.isBatchingUpdates?batchingStrategy.updaters.push(<span class="hljs-keyword">this</span>):<span class="hljs-keyword">this</span>.component.updateComponent();
+    }
+}
+<span class="hljs-keyword">let</span> transaction = <span class="hljs-keyword">new</span> Transaction({
+    initialize() {
+        batchingStrategy.isBatchingUpdates = <span class="hljs-literal">true</span>;
+    },
+    close() {
+        batchingStrategy.isBatchingUpdates = <span class="hljs-literal">false</span>;
+        batchingStrategy.batchedUpdates();
+    }
+});
+<span class="hljs-built_in">window</span>.trigger = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event,name</span>)</span>{
+    batchingStrategy.isBatchingUpdates = <span class="hljs-literal">true</span>;
+    <span class="hljs-keyword">let</span> component = event.target.component;
+    component[name].bind(component,event);
+    batchingStrategy.isBatchingUpdates = <span class="hljs-literal">false</span>;
+    batchingStrategy.batchedUpdates();
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">this</span>.props = props;
+        <span class="hljs-keyword">this</span>.$updater = <span class="hljs-keyword">new</span> Updater(<span class="hljs-keyword">this</span>);
+    }
+    createDOMFromString(domString){
+        <span class="hljs-keyword">const</span> div = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;div&apos;</span>);
+        div.innerHTML = domString;
+        <span class="hljs-keyword">return</span> div.children[<span class="hljs-number">0</span>];
+    }
+    setState(particalState){
+        <span class="hljs-keyword">this</span>.$updater.addState(particalState);
+    }
+    updateComponent(){
+        <span class="hljs-keyword">let</span> pendingStates = <span class="hljs-keyword">this</span>.$updater.pendingStates;
+        pendingStates.forEach(<span class="hljs-function"><span class="hljs-params">particalState</span>=&gt;</span><span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>.state,particalState));
+        <span class="hljs-keyword">this</span>.$updater.pendingStates.length = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">let</span> oldElement = <span class="hljs-keyword">this</span>.domElement;
+        <span class="hljs-keyword">let</span> newElement = <span class="hljs-keyword">this</span>.renderElement();
+        oldElement.parentElement.replaceChild(newElement,oldElement);
+    }
+    renderElement(){
+        <span class="hljs-keyword">let</span> renderString = <span class="hljs-keyword">this</span>.render();
+        <span class="hljs-keyword">this</span>.domElement = <span class="hljs-keyword">this</span>.createDOMFromString(renderString);
+        <span class="hljs-keyword">this</span>.domElement.component = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.domElement;
+    }
+    mount(container){
+        container.appendChild(<span class="hljs-keyword">this</span>.renderElement());
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+      <span class="hljs-keyword">super</span>(props);
+      <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }  
+  increment(){
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   },<span class="hljs-number">1000</span>);
+  }
+  render(){
+      <span class="hljs-keyword">return</span> (
+        <span class="hljs-string">`
+        &lt;button id=&quot;counter-btn&quot; onclick=&quot;trigger(event,&apos;increment&apos;)&quot;&gt;
+         <span class="hljs-subst">${<span class="hljs-keyword">this</span>.props.name}</span>:<span class="hljs-subst">${<span class="hljs-keyword">this</span>.state.number}</span>
+        &lt;/button&gt;
+        `</span>
+      )
+  }
+}
+</code></pre>
+<h2 id="t136.&#x4E8B;&#x52A1;">6.&#x4E8B;&#x52A1; <a href="#t136.&#x4E8B;&#x52A1;"> # </a></h2>
+<ul>
+<li><p><a href="https://github.com/facebook/react/blob/6d5fe44c8602f666a043a4117ccc3bdb29b86e78/src/shared/utils/Transaction.js">&#x6E90;&#x7801;</a></p>
+</li>
+<li><p>&#x4E00;&#x4E2A;&#x6240;&#x8C13;&#x7684; Transaction &#x5C31;&#x662F;&#x5C06;&#x9700;&#x8981;&#x6267;&#x884C;&#x7684; method &#x4F7F;&#x7528; wrapper &#x5C01;&#x88C5;&#x8D77;&#x6765;&#xFF0C;&#x518D;&#x901A;&#x8FC7; Transaction &#x63D0;&#x4F9B;&#x7684; perform &#x65B9;&#x6CD5;&#x6267;&#x884C;</p>
+</li>
+<li>&#x800C;&#x5728; perform &#x4E4B;&#x524D;&#xFF0C;&#x5148;&#x6267;&#x884C;&#x6240;&#x6709; wrapper &#x4E2D;&#x7684; initialize &#x65B9;&#x6CD5;&#xFF1B;perform &#x5B8C;&#x6210;&#x4E4B;&#x540E;&#xFF08;&#x5373; method &#x6267;&#x884C;&#x540E;&#xFF09;&#x518D;&#x6267;&#x884C;&#x6240;&#x6709;&#x7684; close &#x65B9;&#x6CD5;</li>
+<li>&#x4E00;&#x7EC4; initialize &#x53CA; close &#x65B9;&#x6CD5;&#x79F0;&#x4E3A;&#x4E00;&#x4E2A; wrapper</li>
+</ul>
+<pre> *                       wrappers (injected at creation time)
+ *                                      +        +
+ *                                      |        |
+ *                    +-----------------|--------|--------------+
+ *                    |                 v        |              |
+ *                    |      +---------------+   |              |
+ *                    |   +--|    wrapper1   |---|----+         |
+ *                    |   |  +---------------+   v    |         |
+ *                    |   |          +-------------+  |         |
+ *                    |   |     +----|   wrapper2  |--------+   |
+ *                    |   |     |    +-------------+  |     |   |
+ *                    |   |     |                     |     |   |
+ *                    |   v     v                     v     v   | wrapper
+ *                    | +---+ +---+   +---------+   +---+ +---+ | invariants
+ * perform(anyMethod) | |   | |   |   |         |   |   | |   | | maintained
+ * +-----------------&gt;|-|---|-|---|--&gt;|anyMethod|---|---|-|---|-|--------&gt;
+ *                    | |   | |   |   |         |   |   | |   | |
+ *                    | |   | |   |   |         |   |   | |   | |
+ *                    | |   | |   |   |         |   |   | |   | |
+ *                    | +---+ +---+   +---------+   +---+ +---+ |
+ *                    |  initialize                    close    |
+ *                    +-----------------------------------------+
+ * 
+ </pre>
+
+<h3 id="t146.1 transaction">6.1 transaction <a href="#t146.1 transaction"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setState</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;setState&apos;</span>)
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span> </span>{
+    <span class="hljs-keyword">constructor</span>(wrappers) {
+        <span class="hljs-keyword">this</span>.wrappers = wrappers;
+    }
+    perform(func) {
+        <span class="hljs-keyword">this</span>.wrappers.forEach(<span class="hljs-function"><span class="hljs-params">wrapper</span>=&gt;</span>wrapper.initialize())
+        func.call();
+        <span class="hljs-keyword">this</span>.wrappers.forEach(<span class="hljs-function"><span class="hljs-params">wrapper</span>=&gt;</span>wrapper.close())
+    }
+
+}
+<span class="hljs-keyword">let</span> transaction = <span class="hljs-keyword">new</span> Transaction([
+    {
+        initialize() {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;before1&apos;</span>);
+        },
+        close() {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;after1&apos;</span>);
+        }
+    },
+    {
+        initialize() {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;before2&apos;</span>);
+        },
+        close() {
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;after2&apos;</span>);
+        }
+    }
+]);
+transaction.perform(setState);
+</code></pre>
+<h3 id="t156.2 index.js">6.2 index.js <a href="#t156.2 index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Transaction</span> </span>{
+    <span class="hljs-keyword">constructor</span>(wrapper){
+        <span class="hljs-keyword">this</span>.wrapper = wrapper;
+    }
+    perform(func){
+        <span class="hljs-keyword">this</span>.wrapper.initialize();
+        func.call();
+        <span class="hljs-keyword">this</span>.wrapper.close();
+    }
+
+}
+<span class="hljs-keyword">let</span> batchingStrategy = {
+    <span class="hljs-attr">isBatchingUpdates</span>:<span class="hljs-literal">false</span>,
+    <span class="hljs-attr">updaters</span>:[],
+    batchedUpdates(){
+        <span class="hljs-keyword">this</span>.updaters.forEach(<span class="hljs-function"><span class="hljs-params">updater</span> =&gt;</span> {
+            updater.component.updateComponent();
+        });
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Updater</span></span>{
+    <span class="hljs-keyword">constructor</span>(component){
+        <span class="hljs-keyword">this</span>.component = component;
+        <span class="hljs-keyword">this</span>.pendingStates = [];
+    }
+    addState(particalState){
+        <span class="hljs-keyword">this</span>.pendingStates.push(particalState);
+        batchingStrategy.isBatchingUpdates?batchingStrategy.updaters.push(<span class="hljs-keyword">this</span>):<span class="hljs-keyword">this</span>.component.updateComponent();
+    }
+}
+<span class="hljs-keyword">let</span> transaction = <span class="hljs-keyword">new</span> Transaction({
+    initialize() {
+        batchingStrategy.isBatchingUpdates = <span class="hljs-literal">true</span>;
+    },
+    close() {
+        batchingStrategy.isBatchingUpdates = <span class="hljs-literal">false</span>;
+        batchingStrategy.batchedUpdates();
+    }
+});
+<span class="hljs-built_in">window</span>.trigger = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event,name</span>)</span>{
+    <span class="hljs-keyword">let</span> component = event.target.component;
+    transaction.perform(component[name].bind(component,event));
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">this</span>.props = props;
+        <span class="hljs-keyword">this</span>.$updater = <span class="hljs-keyword">new</span> Updater(<span class="hljs-keyword">this</span>);
+    }
+    createDOMFromString(domString){
+        <span class="hljs-keyword">const</span> div = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;div&apos;</span>);
+        div.innerHTML = domString;
+        <span class="hljs-keyword">return</span> div.children[<span class="hljs-number">0</span>];
+    }
+    setState(particalState){
+        <span class="hljs-keyword">this</span>.$updater.addState(particalState);
+    }
+    updateComponent(){
+        <span class="hljs-keyword">let</span> pendingStates = <span class="hljs-keyword">this</span>.$updater.pendingStates;
+        pendingStates.forEach(<span class="hljs-function"><span class="hljs-params">particalState</span>=&gt;</span><span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>.state,particalState));
+        <span class="hljs-keyword">this</span>.$updater.pendingStates.length = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">let</span> oldElement = <span class="hljs-keyword">this</span>.domElement;
+        <span class="hljs-keyword">let</span> newElement = <span class="hljs-keyword">this</span>.renderElement();
+        oldElement.parentElement.replaceChild(newElement,oldElement);
+    }
+    renderElement(){
+        <span class="hljs-keyword">let</span> renderString = <span class="hljs-keyword">this</span>.render();
+        <span class="hljs-keyword">this</span>.domElement = <span class="hljs-keyword">this</span>.createDOMFromString(renderString);
+        <span class="hljs-keyword">this</span>.domElement.component = <span class="hljs-keyword">this</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.domElement;
+    }
+    mount(container){
+        container.appendChild(<span class="hljs-keyword">this</span>.renderElement());
+    }
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+      <span class="hljs-keyword">super</span>(props);
+      <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }  
+  increment(){
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state);
+   },<span class="hljs-number">1000</span>);
+  }
+  render(){
+      <span class="hljs-keyword">return</span> (
+        <span class="hljs-string">`
+        &lt;button id=&quot;counter-btn&quot; onclick=&quot;trigger(event,&apos;increment&apos;)&quot;&gt;
+         <span class="hljs-subst">${<span class="hljs-keyword">this</span>.props.name}</span>:<span class="hljs-subst">${<span class="hljs-keyword">this</span>.state.number}</span>
+        &lt;/button&gt;
+        `</span>
+      )
+  }
+}
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

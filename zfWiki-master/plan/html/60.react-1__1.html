@@ -1,0 +1,1743 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t01.初始化项目">1.初始化项目</a></li><li><a href="#t12. 渲染文本">2. 渲染文本</a><ul><li><a href="#t22.1 渲染效果">2.1 渲染效果</a></li><li><a href="#t32.2 类图">2.2 类图</a></li><li><a href="#t42.3 实现">2.3 实现</a><ul><li><a href="#t52.3.1 index.js">2.3.1 index.js</a></li><li><a href="#t62.3.2 react\index.js">2.3.2 react\index.js</a></li><li><a href="#t72.3.3 react\unit.js">2.3.3 react\unit.js</a></li></ul></li></ul></li><li><a href="#t83. 渲染原生DOM组件">3. 渲染原生DOM组件</a><ul><li><a href="#t93.1 渲染效果">3.1 渲染效果</a></li><li><a href="#t103.2 类图">3.2 类图</a></li><li><a href="#t113.3 JSX语法">3.3 JSX语法</a><ul><li><a href="#t123.3.1 JSX">3.3.1 JSX</a></li><li><a href="#t133.3.2 JavaScript">3.3.2 JavaScript</a></li></ul></li><li><a href="#t143.4 实现">3.4 实现</a><ul><li><a href="#t153.4.1  index.js">3.4.1  index.js</a></li><li><a href="#t163.4.2 react/index.js">3.4.2 react/index.js</a></li><li><a href="#t173.4.3 react/element.js">3.4.3 react/element.js</a></li><li><a href="#t183.4.4 react/unit.js">3.4.4 react/unit.js</a></li></ul></li></ul></li><li><a href="#t194. 渲染自定义组件">4. 渲染自定义组件</a><ul><li><a href="#t204.1 渲染效果">4.1 渲染效果</a></li><li><a href="#t214.2 类图">4.2 类图</a></li><li><a href="#t224.3 实现">4.3 实现</a><ul><li><a href="#t234.3.1 src/index.js">4.3.1 src/index.js</a></li><li><a href="#t244.3.2 react/index.js">4.3.2 react/index.js</a></li><li><a href="#t254.3.3 react/component.js">4.3.3 react/component.js</a></li><li><a href="#t264.3.4 react/unit.js">4.3.4 react/unit.js</a></li></ul></li></ul></li><li><a href="#t275. 实现setState">5. 实现setState</a><ul><li><a href="#t285.1 src/index.js">5.1 src/index.js</a></li><li><a href="#t295.2 react/component.js">5.2 react/component.js</a></li><li><a href="#t305.3 react/unit.js">5.3 react/unit.js</a></li><li><a href="#t315.4 react/element.js">5.4 react/element.js</a></li></ul></li><li><a href="#t326. 对比属性">6. 对比属性</a><ul><li><a href="#t336.1  src/index.js">6.1  src/index.js</a></li><li><a href="#t346.2 react/unit.js">6.2 react/unit.js</a></li></ul></li><li><a href="#t357. 获得补丁数组">7. 获得补丁数组</a><ul><li><a href="#t367.1 src/index.js">7.1 src/index.js</a></li><li><a href="#t377.2 src/react/unit.js">7.2 src/react/unit.js</a></li></ul></li><li><a href="#t388. 打补丁">8. 打补丁</a><ul><li><a href="#t398.1 src/index.js">8.1 src/index.js</a></li><li><a href="#t408.2 react/unit.js">8.2 react/unit.js</a></li></ul></li><li><a href="#t419. todos">9. todos</a><ul><li><a href="#t429.1 src/index.js">9.1 src/index.js</a></li><li><a href="#t439.2 react/unit.js">9.2 react/unit.js</a></li></ul></li><li><a href="#t4410. diff 策略">10. diff 策略</a><ul><li><a href="#t4510.1 tree diff">10.1 tree diff</a></li><li><a href="#t4610.2 component  diff">10.2 component  diff</a></li><li><a href="#t4710.3 element diff">10.3 element diff</a></li><li><a href="#t4810.4 key">10.4 key</a></li></ul></li><li><a href="#t4911.delegate">11.delegate</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t01.&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;">1.&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE; <a href="#t01.&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commits/master">commit</a></p>
+<pre><code class="lang-js">create-react-app zhufeng_react2
+cd zhufeng_react2
+cnpm i jquery -S
+npm start
+</code></pre>
+<h2 id="t12. &#x6E32;&#x67D3;&#x6587;&#x672C;">2. &#x6E32;&#x67D3;&#x6587;&#x672C; <a href="#t12. &#x6E32;&#x67D3;&#x6587;&#x672C;"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/0494c0f1d43dfecda0a0617c1b9c5c942be90d2d">commit</a></p>
+<h3 id="t22.1 &#x6E32;&#x67D3;&#x6548;&#x679C;">2.1 &#x6E32;&#x67D3;&#x6548;&#x679C; <a href="#t22.1 &#x6E32;&#x67D3;&#x6548;&#x679C;"> # </a></h3>
+<p><img src="../static/img/1.initrenderhtml.png" alt="initrenderhtml"></p>
+<h3 id="t32.2 &#x7C7B;&#x56FE;">2.2 &#x7C7B;&#x56FE; <a href="#t32.2 &#x7C7B;&#x56FE;"> # </a></h3>
+<p><img src="../static/img/2.rendertext.jpg" alt="2.rendertext"></p>
+<h3 id="t42.3 &#x5B9E;&#x73B0;">2.3 &#x5B9E;&#x73B0; <a href="#t42.3 &#x5B9E;&#x73B0;"> # </a></h3>
+<h4 id="t52.3.1 index.js">2.3.1 index.js <a href="#t52.3.1 index.js"> # </a></h4>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+React.render(<span class="hljs-string">&apos;hello&apos;</span>,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h4 id="t62.3.2 react\index.js">2.3.2 react\index.js <a href="#t62.3.2 react\index.js"> # </a></h4>
+<p>src\react\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> $ <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;jquery&apos;</span>;
+<span class="hljs-keyword">import</span> {createReactUnit} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./unit&apos;</span>;
+<span class="hljs-keyword">let</span> React = {
+    <span class="hljs-attr">nextRootIndex</span>:<span class="hljs-number">0</span>,
+    render
+}
+<span class="hljs-comment">/**
+ * React.render &#x4F5C;&#x4E3A;&#x5165;&#x53E3;&#x63A5;&#x53D7;&#x4E00;&#x4E2A;React&#x5143;&#x7D20;&#x548C;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x7684;DOM&#x5BF9;&#x8C61;&#x8D1F;&#x8D23;&#x8C03;&#x7528;&#x6E32;&#x67D3;
+ * nextReactRootIndex &#x4E3A;&#x6BCF;&#x4E2A; component &#x7684;&#x751F;&#x6210;&#x552F;&#x4E00;&#x6807;&#x8BC6;
+ * @param {*} element React&#x5143;&#x7D20;
+ * @param {*} container &#x76EE;&#x6807;&#x5BB9;&#x5668;&#x7684;DOM&#x8282;&#x70B9;
+ */</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">render</span>(<span class="hljs-params">element,container</span>)</span>{
+    <span class="hljs-comment">//&#x6839;&#x636E; element &#x7684;&#x7C7B;&#x578B;,&#x8FD4;&#x56DE;&#x4E00;&#x4E2A; Component &#x7684;&#x5B9E;&#x4F8B;,&#x662F;&#x4E00;&#x4E2A;&#x5DE5;&#x5382;&#x51FD;&#x6570;</span>
+    <span class="hljs-keyword">let</span> unitInstance = createReactUnit(element);
+    <span class="hljs-comment">//&#x7528;&#x4E8E;&#x5BF9;&#x7EC4;&#x4EF6;&#x7684;&#x6E32;&#x67D3;,&#x8FD4;&#x56DE;&#x7EC4;&#x4EF6;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+    <span class="hljs-keyword">let</span> markup = unitInstance.getMarkup(React.nextRootIndex);
+    <span class="hljs-comment">//&#x628A;&#x7EC4;&#x88C5;&#x597D;&#x7684;DOM&#x653E;&#x5165;container&#x5BB9;&#x5668;&#x4E2D;</span>
+    $(container).html(markup);
+    <span class="hljs-comment">//&#x89E6;&#x53D1;&#x88C5;&#x8F7D;&#x5B8C;&#x6210;&#x4E8B;&#x4EF6;</span>
+    $(<span class="hljs-built_in">document</span>).trigger(<span class="hljs-string">&apos;mounted&apos;</span>);
+  }
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> React;
+</code></pre>
+<h4 id="t72.3.3 react\unit.js">2.3.3 react\unit.js <a href="#t72.3.3 react\unit.js"> # </a></h4>
+<p>src\react\unit.js</p>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-keyword">constructor</span>(element){
+        <span class="hljs-comment">//&#x628A;&#x865A;&#x62DF;DOM&#x672C;&#x8EAB;&#x4FDD;&#x5B58;&#x5230;this._currentElement&#x4E0A;</span>
+        <span class="hljs-keyword">this</span>._currentElement = element;
+    }
+    getMarkup(rootId){<span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x88AB;&#x76F4;&#x63A5;&#x8C03;&#x7528;&apos;</span>)}
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactTextUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x8BB0;&#x5F55;rootId</span>
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x6587;&#x672C;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">`&lt;span data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;&gt;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._currentElement}</span>&lt;/span&gt;`</span>;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createReactUnit</span>(<span class="hljs-params">element</span>)</span>{
+    <span class="hljs-comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;number&apos;</span>){
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactTextUnit(element);
+    }
+}
+<span class="hljs-keyword">export</span> {
+    createReactUnit
+}
+</code></pre>
+<h2 id="t83. &#x6E32;&#x67D3;&#x539F;&#x751F;DOM&#x7EC4;&#x4EF6;">3. &#x6E32;&#x67D3;&#x539F;&#x751F;DOM&#x7EC4;&#x4EF6; <a href="#t83. &#x6E32;&#x67D3;&#x539F;&#x751F;DOM&#x7EC4;&#x4EF6;"> # </a></h2>
+<ul>
+<li><a href="//https://babeljs.io/repl/">babeljs</a></li>
+</ul>
+<h3 id="t93.1 &#x6E32;&#x67D3;&#x6548;&#x679C;">3.1 &#x6E32;&#x67D3;&#x6548;&#x679C; <a href="#t93.1 &#x6E32;&#x67D3;&#x6548;&#x679C;"> # </a></h3>
+<p><img src="../static/img/3.renderdom.png" alt="renderdom"></p>
+<h3 id="t103.2 &#x7C7B;&#x56FE;">3.2 &#x7C7B;&#x56FE; <a href="#t103.2 &#x7C7B;&#x56FE;"> # </a></h3>
+<p><img src="../static/img/3.%20rendernativeunit.jpg" alt="20rendernativeunit"></p>
+<h3 id="t113.3 JSX&#x8BED;&#x6CD5;">3.3 JSX&#x8BED;&#x6CD5; <a href="#t113.3 JSX&#x8BED;&#x6CD5;"> # </a></h3>
+<p><img src="../static/img/2.compile.png" alt="compile"></p>
+<h4 id="t123.3.1 JSX">3.3.1 JSX <a href="#t123.3.1 JSX"> # </a></h4>
+<pre><code class="lang-js">&lt;button id=<span class="hljs-string">&quot;sayHello&quot;</span> onClick={sayHello}&gt;say&lt;b&gt;Hello&lt;<span class="hljs-regexp">/b&gt;&lt;/</span>button&gt;
+</code></pre>
+<h4 id="t133.3.2 JavaScript">3.3.2 JavaScript <a href="#t133.3.2 JavaScript"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> element = React.createElement(<span class="hljs-string">&quot;button&quot;</span>, {
+    <span class="hljs-attr">id</span>: <span class="hljs-string">&quot;sayHello&quot;</span>,
+    <span class="hljs-attr">onClick</span>: sayHello
+  }, <span class="hljs-string">&quot;say&quot;</span>, React.createElement(<span class="hljs-string">&quot;b&quot;</span>, <span class="hljs-literal">null</span>, <span class="hljs-string">&quot;Hello&quot;</span>));
+</code></pre>
+<h3 id="t143.4 &#x5B9E;&#x73B0;">3.4 &#x5B9E;&#x73B0; <a href="#t143.4 &#x5B9E;&#x73B0;"> # </a></h3>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/82fa036038b63653ad7539e9715f1236c727ca66">3. &#x6E32;&#x67D3;&#x539F;&#x751F;DOM&#x7EC4;&#x4EF6;</a></p>
+<h4 id="t153.4.1  index.js">3.4.1  index.js <a href="#t153.4.1  index.js"> # </a></h4>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sayHello</span>(<span class="hljs-params"></span>)</span>{
+    alert(<span class="hljs-string">&apos;hello&apos;</span>);
+}
+<span class="hljs-comment">//&lt;button id=&quot;sayHello&quot; onClick={sayHello}&gt;say&lt;b&gt;Hello&lt;/b&gt;&lt;/button&gt;</span>
+<span class="hljs-keyword">let</span> element = React.createElement(<span class="hljs-string">&quot;button&quot;</span>, {
+    <span class="hljs-attr">id</span>: <span class="hljs-string">&quot;sayHello&quot;</span>,
+    <span class="hljs-attr">onClick</span>: sayHello
+  }, <span class="hljs-string">&quot;say&quot;</span>, React.createElement(<span class="hljs-string">&quot;b&quot;</span>, <span class="hljs-literal">null</span>, <span class="hljs-string">&quot;Hello&quot;</span>));
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h4 id="t163.4.2 react/index.js">3.4.2 react/index.js <a href="#t163.4.2 react/index.js"> # </a></h4>
+<p>src/react/index.js</p>
+<pre><code class="lang-diff">import {createReactUnit} from &apos;./unit&apos;;
+<span class="hljs-addition">+ import {createElement} from &apos;./element&apos;;</span>
+let React = {
+    nextRootIndex:0,
+    render,
+<span class="hljs-addition">+    createElement</span>
+}
+</code></pre>
+<h4 id="t173.4.3 react/element.js">3.4.3 react/element.js <a href="#t173.4.3 react/element.js"> # </a></h4>
+<p>src/react/element.js</p>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Element</span></span>{
+    <span class="hljs-keyword">constructor</span>(type,props){
+        <span class="hljs-keyword">this</span>.type = type;
+        <span class="hljs-keyword">this</span>.props = props;
+    }
+}
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createElement</span>(<span class="hljs-params">type,props,...children</span>)</span>{
+    props=props||{};
+    props.children  = children;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Element(type,props);
+}
+
+<span class="hljs-keyword">export</span> {
+    createElement
+}
+</code></pre>
+<h4 id="t183.4.4 react/unit.js">3.4.4 react/unit.js <a href="#t183.4.4 react/unit.js"> # </a></h4>
+<p>src/react/unit.js</p>
+<pre><code class="lang-diff"><span class="hljs-addition">+class ReactNativeUnit extends Unit{</span>
+<span class="hljs-addition">+    getMarkup(rootId){</span>
+<span class="hljs-addition">+        this._rootId = rootId;</span>
+<span class="hljs-addition">+        let {type,props} = this._currentElement;</span>
+<span class="hljs-addition">+        let tagOpen = `&lt;${type} data-reactid=&quot;${rootId}&quot;`;</span>
+<span class="hljs-addition">+        let tagClose = `&lt;/${type}&gt;`;</span>
+<span class="hljs-addition">+        let content = &apos;&apos;;</span>
+<span class="hljs-addition">+        for(let propKey in props){</span>
+<span class="hljs-addition">+            if(/^on[A-Za-z]/.test(propKey)){</span>
+<span class="hljs-addition">+                let eventType = propKey.slice(2).toLowerCase();</span>
+<span class="hljs-addition">+                $(document).delegate(`[data-reactid=&quot;${rootId}&quot;]`,`${eventType}.${rootId}`,props[propKey]);</span>
+<span class="hljs-addition">+            }else if(propKey === &apos;children&apos;){</span>
+<span class="hljs-addition">+                let children = props.children||[];</span>
+<span class="hljs-addition">+                children.forEach((child,idx)=&gt;{</span>
+<span class="hljs-addition">+                    let childUnitInstance = createReactUnit(child);</span>
+<span class="hljs-addition">+                    let childMarkup = childUnitInstance.getMarkup(`${rootId}.${idx}`);</span>
+<span class="hljs-addition">+                    content += childMarkup;</span>
+<span class="hljs-addition">+                });</span>
+<span class="hljs-addition">+            }else{</span>
+<span class="hljs-addition">+                tagOpen += `${propKey}=${props[propKey]}`;</span>
+<span class="hljs-addition">+            }</span>
+<span class="hljs-addition">+        }</span>
+<span class="hljs-addition">+        return tagOpen + &apos;&gt;&apos; + content + tagClose;</span>
+<span class="hljs-addition">+    }</span>
+<span class="hljs-addition">+}</span>
+
+function createReactUnit(element){
+    //&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;
+    if(typeof element == &apos;string&apos; || typeof element == &apos;number&apos;){
+        //&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;
+        return new ReactTextUnit(element);
+    }
+<span class="hljs-addition">+    if(typeof element == &apos;object&apos; &amp;&amp; typeof element.type == &apos;string&apos;){</span>
+<span class="hljs-addition">+        return new ReactNativeUnit(element);</span>
+<span class="hljs-addition">+    }</span>
+}
+</code></pre>
+<h2 id="t194. &#x6E32;&#x67D3;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;">4. &#x6E32;&#x67D3;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6; <a href="#t194. &#x6E32;&#x67D3;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;"> # </a></h2>
+<h3 id="t204.1 &#x6E32;&#x67D3;&#x6548;&#x679C;">4.1 &#x6E32;&#x67D3;&#x6548;&#x679C; <a href="#t204.1 &#x6E32;&#x67D3;&#x6548;&#x679C;"> # </a></h3>
+<p><img src="../static/img/5.customercomponent.png" alt="customercomponent"></p>
+<h3 id="t214.2 &#x7C7B;&#x56FE;">4.2 &#x7C7B;&#x56FE; <a href="#t214.2 &#x7C7B;&#x56FE;"> # </a></h3>
+<p><img src="../static/img/4.%20rendercustomerunit.jpg" alt="20rendercustomerunit"></p>
+<h3 id="t224.3 &#x5B9E;&#x73B0;">4.3 &#x5B9E;&#x73B0; <a href="#t224.3 &#x5B9E;&#x73B0;"> # </a></h3>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/9f7c62f2a65221605ad6de1200a793fb8c458b7c">commit</a></p>
+<h4 id="t234.3.1 src/index.js">4.3.1 src/index.js <a href="#t234.3.1 src/index.js"> # </a></h4>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }
+  componentWillMount(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Counter componentWillMount`</span>);
+  }
+  componentDidMount(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Counter componentDidMount`</span>);
+  }
+  handleClick= <span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+  }
+  render(){
+    <span class="hljs-keyword">let</span> p = React.createElement(<span class="hljs-string">&apos;p&apos;</span>,{},<span class="hljs-keyword">this</span>.state.number);
+    <span class="hljs-keyword">let</span> button = React.createElement(<span class="hljs-string">&apos;button&apos;</span>,{<span class="hljs-attr">onClick</span>:<span class="hljs-keyword">this</span>.handleClick},<span class="hljs-string">&apos;+&apos;</span>);
+    <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;div&apos;</span>,{<span class="hljs-attr">id</span>:<span class="hljs-string">&apos;counter&apos;</span>},p,button);
+  }
+}
+<span class="hljs-keyword">let</span> element = React.createElement(Counter);
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h4 id="t244.3.2 react/index.js">4.3.2 react/index.js <a href="#t244.3.2 react/index.js"> # </a></h4>
+<p>src/react/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> $ <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;jquery&apos;</span>;
+<span class="hljs-keyword">import</span> {createReactUnit} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./unit&apos;</span>;
+<span class="hljs-keyword">import</span> {createElement} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./element&apos;</span>;
++ <span class="hljs-keyword">import</span> {Component} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./component&apos;</span>;
+<span class="hljs-keyword">let</span> React = {
+    <span class="hljs-attr">nextRootIndex</span>:<span class="hljs-number">0</span>,
+    render,
+    createElement,
++    Component
+}
+</code></pre>
+<h4 id="t254.3.3 react/component.js">4.3.3 react/component.js <a href="#t254.3.3 react/component.js"> # </a></h4>
+<p>src/react/component.js</p>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+      <span class="hljs-keyword">this</span>.props = props;
+    }
+}
+<span class="hljs-keyword">export</span> {Component}
+</code></pre>
+<h4 id="t264.3.4 react/unit.js">4.3.4 react/unit.js <a href="#t264.3.4 react/unit.js"> # </a></h4>
+<p>src/react/unit.js</p>
+<pre><code class="lang-diff">//&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;
+<span class="hljs-addition">+class ReactCompositeUnit extends Unit{</span>
+<span class="hljs-addition">+    getMarkup(rootId){</span>
+<span class="hljs-addition">+        this._rootId = rootId;</span>
+<span class="hljs-addition">+        //type&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x7C7B;&#x5B9A;&#x4E49;</span>
+<span class="hljs-addition">+        let {type:Component} = this._currentElement;</span>
+<span class="hljs-addition">+        //&#x521B;&#x5EFA;Counter&#x7EC4;&#x4EF6;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;</span>
+<span class="hljs-addition">+        let componentInstance = this._componentInstance = new Component();</span>
+<span class="hljs-addition">+        //&#x5982;&#x679C;&#x6709;componentWillMount&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5C31;&#x8BA9;&#x5B83;&#x6267;&#x884C;</span>
+<span class="hljs-addition">+        componentInstance.componentWillMount&amp;&amp;componentInstance.componentWillMount();</span>
+<span class="hljs-addition">+        //&#x8C03;&#x7528;render&#x65B9;&#x6CD5;&#x83B7;&#x5F97;&#x8FD4;&#x56DE;&#x7684;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;</span>
+<span class="hljs-addition">+        let renderedElement =  componentInstance.render();</span>
+<span class="hljs-addition">+        //&#x6839;&#x636E;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;&#x5B9E;&#x4F8B;&#x5316;,&#x53EF;&#x80FD;&#x662F;ReactCompositeComponent&#x3001;ReactNativeComponent&#x6216;ReactTextComponent</span>
+<span class="hljs-addition">+        let renderedUnitInstance = this._renderedUnitInstance = createReactUnit(renderedElement);</span>
+<span class="hljs-addition">+        //&#x83B7;&#x5F97;renderedComponentInstance&#x7684;HTML&#x5B57;&#x7B26;&#x4E2D;</span>
+<span class="hljs-addition">+        let renderedMarkup = renderedUnitInstance.getMarkup(rootId);</span>
+<span class="hljs-addition">+        //&#x6CE8;&#x518C;&#x6302;&#x8F7D;&#x5B8C;&#x6210;&#x7684;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5E95;&#x5C42;&#x7684;&#x7EC4;&#x4EF6;&#x8D8A;&#x5148;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5148;&#x6267;&#x884C;</span>
+<span class="hljs-addition">+        $(document).on(&apos;mounted&apos;,()=&gt;{</span>
+<span class="hljs-addition">+            componentInstance.componentDidMount&amp;&amp;componentInstance.componentDidMount();</span>
+<span class="hljs-addition">+        });</span>
+<span class="hljs-addition">+        return renderedMarkup;</span>
+<span class="hljs-addition">+    }</span>
+<span class="hljs-addition">+}</span>
+
+function createReactUnit(element){
+    //&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;
+    if(typeof element == &apos;string&apos; || typeof element == &apos;number&apos;){
+        //&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;
+        return new ReactTextUnit(element);
+    }
+    if(typeof element == &apos;object&apos; &amp;&amp; typeof element.type == &apos;string&apos;){
+        return new ReactNativeUnit(element);
+    }
+<span class="hljs-addition">+    if(typeof element == &apos;object&apos; &amp;&amp; typeof element.type == &apos;function&apos;){</span>
+<span class="hljs-addition">+        return new ReactCompositeUnit(element);</span>
+<span class="hljs-addition">+    }</span>
+}
+</code></pre>
+<h2 id="t275. &#x5B9E;&#x73B0;setState">5. &#x5B9E;&#x73B0;setState <a href="#t275. &#x5B9E;&#x73B0;setState"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/ee4676555677b097a784614193f61f4084c879fd">commit</a></p>
+<h3 id="t285.1 src/index.js">5.1 src/index.js <a href="#t285.1 src/index.js"> # </a></h3>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>};
+  }
+  componentDidMount(){
+    setInterval(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+      <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+    },<span class="hljs-number">1000</span>);
+  }
+  render(){
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.state.number;
+  }
+}
+<span class="hljs-keyword">let</span> element = React.createElement(Counter);
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h3 id="t295.2 react/component.js">5.2 react/component.js <a href="#t295.2 react/component.js"> # </a></h3>
+<p>src/react/component.js</p>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+      <span class="hljs-keyword">this</span>.props = props;
+    }
+    setState(newState){
+      <span class="hljs-comment">//&#x4E3B;&#x8981;&#x8C03;&#x7528;&#x4E86;&#x5BF9;&#x5E94;&#x7684;recieveUpdate&#x6765;&#x5B9E;&#x73B0;&#x66F4;&#x65B0;,&#x6240;&#x6709;&#x7684;&#x6302;&#x8F7D;&#xFF0C;&#x66F4;&#x65B0;&#x90FD;&#x5E94;&#x8BE5;&#x4EA4;&#x7ED9;&#x5BF9;&#x5E94;&#x7684;Component&#x6765;&#x7BA1;&#x7406;</span>
+      <span class="hljs-keyword">this</span>.unit.update(<span class="hljs-literal">null</span>,newState);
+    }
+}
+<span class="hljs-keyword">export</span> {Component}
+</code></pre>
+<h3 id="t305.3 react/unit.js">5.3 react/unit.js <a href="#t305.3 react/unit.js"> # </a></h3>
+<p>src/react/unit.js</p>
+<pre><code class="lang-js">
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactTextUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x8BB0;&#x5F55;rootId</span>
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x6587;&#x672C;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">`&lt;span data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;&gt;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._currentElement}</span>&lt;/span&gt;`</span>;
+    }
+    update(nextElement){
+        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>._currentElement != nextElement){
+            <span class="hljs-keyword">this</span>._currentElement = nextElement;
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).html(<span class="hljs-keyword">this</span>._currentElement);
+        }
+    }
+}
+
+<span class="hljs-comment">//&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactCompositeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-comment">//&#x63A5;&#x6536;&#x5230;&#x65B0;&#x7684;&#x66F4;&#x65B0;,&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4F20;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x539F;&#x751F;&#x548C;text&#x4F20;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x6CA1;&#x6709;&#x72B6;&#x6001;</span>
+    update(nextElement,newState){
+      <span class="hljs-comment">//&#x5982;&#x679C;&#x63A5;&#x6536;&#x4E86;&#x65B0;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5C31;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7684;nextElement</span>
+      <span class="hljs-keyword">this</span>._currentElement = nextElement || <span class="hljs-keyword">this</span>._currentElement;
+      <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5408;&#x5E76;&#x5230;&#x8001;&#x7684;&#x5B9E;&#x4F8B;&#x7684;&#x72B6;&#x6001;&#x4E0A;,&#x5E76;&#x4E14;&#x7ED9;&#x7EC4;&#x4EF6;&#x91CD;&#x65B0;&#x8D4B;&#x65B0;&#x7684;&#x72B6;&#x6001;</span>
+      <span class="hljs-keyword">let</span> nextState = <span class="hljs-keyword">this</span>._componentInstance.state = <span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>._componentInstance.state, newState);
+      <span class="hljs-comment">//&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;</span>
+      <span class="hljs-keyword">var</span> nextProps = <span class="hljs-keyword">this</span>._currentElement.props;
+      <span class="hljs-keyword">if</span> (
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate &amp;&amp;
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate(nextProps, nextState) === <span class="hljs-literal">false</span>
+        ) {
+            <span class="hljs-comment">// &#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x7684; shouldComponentUpdate &#x8FD4;&#x56DE; false&#xFF0C;&#x5219;&#x4E0D;&#x9700;&#x8981;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x6267;&#x884C;&#x66F4;&#x65B0;</span>
+            <span class="hljs-keyword">return</span>;
+        }
+      <span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate&amp;&amp;<span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate(nextProps, nextState);
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+      <span class="hljs-keyword">let</span> prevRenderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance;
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x865A;&#x62DF;DOM</span>
+      <span class="hljs-keyword">let</span> prevRenderedElement = prevRenderedUnitInstance._currentElement;
+      <span class="hljs-comment">// &#x901A;&#x8FC7;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5BF9;&#x8C61;&#x91CD;&#x65B0;&#x6267;&#x884C;render&#x62FF;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x65B0;element</span>
+      <span class="hljs-keyword">var</span> nextRenderedElement = <span class="hljs-keyword">this</span>._componentInstance.render();
+      <span class="hljs-comment">//&#x5224;&#x65AD;&#x662F;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x5C31;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</span>
+      <span class="hljs-keyword">if</span>(shouldDeepCompare(prevRenderedElement, nextRenderedElement)){
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x5C31;&#x7EE7;&#x7EED;&#x8C03;&#x7528;&#x5B50;&#x8282;&#x70B9;&#x7684;update&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F20;&#x5165;&#x65B0;&#x7684;element&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;&#x3002;</span>
+         prevRenderedUnitInstance.update(nextRenderedElement);
+         <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate &amp;&amp; <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate();
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x53D1;&#x73B0;&#x5B8C;&#x5168;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x4E24;&#x79CD;element&#xFF0C;&#x90A3;&#x5C31;&#x5E72;&#x8106;&#x91CD;&#x65B0;&#x6E32;&#x67D3;&#x4E86;</span>
+        <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(nextRenderedElement);
+        <span class="hljs-keyword">let</span> nextMarkup = <span class="hljs-keyword">this</span>._renderedUnitInstance.getMarkup(<span class="hljs-keyword">this</span>.rootId);
+        <span class="hljs-comment">//&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x8282;&#x70B9;</span>
+        $(<span class="hljs-string">&apos;[data-reactid=&quot;&apos;</span> + <span class="hljs-keyword">this</span>.rootId + <span class="hljs-string">&apos;&quot;]&apos;</span>).replaceWith(nextMarkup);
+      }
+    }
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-comment">//type&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x7C7B;&#x5B9A;&#x4E49;</span>
+        <span class="hljs-keyword">let</span> {<span class="hljs-attr">type</span>:Component} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-comment">//&#x521B;&#x5EFA;Counter&#x7EC4;&#x4EF6;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">let</span> componentInstance = <span class="hljs-keyword">this</span>._componentInstance = <span class="hljs-keyword">new</span> Component();
+        <span class="hljs-comment">//&#x8BB0;&#x5F55;&#x5B83;&#x8FD9;&#x4E2A;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x6240;&#x5728;&#x7684;&#x5355;&#x4F4D;unit</span>
+        componentInstance.unit = <span class="hljs-keyword">this</span>;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x6709;componentWillMount&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5C31;&#x8BA9;&#x5B83;&#x6267;&#x884C;</span>
+        componentInstance.componentWillMount&amp;&amp;componentInstance.componentWillMount();
+        <span class="hljs-comment">//&#x8C03;&#x7528;render&#x65B9;&#x6CD5;&#x83B7;&#x5F97;&#x8FD4;&#x56DE;&#x7684;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;</span>
+        <span class="hljs-keyword">let</span> renderedElement =  componentInstance.render();
+        <span class="hljs-comment">//&#x6839;&#x636E;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;&#x5B9E;&#x4F8B;&#x5316;,&#x53EF;&#x80FD;&#x662F;ReactCompositeComponent&#x3001;ReactNativeComponent&#x6216;ReactTextComponent</span>
+        <span class="hljs-keyword">let</span> renderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(renderedElement);
+        <span class="hljs-comment">//&#x83B7;&#x5F97;renderedComponentInstance&#x7684;HTML&#x5B57;&#x7B26;&#x4E2D;</span>
+        <span class="hljs-keyword">let</span> renderedMarkup = renderedUnitInstance.getMarkup(rootId);
+        <span class="hljs-comment">//&#x6CE8;&#x518C;&#x6302;&#x8F7D;&#x5B8C;&#x6210;&#x7684;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5E95;&#x5C42;&#x7684;&#x7EC4;&#x4EF6;&#x8D8A;&#x5148;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5148;&#x6267;&#x884C;</span>
+        $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">&apos;mounted&apos;</span>,()=&gt;{
+            componentInstance.componentDidMount&amp;&amp;componentInstance.componentDidMount();
+        });
+        <span class="hljs-keyword">return</span> renderedMarkup;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">shouldDeepCompare</span>(<span class="hljs-params">prevElement, nextElement</span>) </span>{
+    <span class="hljs-comment">//&#x4E0D;&#x7BA1;&#x65B0;&#x5143;&#x7D20;&#x8FD8;&#x662F;&#x8001;&#x5143;&#x7D20;&#x662F;NULL,&#x90FD;&#x5B8C;&#x5168;&#x91CD;&#x5EFA;</span>
+    <span class="hljs-keyword">if</span> (prevElement != <span class="hljs-literal">null</span> &amp;&amp; nextElement != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">let</span> prevType = <span class="hljs-keyword">typeof</span> prevElement;
+        <span class="hljs-keyword">let</span> nextType = <span class="hljs-keyword">typeof</span> nextElement;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x8001;&#x8282;&#x70B9;&#x662F;&#x6587;&#x672C;&#xFF0C;&#x65B0;&#x8282;&#x70B9;&#x4E5F;&#x662F;&#x6587;&#x672C;&#x5219;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</span>
+        <span class="hljs-keyword">if</span> (prevType === <span class="hljs-string">&apos;string&apos;</span> || prevType === <span class="hljs-string">&apos;number&apos;</span>) {
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;string&apos;</span> || nextType === <span class="hljs-string">&apos;number&apos;</span>;
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//&#x5982;&#x679C;&#x662F;&#x539F;&#x751F;&#x5143;&#x7D20;&#x6216;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x770B;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x76F8;&#x540C;&#xFF0C;&#x76F8;&#x540C;&#x5219;&#x8FDB;&#x884C;&#x6DF1;&#x5EA6;&#x6BD4;&#x8F83;</span>
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; prevElement.type === nextElement.type;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createReactUnit</span>(<span class="hljs-params">element</span>)</span>{
+    <span class="hljs-comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;number&apos;</span>){
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactTextUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;string&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactNativeUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactCompositeUnit(element);
+    }
+}
+<span class="hljs-keyword">export</span> {
+    createReactUnit
+}
+</code></pre>
+<h3 id="t315.4 react/element.js">5.4 react/element.js <a href="#t315.4 react/element.js"> # </a></h3>
+<p>src/react/element.js</p>
+<pre><code class="lang-diff">class Element{
+    constructor(type,props){
+        this.type = type;
+<span class="hljs-addition">+        this.key = props.key;</span>
+        this.props = props;
+    }
+}
+</code></pre>
+<h2 id="t326. &#x5BF9;&#x6BD4;&#x5C5E;&#x6027;">6. &#x5BF9;&#x6BD4;&#x5C5E;&#x6027; <a href="#t326. &#x5BF9;&#x6BD4;&#x5C5E;&#x6027;"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/e01903bcdd33b5d08398aaa6463c01cb4d3d2780">commit</a></p>
+<h3 id="t336.1  src/index.js">6.1  src/index.js <a href="#t336.1  src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">number</span>:<span class="hljs-number">1</span>};
+  }
+  componentWillMount(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Counter componentWillMount`</span>);
+  }
+  componentDidMount(){
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Counter componentDidMount`</span>);
+  }
+  handleClick= <span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">number</span>:<span class="hljs-keyword">this</span>.state.number+<span class="hljs-number">1</span>});
+  }
+  render(){
+    <span class="hljs-keyword">let</span> p = React.createElement(<span class="hljs-string">&apos;p&apos;</span>,{},<span class="hljs-keyword">this</span>.state.number);
+    <span class="hljs-keyword">let</span> button = React.createElement(<span class="hljs-string">&apos;button&apos;</span>,{<span class="hljs-attr">onClick</span>:<span class="hljs-keyword">this</span>.handleClick},<span class="hljs-string">&apos;+&apos;</span>);
+    <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;div&apos;</span>,{<span class="hljs-attr">id</span>:<span class="hljs-string">&apos;counter&apos;</span>},p,button);
+  }
+}
+<span class="hljs-keyword">let</span> element = React.createElement(Counter);
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h3 id="t346.2 react/unit.js">6.2 react/unit.js <a href="#t346.2 react/unit.js"> # </a></h3>
+<p>src/react/unit.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> $ <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;jquery&apos;</span>;
+<span class="hljs-keyword">import</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./types&apos;</span>;
+<span class="hljs-keyword">let</span> updateDepth=<span class="hljs-number">0</span>;
+<span class="hljs-keyword">let</span> diffQueue=[];
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-keyword">constructor</span>(element){
+        <span class="hljs-comment">//&#x628A;&#x865A;&#x62DF;DOM&#x672C;&#x8EAB;&#x4FDD;&#x5B58;&#x5230;this._currentElement&#x4E0A;</span>
+        <span class="hljs-keyword">this</span>._currentElement = element;
+    }
+    getMarkup(rootId){<span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x88AB;&#x76F4;&#x63A5;&#x8C03;&#x7528;&apos;</span>)}
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactTextUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x8BB0;&#x5F55;rootId</span>
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x6587;&#x672C;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">`&lt;span data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;&gt;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._currentElement}</span>&lt;/span&gt;`</span>;
+    }
+    update(nextElement){
+        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>._currentElement !== nextElement){
+            <span class="hljs-keyword">this</span>._currentElement = nextElement;
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).html(<span class="hljs-keyword">this</span>._currentElement);
+        }
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactNativeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-keyword">let</span> {type,props} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-keyword">let</span> tagOpen = <span class="hljs-string">`&lt;<span class="hljs-subst">${type}</span> data-reactid=&quot;<span class="hljs-subst">${rootId}</span>&quot;`</span>;
+        <span class="hljs-keyword">let</span> tagClose = <span class="hljs-string">`&lt;/<span class="hljs-subst">${type}</span>&gt;`</span>;
+        <span class="hljs-keyword">let</span> content = <span class="hljs-string">&apos;&apos;</span>;
+        <span class="hljs-keyword">let</span> renderedChildren =[];
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> propKey <span class="hljs-keyword">in</span> props){
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propKey)){
+                <span class="hljs-keyword">let</span> eventType = propKey.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${rootId}</span>`</span>,props[propKey]);
+            }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(propKey === <span class="hljs-string">&apos;children&apos;</span>){
+                <span class="hljs-keyword">let</span> children = props.children||[];
+                children.forEach(<span class="hljs-function">(<span class="hljs-params">child,idx</span>)=&gt;</span>{
+                    <span class="hljs-keyword">let</span> childUnitInstance = createReactUnit(child);
+                    renderedChildren.push(childUnitInstance);
+                    <span class="hljs-keyword">let</span> childMarkup = childUnitInstance.getMarkup(<span class="hljs-string">`<span class="hljs-subst">${rootId}</span>.<span class="hljs-subst">${idx}</span>`</span>);
+                    content += childMarkup;
+                });
+            }<span class="hljs-keyword">else</span>{
+                tagOpen += <span class="hljs-string">`<span class="hljs-subst">${propKey}</span>=<span class="hljs-subst">${props[propKey]}</span>`</span>;
+            }
+        }
+        <span class="hljs-keyword">this</span>.renderedChildren = renderedChildren;
+        <span class="hljs-keyword">return</span> tagOpen + <span class="hljs-string">&apos;&gt;&apos;</span> + content + tagClose;
+    }
+    update(newElement){
+        <span class="hljs-keyword">let</span> oldProps = <span class="hljs-keyword">this</span>._currentElement.props;
+        <span class="hljs-keyword">let</span> newProps = newElement.props;
+        <span class="hljs-keyword">this</span>.updateDOMProperties(oldProps,newProps);
+        <span class="hljs-comment">//&#x6BD4;&#x8F83;&#x548C;&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;</span>
+        <span class="hljs-keyword">this</span>.updateDOMChildren(newElement.props.children);
+    }
+    <span class="hljs-comment">//&#x66F4;&#x65B0;&#x5B50;&#x9879;</span>
+    updateDOMChildren(newChildrenElements){
+        <span class="hljs-keyword">this</span>.diff(diffQueue,newChildrenElements);
+    }
+    diff(diffQueue,newChildrenElements){
+        <span class="hljs-keyword">let</span> oldChildrenMap = <span class="hljs-keyword">this</span>.getChildrenMap(<span class="hljs-keyword">this</span>.renderedChildren);
+        <span class="hljs-keyword">let</span> newChildren = <span class="hljs-keyword">this</span>.getNewChildren(oldChildrenMap,newChildrenElements);
+    }
+    getNewChildren(oldChildrenMap,newChildrenElements){
+       <span class="hljs-keyword">let</span> newChildren = [];
+       newChildrenElements.forEach(<span class="hljs-function">(<span class="hljs-params">newElement,idx</span>)=&gt;</span>{
+         <span class="hljs-keyword">let</span> newKey = newElement.key || idx.toString();
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit</span>
+         <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit&#x5BF9;&#x5E94;&#x7684;Element&#x5143;&#x7D20;</span>
+         <span class="hljs-keyword">let</span> oldElement = oldChild&amp;&amp;oldChild._currentElement;
+         <span class="hljs-keyword">if</span>(shouldDeepCompare(oldElement,newElement)){
+            oldChild.update(newElement);
+            newChildren.push(oldChild);
+         }<span class="hljs-keyword">else</span>{
+             <span class="hljs-keyword">let</span> newChildInstance = createReactUnit(newElement);
+             newChildren.push(newChildInstance);
+         }
+       });
+       <span class="hljs-keyword">return</span> newChildren;
+    }
+    getChildrenMap(children=[]){
+        <span class="hljs-keyword">let</span> childrenMap = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;children.length;i++){
+            <span class="hljs-keyword">let</span> key = children[i].key||i.toString();
+            childrenMap[key] = children[i];
+        }
+        <span class="hljs-keyword">return</span> childrenMap;
+    }
+    updateDOMProperties(oldProps,newProps){
+        <span class="hljs-keyword">let</span> propName;
+        <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;&#x4E0A;&#x6CA1;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x7ED9;&#x5220;&#x9664;&#x6389;</span>
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> oldProps){
+            <span class="hljs-keyword">if</span>(!newProps.hasOwnProperty(propName)){
+                $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).removeAttr(propName);
+            }
+            <span class="hljs-keyword">if</span> (<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)) {
+                <span class="hljs-comment">//&#x9488;&#x5BF9;&#x5F53;&#x524D;&#x7684;&#x8282;&#x70B9;&#x53D6;&#x6D88;&#x4E8B;&#x4EF6;&#x4EE3;&#x7406;</span>
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+<span class="hljs-keyword">this</span>._rootId);
+            }
+        }
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> newProps){
+            <span class="hljs-keyword">if</span>(propName === <span class="hljs-string">&apos;children&apos;</span>)
+                <span class="hljs-keyword">continue</span>;
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)){
+                <span class="hljs-keyword">let</span> eventType = propName.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>`</span>,newProps[propName]);
+                <span class="hljs-keyword">continue</span>;
+            }
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).prop(propName, newProps[propName])    
+        }
+    }
+}
+
+<span class="hljs-comment">//&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactCompositeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-comment">//&#x63A5;&#x6536;&#x5230;&#x65B0;&#x7684;&#x66F4;&#x65B0;,&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4F20;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x539F;&#x751F;&#x548C;text&#x4F20;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x6CA1;&#x6709;&#x72B6;&#x6001;</span>
+    update(nextElement,newState){
+      <span class="hljs-comment">//&#x5982;&#x679C;&#x63A5;&#x6536;&#x4E86;&#x65B0;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5C31;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7684;nextElement</span>
+      <span class="hljs-keyword">this</span>._currentElement = nextElement || <span class="hljs-keyword">this</span>._currentElement;
+      <span class="hljs-comment">//&##x628A;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5408;&#x5E76;&#x5230;&#x8001;&#x7684;&#x5B9E;&#x4F8B;&#x7684;&#x72B6;&#x6001;&#x4E0A;,&#x5E76;&#x4E14;&#x7ED9;&#x7EC4;&#x4EF6;&#x91CD;&#x65B0;&#x8D4B;&#x65B0;&#x7684;&#x72B6;&#x6001;</span>
+      <span class="hljs-keyword">let</span> nextState = <span class="hljs-keyword">this</span>._componentInstance.state = <span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>._componentInstance.state, newState);
+      <span class="hljs-comment">//&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;</span>
+      <span class="hljs-keyword">var</span> nextProps = <span class="hljs-keyword">this</span>._currentElement.props;
+      <span class="hljs-keyword">if</span> (
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate &amp;&amp;
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate(nextProps, nextState) === <span class="hljs-literal">false</span>
+        ) {
+            <span class="hljs-comment">// &#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x7684; shouldComponentUpdate &#x8FD4;&#x56DE; false&#xFF0C;&#x5219;&#x4E0D;&#x9700;&#x8981;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x6267;&#x884C;&#x66F4;&#x65B0;</span>
+            <span class="hljs-keyword">return</span>;
+        }
+      <span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate&amp;&amp;<span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate(nextProps, nextState);
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+      <span class="hljs-keyword">let</span> prevRenderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance;
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x865A;&#x62DF;DOM</span>
+      <span class="hljs-keyword">let</span> prevRenderedElement = prevRenderedUnitInstance._currentElement;
+      <span class="hljs-comment">// &#x901A;&#x8FC7;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5BF9;&#x8C61;&#x91CD;&#x65B0;&#x6267;&#x884C;render&#x62FF;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x65B0;element</span>
+      <span class="hljs-keyword">var</span> nextRenderedElement = <span class="hljs-keyword">this</span>._componentInstance.render();
+      <span class="hljs-comment">//&#x5224;&#x65AD;&#x662F;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x5C31;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</span>
+      <span class="hljs-keyword">if</span>(shouldDeepCompare(prevRenderedElement, nextRenderedElement)){
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x5C31;&#x7EE7;&#x7EED;&#x8C03;&#x7528;&#x5B50;&#x8282;&#x70B9;&#x7684;update&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F20;&#x5165;&#x65B0;&#x7684;element&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;&#x3002;</span>
+         prevRenderedUnitInstance.update(nextRenderedElement);
+         <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate &amp;&amp; <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate();
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x53D1;&#x73B0;&#x5B8C;&#x5168;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x4E24;&#x79CD;element&#xFF0C;&#x90A3;&#x5C31;&#x5E72;&#x8106;&#x91CD;&#x65B0;&#x6E32;&#x67D3;&#x4E86;</span>
+        <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(nextRenderedElement);
+        <span class="hljs-keyword">let</span> nextMarkup = <span class="hljs-keyword">this</span>._renderedUnitInstance.getMarkup(<span class="hljs-keyword">this</span>.rootId);
+        <span class="hljs-comment">//&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x8282;&#x70B9;</span>
+        $(<span class="hljs-string">&apos;[data-reactid=&quot;&apos;</span> + <span class="hljs-keyword">this</span>._rootId + <span class="hljs-string">&apos;&quot;]&apos;</span>).replaceWith(nextMarkup);
+      }
+    }
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-comment">//type&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x7C7B;&#x5B9A;&#x4E49;</span>
+        <span class="hljs-keyword">let</span> {<span class="hljs-attr">type</span>:Component} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-comment">//&#x521B;&#x5EFA;Counter&#x7EC4;&#x4EF6;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">let</span> componentInstance = <span class="hljs-keyword">this</span>._componentInstance = <span class="hljs-keyword">new</span> Component();
+        <span class="hljs-comment">//&#x8BB0;&#x5F55;&#x5B83;&#x8FD9;&#x4E2A;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x6240;&#x5728;&#x7684;&#x5355;&#x4F4D;unit</span>
+        componentInstance.unit = <span class="hljs-keyword">this</span>;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x6709;componentWillMount&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5C31;&#x8BA9;&#x5B83;&#x6267;&#x884C;</span>
+        componentInstance.componentWillMount&amp;&amp;componentInstance.componentWillMount();
+        <span class="hljs-comment">//&#x8C03;&#x7528;render&#x65B9;&#x6CD5;&#x83B7;&#x5F97;&#x8FD4;&#x56DE;&#x7684;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;</span>
+        <span class="hljs-keyword">let</span> renderedElement =  componentInstance.render();
+        <span class="hljs-comment">//&#x6839;&#x636E;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;&#x5B9E;&#x4F8B;&#x5316;,&#x53EF;&#x80FD;&#x662F;ReactCompositeComponent&#x3001;ReactNativeComponent&#x6216;ReactTextComponent</span>
+        <span class="hljs-keyword">let</span> renderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(renderedElement);
+        <span class="hljs-comment">//&#x83B7;&#x5F97;renderedComponentInstance&#x7684;HTML&#x5B57;&#x7B26;&#x4E2D;</span>
+        <span class="hljs-keyword">let</span> renderedMarkup = renderedUnitInstance.getMarkup(rootId);
+        <span class="hljs-comment">//&#x6CE8;&#x518C;&#x6302;&#x8F7D;&#x5B8C;&#x6210;&#x7684;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5E95;&#x5C42;&#x7684;&#x7EC4;&#x4EF6;&#x8D8A;&#x5148;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5148;&#x6267;&#x884C;</span>
+        $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">&apos;mounted&apos;</span>,()=&gt;{
+            componentInstance.componentDidMount&amp;&amp;componentInstance.componentDidMount();
+        });
+        <span class="hljs-keyword">return</span> renderedMarkup;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">shouldDeepCompare</span>(<span class="hljs-params">prevElement, nextElement</span>) </span>{
+    <span class="hljs-comment">//&#x4E0D;&#x7BA1;&#x65B0;&#x5143;&#x7D20;&#x8FD8;&#x662F;&#x8001;&#x5143;&#x7D20;&#x662F;NULL,&#x90FD;&#x5B8C;&#x5168;&#x91CD;&#x5EFA;</span>
+    <span class="hljs-keyword">if</span> (prevElement != <span class="hljs-literal">null</span> &amp;&amp; nextElement != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">let</span> prevType = <span class="hljs-keyword">typeof</span> prevElement;
+        <span class="hljs-keyword">let</span> nextType = <span class="hljs-keyword">typeof</span> nextElement;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x8001;&#x8282;&#x70B9;&#x662F;&#x6587;&#x672C;&#xFF0C;&#x65B0;&#x8282;&#x70B9;&#x4E5F;&#x662F;&#x6587;&#x672C;&#x5219;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</span>
+        <span class="hljs-keyword">if</span> (prevType === <span class="hljs-string">&apos;string&apos;</span> || prevType === <span class="hljs-string">&apos;number&apos;</span>) {
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;string&apos;</span> || nextType === <span class="hljs-string">&apos;number&apos;</span>;
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//&#x5982;&#x679C;&#x662F;&#x539F;&#x751F;&#x5143;&#x7D20;&#x6216;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x770B;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x76F8;&#x540C;&#xFF0C;&#x76F8;&#x540C;&#x5219;&#x8FDB;&#x884C;&#x6DF1;&#x5EA6;&#x6BD4;&#x8F83;</span>
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; prevElement.type === nextElement.type;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createReactUnit</span>(<span class="hljs-params">element</span>)</span>{
+    <span class="hljs-comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;number&apos;</span>){
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactTextUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;string&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactNativeUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactCompositeUnit(element);
+    }
+}
+<span class="hljs-keyword">export</span> {
+    createReactUnit
+}
+</code></pre>
+<h2 id="t357. &#x83B7;&#x5F97;&#x8865;&#x4E01;&#x6570;&#x7EC4;">7. &#x83B7;&#x5F97;&#x8865;&#x4E01;&#x6570;&#x7EC4; <a href="#t357. &#x83B7;&#x5F97;&#x8865;&#x4E01;&#x6570;&#x7EC4;"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/5246c661ccc8c5f34496462683ab0b015c7469d5">commit</a></p>
+<p><img src="../static/img/diffold.png" alt="diffold"></p>
+<p><img src="../static/img/diffnew.png" alt="diffnew"></p>
+<p><img src="../static/img/domdiff2.gif" alt="domdiff2"></p>
+<h3 id="t367.1 src/index.js">7.1 src/index.js <a href="#t367.1 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">odd</span>:<span class="hljs-literal">true</span>};
+  }
+  componentDidMount(){
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">odd</span>:!<span class="hljs-keyword">this</span>.state.odd});
+   },<span class="hljs-number">1000</span>);
+  }
+  render(){
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.state.odd){
+      <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;ul&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;wrapper&apos;</span>},
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;A&apos;</span>},<span class="hljs-string">&apos;A&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;B&apos;</span>},<span class="hljs-string">&apos;B&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;C&apos;</span>},<span class="hljs-string">&apos;C&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;D&apos;</span>},<span class="hljs-string">&apos;D&apos;</span>),
+      );
+    }
+    <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;ul&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;wrapper&apos;</span>},
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;A&apos;</span>},<span class="hljs-string">&apos;A1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;C&apos;</span>},<span class="hljs-string">&apos;C1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;B&apos;</span>},<span class="hljs-string">&apos;B1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;E&apos;</span>},<span class="hljs-string">&apos;E1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;F&apos;</span>},<span class="hljs-string">&apos;F1&apos;</span>)
+      );
+  }
+}
+<span class="hljs-keyword">let</span> element = React.createElement(Counter);
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h3 id="t377.2 src/react/unit.js">7.2 src/react/unit.js <a href="#t377.2 src/react/unit.js"> # </a></h3>
+<p>src/react/unit.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> $ <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;jquery&apos;</span>;
+<span class="hljs-keyword">import</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./types&apos;</span>;
+<span class="hljs-keyword">let</span> updateDepth=<span class="hljs-number">0</span>;
+<span class="hljs-keyword">let</span> diffQueue=[];
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-keyword">constructor</span>(element){
+        <span class="hljs-comment">//&#x628A;&#x865A;&#x62DF;DOM&#x672C;&#x8EAB;&#x4FDD;&#x5B58;&#x5230;this._currentElement&#x4E0A;</span>
+        <span class="hljs-keyword">this</span>._currentElement = element;
+    }
+    getMarkup(rootId){<span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x88AB;&#x76F4;&#x63A5;&#x8C03;&#x7528;&apos;</span>)}
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactTextUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x8BB0;&#x5F55;rootId</span>
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x6587;&#x672C;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">`&lt;span data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;&gt;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._currentElement}</span>&lt;/span&gt;`</span>;
+    }
+    update(nextElement){
+        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>._currentElement !== nextElement){
+            <span class="hljs-keyword">this</span>._currentElement = nextElement;
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).html(<span class="hljs-keyword">this</span>._currentElement);
+        }
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactNativeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-keyword">let</span> {type,props} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-keyword">let</span> tagOpen = <span class="hljs-string">`&lt;<span class="hljs-subst">${type}</span> data-reactid=&quot;<span class="hljs-subst">${rootId}</span>&quot;`</span>;
+        <span class="hljs-keyword">let</span> tagClose = <span class="hljs-string">`&lt;/<span class="hljs-subst">${type}</span>&gt;`</span>;
+        <span class="hljs-keyword">let</span> content = <span class="hljs-string">&apos;&apos;</span>;
+        <span class="hljs-keyword">let</span> renderedChildren =[];
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> propKey <span class="hljs-keyword">in</span> props){
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propKey)){
+                <span class="hljs-keyword">let</span> eventType = propKey.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${rootId}</span>`</span>,props[propKey]);
+            }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(propKey === <span class="hljs-string">&apos;children&apos;</span>){
+                <span class="hljs-keyword">let</span> children = props.children||[];
+                children.forEach(<span class="hljs-function">(<span class="hljs-params">child,idx</span>)=&gt;</span>{
+                    <span class="hljs-keyword">let</span> childUnitInstance = createReactUnit(child);
+                    childUnitInstance._mountIndex = idx;
+                    renderedChildren.push(childUnitInstance);
+                    <span class="hljs-keyword">let</span> childMarkup = childUnitInstance.getMarkup(<span class="hljs-string">`<span class="hljs-subst">${rootId}</span>.<span class="hljs-subst">${idx}</span>`</span>);
+                    content += childMarkup;
+                });
+            }<span class="hljs-keyword">else</span>{
+                tagOpen += <span class="hljs-string">`<span class="hljs-subst">${propKey}</span>=<span class="hljs-subst">${props[propKey]}</span>`</span>;
+            }
+        }
+        <span class="hljs-keyword">this</span>.renderedChildren = renderedChildren;
+        <span class="hljs-keyword">return</span> tagOpen + <span class="hljs-string">&apos;&gt;&apos;</span> + content + tagClose;
+    }
+    update(newElement){
+        <span class="hljs-keyword">let</span> oldProps = <span class="hljs-keyword">this</span>._currentElement.props;
+        <span class="hljs-keyword">let</span> newProps = newElement.props;
+        <span class="hljs-keyword">this</span>.updateDOMProperties(oldProps,newProps);
+        <span class="hljs-comment">//&#x6BD4;&#x8F83;&#x548C;&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;</span>
+        <span class="hljs-keyword">this</span>.updateDOMChildren(newElement.props.children);
+    }
+    <span class="hljs-comment">//&#x66F4;&#x65B0;&#x5B50;&#x9879;</span>
+    updateDOMChildren(newChildrenElements){
+        updateDepth++;
+        <span class="hljs-keyword">this</span>.diff(diffQueue,newChildrenElements);
+        updateDepth--;
+        <span class="hljs-keyword">if</span>(updateDepth === <span class="hljs-number">0</span>){
+            <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;diffQueue&apos;</span>,diffQueue);
+            diffQueue = [];
+        }
+    }
+    diff(diffQueue,newChildrenElements){
+        <span class="hljs-keyword">let</span> oldChildrenMap = <span class="hljs-keyword">this</span>.getChildrenMap(<span class="hljs-keyword">this</span>.renderedChildren);
+        <span class="hljs-keyword">let</span> {newMap,newChildren} = <span class="hljs-keyword">this</span>.getNewChildren(oldChildrenMap,newChildrenElements);
+        <span class="hljs-keyword">let</span> lastIndex=<span class="hljs-number">0</span>;
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;newChildren.length;i++){
+            <span class="hljs-keyword">let</span> newKey = (newChildren[i]._currentElement.props&amp;&amp;newChildren[i]._currentElement.props.key)||i.toString();
+            <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+            <span class="hljs-keyword">if</span>(oldChild === newChildren[i]){
+                <span class="hljs-keyword">if</span>(oldChild._mountIndex &lt; lastIndex){
+                    diffQueue.push({
+                        <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                        <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                        <span class="hljs-attr">type</span>:types.MOVE,
+                        <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex,
+                        <span class="hljs-attr">toIndex</span>:i
+                    });
+                }
+                lastIndex = <span class="hljs-built_in">Math</span>.max(oldChild._mountIndex,lastIndex);
+            }<span class="hljs-keyword">else</span>{
+                <span class="hljs-keyword">if</span>(oldChild){
+                    diffQueue.push({
+                        <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                        <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                        <span class="hljs-attr">type</span>:types.REMOVE,
+                        <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex
+                    });
+                    <span class="hljs-keyword">if</span> (oldChild._rootId) {
+                        $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+oldChild._rootId);
+                    }
+                }
+                diffQueue.push({
+                    <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                    <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                    <span class="hljs-attr">type</span>:types.INSERT,
+                    <span class="hljs-attr">toIndex</span>:i,
+                    <span class="hljs-attr">markup</span>:newChildren[i].getMarkup(<span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>.<span class="hljs-subst">${i}</span>`</span>)
+                });
+            }
+            newChildren[i]._mountIndex = i;
+        }
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> oldKey <span class="hljs-keyword">in</span> oldChildrenMap){
+            <span class="hljs-keyword">if</span>(!newMap.hasOwnProperty(oldKey)){
+                <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[oldKey];
+                diffQueue.push({
+                    <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                    <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                    <span class="hljs-attr">type</span>:types.REMOVE,
+                    <span class="hljs-attr">fromINdex</span>:oldChild._mountIndex
+                });
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+oldChild._rootId);
+            }
+        }
+    }
+    getNewChildren(oldChildrenMap,newChildrenElements){
+       <span class="hljs-keyword">let</span> newChildren = [];
+       <span class="hljs-keyword">let</span> newMap = {};
+       newChildrenElements.forEach(<span class="hljs-function">(<span class="hljs-params">newElement,idx</span>)=&gt;</span>{
+         <span class="hljs-keyword">let</span> newKey = (newElement.props&amp;&amp;newElement.props.key) || idx.toString();
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit</span>
+         <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit&#x5BF9;&#x5E94;&#x7684;Element&#x5143;&#x7D20;</span>
+         <span class="hljs-keyword">let</span> oldElement = oldChild&amp;&amp;oldChild._currentElement;
+         <span class="hljs-keyword">if</span>(shouldDeepCompare(oldElement,newElement)){
+            oldChild.update(newElement);
+            newChildren.push(oldChild);
+            newMap[newKey] = oldChild;
+         }<span class="hljs-keyword">else</span>{
+             <span class="hljs-keyword">let</span> newChildInstance = createReactUnit(newElement);
+             newMap[newKey] = newChildInstance;
+             newChildren.push(newChildInstance);
+         }
+       });
+       <span class="hljs-keyword">return</span> {newMap,newChildren};
+    }
+    getChildrenMap(children=[]){
+        <span class="hljs-keyword">let</span> childrenMap = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;children.length;i++){
+            <span class="hljs-keyword">let</span> key = (children[i]._currentElement.props&amp;&amp;children[i]._currentElement.props.key)||i.toString();
+            childrenMap[key] = children[i];
+        }
+        <span class="hljs-keyword">return</span> childrenMap;
+    }
+    updateDOMProperties(oldProps,newProps){
+        <span class="hljs-keyword">let</span> propName;
+        <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;&#x4E0A;&#x6CA1;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x7ED9;&#x5220;&#x9664;&#x6389;</span>
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> oldProps){
+            <span class="hljs-keyword">if</span>(!newProps.hasOwnProperty(propName)){
+                $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).removeAttr(propName);
+            }
+            <span class="hljs-keyword">if</span> (<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)) {
+                <span class="hljs-comment">//&#x9488;&#x5BF9;&#x5F53;&#x524D;&#x7684;&#x8282;&#x70B9;&#x53D6;&#x6D88;&#x4E8B;&#x4EF6;&#x4EE3;&#x7406;</span>
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+<span class="hljs-keyword">this</span>._rootId);
+            }
+        }
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> newProps){
+            <span class="hljs-keyword">if</span>(propName === <span class="hljs-string">&apos;children&apos;</span>)
+                <span class="hljs-keyword">continue</span>;
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)){
+                <span class="hljs-keyword">let</span> eventType = propName.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>`</span>,newProps[propName]);
+                <span class="hljs-keyword">continue</span>;
+            }
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).prop(propName, newProps[propName])    
+        }
+    }
+}
+
+<span class="hljs-comment">//&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactCompositeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-comment">//&#x63A5;&#x6536;&#x5230;&#x65B0;&#x7684;&#x66F4;&#x65B0;,&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4F20;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x539F;&#x751F;&#x548C;text&#x4F20;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x6CA1;&#x6709;&#x72B6;&#x6001;</span>
+    update(nextElement,newState){
+      <span class="hljs-comment">//&#x5982;&#x679C;&#x63A5;&#x6536;&#x4E86;&#x65B0;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5C31;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7684;nextElement</span>
+      <span class="hljs-keyword">this</span>._currentElement = nextElement || <span class="hljs-keyword">this</span>._currentElement;
+      <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5408;&#x5E76;&#x5230;&#x8001;&#x7684;&#x5B9E;&#x4F8B;&#x7684;&#x72B6;&#x6001;&#x4E0A;,&#x5E76;&#x4E14;&#x7ED9;&#x7EC4;&#x4EF6;&#x91CD;&#x65B0;&#x8D4B;&#x65B0;&#x7684;&#x72B6;&#x6001;</span>
+      <span class="hljs-keyword">let</span> nextState = <span class="hljs-keyword">this</span>._componentInstance.state = <span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>._componentInstance.state, newState);
+      <span class="hljs-comment">//&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;</span>
+      <span class="hljs-keyword">var</span> nextProps = <span class="hljs-keyword">this</span>._currentElement.props;
+      <span class="hljs-keyword">if</span> (
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate &amp;&amp;
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate(nextProps, nextState) === <span class="hljs-literal">false</span>
+        ) {
+            <span class="hljs-comment">// &#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x7684; shouldComponentUpdate &#x8FD4;&#x56DE; false&#xFF0C;&#x5219;&#x4E0D;&#x9700;&#x8981;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x6267;&#x884C;&#x66F4;&#x65B0;</span>
+            <span class="hljs-keyword">return</span>;
+        }
+      <span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate&amp;&amp;<span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate(nextProps, nextState);
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+      <span class="hljs-keyword">let</span> prevRenderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance;
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x865A;&#x62DF;DOM</span>
+      <span class="hljs-keyword">let</span> prevRenderedElement = prevRenderedUnitInstance._currentElement;
+      <span class="hljs-comment">// &#x901A;&#x8FC7;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5BF9;&#x8C61;&#x91CD;&#x65B0;&#x6267;&#x884C;render&#x62FF;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x65B0;element</span>
+      <span class="hljs-keyword">var</span> nextRenderedElement = <span class="hljs-keyword">this</span>._componentInstance.render();
+      <span class="hljs-comment">//&#x5224;&#x65AD;&#x662F;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x5C31;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</span>
+      <span class="hljs-keyword">if</span>(shouldDeepCompare(prevRenderedElement, nextRenderedElement)){
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x5C31;&#x7EE7;&#x7EED;&#x8C03;&#x7528;&#x5B50;&#x8282;&#x70B9;&#x7684;update&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F20;&#x5165;&#x65B0;&#x7684;element&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;&#x3002;</span>
+         prevRenderedUnitInstance.update(nextRenderedElement);
+         <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate &amp;&amp; <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate();
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x53D1;&#x73B0;&#x5B8C;&#x5168;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x4E24;&#x79CD;element&#xFF0C;&#x90A3;&#x5C31;&#x5E72;&#x8106;&#x91CD;&#x65B0;&#x6E32;&#x67D3;&#x4E86;</span>
+        <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(nextRenderedElement);
+        <span class="hljs-keyword">let</span> nextMarkup = <span class="hljs-keyword">this</span>._renderedUnitInstance.getMarkup(<span class="hljs-keyword">this</span>.rootId);
+        <span class="hljs-comment">//&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x8282;&#x70B9;</span>
+        $(<span class="hljs-string">&apos;[data-reactid=&quot;&apos;</span> + <span class="hljs-keyword">this</span>._rootId + <span class="hljs-string">&apos;&quot;]&apos;</span>).replaceWith(nextMarkup);
+      }
+    }
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-comment">//type&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x7C7B;&#x5B9A;&#x4E49;</span>
+        <span class="hljs-keyword">let</span> {<span class="hljs-attr">type</span>:Component} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-comment">//&#x521B;&#x5EFA;Counter&#x7EC4;&#x4EF6;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">let</span> componentInstance = <span class="hljs-keyword">this</span>._componentInstance = <span class="hljs-keyword">new</span> Component();
+        <span class="hljs-comment">//&#x8BB0;&#x5F55;&#x5B83;&#x8FD9;&#x4E2A;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x6240;&#x5728;&#x7684;&#x5355;&#x4F4D;unit</span>
+        componentInstance.unit = <span class="hljs-keyword">this</span>;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x6709;componentWillMount&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5C31;&#x8BA9;&#x5B83;&#x6267;&#x884C;</span>
+        componentInstance.componentWillMount&amp;&amp;componentInstance.componentWillMount();
+        <span class="hljs-comment">//&#x8C03;&#x7528;render&#x65B9;&#x6CD5;&#x83B7;&#x5F97;&#x8FD4;&#x56DE;&#x7684;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;</span>
+        <span class="hljs-keyword">let</span> renderedElement =  componentInstance.render();
+        <span class="hljs-comment">//&#x6839;&#x636E;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;&#x5B9E;&#x4F8B;&#x5316;,&#x53EF;&#x80FD;&#x662F;ReactCompositeComponent&#x3001;ReactNativeComponent&#x6216;ReactTextComponent</span>
+        <span class="hljs-keyword">let</span> renderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(renderedElement);
+        <span class="hljs-comment">//&#x83B7;&#x5F97;renderedComponentInstance&#x7684;HTML&#x5B57;&#x7B26;&#x4E2D;</span>
+        <span class="hljs-keyword">let</span> renderedMarkup = renderedUnitInstance.getMarkup(rootId);
+        <span class="hljs-comment">//&#x6CE8;&#x518C;&#x6302;&#x8F7D;&#x5B8C;&#x6210;&#x7684;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5E95;&#x5C42;&#x7684;&#x7EC4;&#x4EF6;&#x8D8A;&#x5148;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5148;&#x6267;&#x884C;</span>
+        $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">&apos;mounted&apos;</span>,()=&gt;{
+            componentInstance.componentDidMount&amp;&amp;componentInstance.componentDidMount();
+        });
+        <span class="hljs-keyword">return</span> renderedMarkup;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">shouldDeepCompare</span>(<span class="hljs-params">prevElement, nextElement</span>) </span>{
+    <span class="hljs-comment">//&#x4E0D;&#x7BA1;&#x65B0;&#x5143;&#x7D20;&#x8FD8;&#x662F;&#x8001;&#x5143;&#x7D20;&#x662F;NULL,&#x90FD;&#x5B8C;&#x5168;&#x91CD;&#x5EFA;</span>
+    <span class="hljs-keyword">if</span> (prevElement != <span class="hljs-literal">null</span> &amp;&amp; nextElement != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">let</span> prevType = <span class="hljs-keyword">typeof</span> prevElement;
+        <span class="hljs-keyword">let</span> nextType = <span class="hljs-keyword">typeof</span> nextElement;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x8001;&#x8282;&#x70B9;&#x662F;&#x6587;&#x672C;&#xFF0C;&#x65B0;&#x8282;&#x70B9;&#x4E5F;&#x662F;&#x6587;&#x672C;&#x5219;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</span>
+        <span class="hljs-keyword">if</span> (prevType === <span class="hljs-string">&apos;string&apos;</span> || prevType === <span class="hljs-string">&apos;number&apos;</span>) {
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;string&apos;</span> || nextType === <span class="hljs-string">&apos;number&apos;</span>;
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//&#x5982;&#x679C;&#x662F;&#x539F;&#x751F;&#x5143;&#x7D20;&#x6216;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x770B;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x76F8;&#x540C;&#xFF0C;&#x76F8;&#x540C;&#x5219;&#x8FDB;&#x884C;&#x6DF1;&#x5EA6;&#x6BD4;&#x8F83;</span>
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; prevElement.type === nextElement.type;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createReactUnit</span>(<span class="hljs-params">element</span>)</span>{
+    <span class="hljs-comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;number&apos;</span>){
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactTextUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;string&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactNativeUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactCompositeUnit(element);
+    }
+}
+<span class="hljs-keyword">export</span> {
+    createReactUnit
+}
+</code></pre>
+<h2 id="t388. &#x6253;&#x8865;&#x4E01;">8. &#x6253;&#x8865;&#x4E01; <a href="#t388. &#x6253;&#x8865;&#x4E01;"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/9972e6729f656aa71b27d235610a59a20287518c">commit</a></p>
+<h3 id="t398.1 src/index.js">8.1 src/index.js <a href="#t398.1 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Counter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+  <span class="hljs-keyword">constructor</span>(props){
+    <span class="hljs-keyword">super</span>(props);
+    <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">odd</span>:<span class="hljs-literal">true</span>};
+  }
+  componentDidMount(){
+   setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span>{
+    <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">odd</span>:!<span class="hljs-keyword">this</span>.state.odd});
+   },<span class="hljs-number">5000</span>);
+  }
+  render(){
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.state.odd){
+      <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;ul&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;wrapper&apos;</span>},
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;A&apos;</span>},<span class="hljs-string">&apos;A&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;B&apos;</span>},<span class="hljs-string">&apos;B&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;C&apos;</span>},<span class="hljs-string">&apos;C&apos;</span>),
+        React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;D&apos;</span>},<span class="hljs-string">&apos;D&apos;</span>),
+      );
+    }
+    <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;ul&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;wrapper&apos;</span>},
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;A&apos;</span>},<span class="hljs-string">&apos;A&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;C&apos;</span>},<span class="hljs-string">&apos;C1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;B&apos;</span>},<span class="hljs-string">&apos;B1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;E&apos;</span>},<span class="hljs-string">&apos;E1&apos;</span>),
+      React.createElement(<span class="hljs-string">&apos;li&apos;</span>,{<span class="hljs-attr">key</span>:<span class="hljs-string">&apos;F&apos;</span>},<span class="hljs-string">&apos;F1&apos;</span>)
+      );
+  }
+}
+<span class="hljs-keyword">let</span> element = React.createElement(Counter);
+React.render(element,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h3 id="t408.2 react/unit.js">8.2 react/unit.js <a href="#t408.2 react/unit.js"> # </a></h3>
+<p>src/react/unit.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> $ <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;jquery&apos;</span>;
+<span class="hljs-keyword">import</span> types <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./types&apos;</span>;
+<span class="hljs-keyword">let</span> updateDepth=<span class="hljs-number">0</span>;
+<span class="hljs-keyword">let</span> diffQueue=[];
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-keyword">constructor</span>(element){
+        <span class="hljs-comment">//&#x628A;&#x865A;&#x62DF;DOM&#x672C;&#x8EAB;&#x4FDD;&#x5B58;&#x5230;this._currentElement&#x4E0A;</span>
+        <span class="hljs-keyword">this</span>._currentElement = element;
+    }
+    getMarkup(rootId){<span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;&#x6B64;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x88AB;&#x76F4;&#x63A5;&#x8C03;&#x7528;&apos;</span>)}
+}
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactTextUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;<span class="hljs-comment">//&#x4FDD;&#x5B58;&#x8BB0;&#x5F55;rootId</span>
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x6587;&#x672C;&#x8282;&#x70B9;&#x5BF9;&#x5E94;&#x7684;HTML&#x5B57;&#x7B26;&#x4E32;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-string">`&lt;span data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;&gt;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._currentElement}</span>&lt;/span&gt;`</span>;
+    }
+    update(nextElement){
+        <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>._currentElement !== nextElement){
+            <span class="hljs-keyword">this</span>._currentElement = nextElement;
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).html(<span class="hljs-keyword">this</span>._currentElement);
+        }
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactNativeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-keyword">let</span> {type,props} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-keyword">let</span> tagOpen = <span class="hljs-string">`&lt;<span class="hljs-subst">${type}</span> data-reactid=&quot;<span class="hljs-subst">${rootId}</span>&quot;`</span>;
+        <span class="hljs-keyword">let</span> tagClose = <span class="hljs-string">`&lt;/<span class="hljs-subst">${type}</span>&gt;`</span>;
+        <span class="hljs-keyword">let</span> content = <span class="hljs-string">&apos;&apos;</span>;
+        <span class="hljs-keyword">let</span> renderedChildren =[];
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> propKey <span class="hljs-keyword">in</span> props){
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propKey)){
+                <span class="hljs-keyword">let</span> eventType = propKey.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${rootId}</span>`</span>,props[propKey]);
+            }<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(propKey === <span class="hljs-string">&apos;children&apos;</span>){
+                <span class="hljs-keyword">let</span> children = props.children||[];
+                children.forEach(<span class="hljs-function">(<span class="hljs-params">child,idx</span>)=&gt;</span>{
+                    <span class="hljs-keyword">let</span> childUnitInstance = createReactUnit(child);
+                    childUnitInstance._mountIndex = idx;
+                    renderedChildren.push(childUnitInstance);
+                    <span class="hljs-keyword">let</span> childMarkup = childUnitInstance.getMarkup(<span class="hljs-string">`<span class="hljs-subst">${rootId}</span>.<span class="hljs-subst">${idx}</span>`</span>);
+                    content += childMarkup;
+                });
+            }<span class="hljs-keyword">else</span>{
+                tagOpen += <span class="hljs-string">`<span class="hljs-subst">${propKey}</span>=<span class="hljs-subst">${props[propKey]}</span>`</span>;
+            }
+        }
+        <span class="hljs-keyword">this</span>.renderedChildren = renderedChildren;
+        <span class="hljs-keyword">return</span> tagOpen + <span class="hljs-string">&apos;&gt;&apos;</span> + content + tagClose;
+    }
+    update(newElement){
+        <span class="hljs-keyword">let</span> oldProps = <span class="hljs-keyword">this</span>._currentElement.props;
+        <span class="hljs-keyword">let</span> newProps = newElement.props;
+        <span class="hljs-keyword">this</span>.updateDOMProperties(oldProps,newProps);
+        <span class="hljs-comment">//&#x6BD4;&#x8F83;&#x548C;&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;</span>
+        <span class="hljs-keyword">this</span>.updateDOMChildren(newElement.props.children);
+    }
+    <span class="hljs-comment">//&#x66F4;&#x65B0;&#x5B50;&#x9879;</span>
+    updateDOMChildren(newChildrenElements){
+        updateDepth++;
+        <span class="hljs-keyword">this</span>.diff(diffQueue,newChildrenElements);
+        updateDepth--;
+        <span class="hljs-keyword">if</span>(updateDepth === <span class="hljs-number">0</span>){
+            <span class="hljs-keyword">this</span>.patch(diffQueue);
+            diffQueue = [];
+        }
+    }
+    patch(diffQueue){
+        <span class="hljs-keyword">let</span> deleteChildren = [];
+        <span class="hljs-keyword">let</span> deleteMap={};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;diffQueue.length;i++){
+            <span class="hljs-keyword">let</span> difference = diffQueue[i];
+            <span class="hljs-keyword">if</span>(difference.type===types.MOVE || difference.type===types.REMOVE){
+                <span class="hljs-keyword">let</span> fromIndex = difference.fromIndex;
+                <span class="hljs-keyword">let</span> oldChild = $(difference.parentNode.children().get(fromIndex));
+                deleteMap[fromIndex]=oldChild;
+                deleteChildren.push(oldChild);
+            }
+        }
+        $.each(deleteChildren,(idx,child)=&gt;{
+            $(child).remove();
+        });
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> k=<span class="hljs-number">0</span>;k&lt;diffQueue.length;k++){
+            <span class="hljs-keyword">let</span> difference = diffQueue[k];
+
+            <span class="hljs-keyword">switch</span>(difference.type){
+              <span class="hljs-keyword">case</span> types.INSERT:
+                <span class="hljs-keyword">this</span>.insertChildAt(difference.parentNode,$(difference.markup),difference.toIndex);
+                <span class="hljs-keyword">break</span>;
+              <span class="hljs-keyword">case</span> types.MOVE:
+                <span class="hljs-keyword">this</span>.insertChildAt(difference.parentNode,deleteMap[difference.fromIndex],difference.toIndex);
+                <span class="hljs-keyword">break</span>;
+              <span class="hljs-keyword">default</span>:
+               <span class="hljs-keyword">break</span>;   
+            }
+        }
+    }
+    insertChildAt(parentNode,childNode,index){
+        <span class="hljs-keyword">let</span> oldChild = parentNode.children().get(index);
+        oldChild?childNode.insertBefore(oldChild):childNode.appendTo(parentNode);
+    }
+    diff(diffQueue,newChildrenElements){
+        <span class="hljs-keyword">let</span> oldChildrenMap = <span class="hljs-keyword">this</span>.getChildrenMap(<span class="hljs-keyword">this</span>.renderedChildren);
+        <span class="hljs-keyword">let</span> {newMap,newChildren} = <span class="hljs-keyword">this</span>.getNewChildren(oldChildrenMap,newChildrenElements);
+        <span class="hljs-keyword">let</span> lastIndex=<span class="hljs-number">0</span>;
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;newChildren.length;i++){
+            <span class="hljs-keyword">let</span> newKey = (newChildren[i]._currentElement.props&amp;&amp;newChildren[i]._currentElement.props.key)||i.toString();
+            <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+            <span class="hljs-keyword">if</span>(oldChild === newChildren[i]){
+                <span class="hljs-keyword">if</span>(oldChild._mountIndex &lt; lastIndex){
+                    diffQueue.push({
+                        <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                        <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                        <span class="hljs-attr">type</span>:types.MOVE,
+                        <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex,
+                        <span class="hljs-attr">toIndex</span>:i
+                    });
+                }
+                lastIndex = <span class="hljs-built_in">Math</span>.max(oldChild._mountIndex,lastIndex);
+            }<span class="hljs-keyword">else</span>{
+                <span class="hljs-keyword">if</span>(oldChild){
+                    diffQueue.push({
+                        <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                        <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                        <span class="hljs-attr">type</span>:types.REMOVE,
+                        <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex
+                    });
+                    <span class="hljs-keyword">if</span> (oldChild._rootId) {
+                        $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+oldChild._rootId);
+                    }
+                }
+                diffQueue.push({
+                    <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                    <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                    <span class="hljs-attr">type</span>:types.INSERT,
+                    <span class="hljs-attr">toIndex</span>:i,
+                    <span class="hljs-attr">markup</span>:newChildren[i].getMarkup(<span class="hljs-string">`<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>.<span class="hljs-subst">${i}</span>`</span>)
+                });
+            }
+            newChildren[i]._mountIndex = i;
+        }
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> oldKey <span class="hljs-keyword">in</span> oldChildrenMap){
+            <span class="hljs-keyword">if</span>(!newMap.hasOwnProperty(oldKey)){
+                <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[oldKey];
+                diffQueue.push({
+                    <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                    <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                    <span class="hljs-attr">type</span>:types.REMOVE,
+                    <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex
+                });
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+oldChild._rootId);
+            }
+        }
+    }
+    getNewChildren(oldChildrenMap,newChildrenElements){
+       <span class="hljs-keyword">let</span> newChildren = [];
+       <span class="hljs-keyword">let</span> newMap = {};
+       newChildrenElements.forEach(<span class="hljs-function">(<span class="hljs-params">newElement,idx</span>)=&gt;</span>{
+         <span class="hljs-keyword">let</span> newKey = (newElement.props&amp;&amp;newElement.props.key) || idx.toString();
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit</span>
+         <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit&#x5BF9;&#x5E94;&#x7684;Element&#x5143;&#x7D20;</span>
+         <span class="hljs-keyword">let</span> oldElement = oldChild&amp;&amp;oldChild._currentElement;
+         <span class="hljs-keyword">if</span>(shouldDeepCompare(oldElement,newElement)){
+            oldChild.update(newElement);
+            newChildren.push(oldChild);
+            newMap[newKey] = oldChild;
+         }<span class="hljs-keyword">else</span>{
+             <span class="hljs-keyword">let</span> newChildInstance = createReactUnit(newElement);
+             newMap[newKey] = newChildInstance;
+             newChildren.push(newChildInstance);
+         }
+       });
+       <span class="hljs-keyword">return</span> {newMap,newChildren};
+    }
+    getChildrenMap(children=[]){
+        <span class="hljs-keyword">let</span> childrenMap = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;children.length;i++){
+            <span class="hljs-keyword">let</span> key = (children[i]._currentElement.props&amp;&amp;children[i]._currentElement.props.key)||i.toString();
+            childrenMap[key] = children[i];
+        }
+        <span class="hljs-keyword">return</span> childrenMap;
+    }
+    updateDOMProperties(oldProps,newProps){
+        <span class="hljs-keyword">let</span> propName;
+        <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;&#x4E0A;&#x6CA1;&#x6709;&#x7684;&#x5C5E;&#x6027;&#x7ED9;&#x5220;&#x9664;&#x6389;</span>
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> oldProps){
+            <span class="hljs-keyword">if</span>(!newProps.hasOwnProperty(propName)){
+                $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).removeAttr(propName);
+            }
+            <span class="hljs-keyword">if</span> (<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)) {
+                <span class="hljs-comment">//&#x9488;&#x5BF9;&#x5F53;&#x524D;&#x7684;&#x8282;&#x70B9;&#x53D6;&#x6D88;&#x4E8B;&#x4EF6;&#x4EE3;&#x7406;</span>
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+<span class="hljs-keyword">this</span>._rootId);
+            }
+        }
+        <span class="hljs-keyword">for</span>(propName <span class="hljs-keyword">in</span> newProps){
+            <span class="hljs-keyword">if</span>(propName === <span class="hljs-string">&apos;children&apos;</span>)
+                <span class="hljs-keyword">continue</span>;
+            <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/^on[A-Za-z]/</span>.test(propName)){
+                <span class="hljs-keyword">let</span> eventType = propName.slice(<span class="hljs-number">2</span>).toLowerCase();
+                $(<span class="hljs-built_in">document</span>).delegate(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>,<span class="hljs-string">`<span class="hljs-subst">${eventType}</span>.<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>`</span>,newProps[propName]);
+                <span class="hljs-keyword">continue</span>;
+            }
+            $(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>).prop(propName, newProps[propName])    
+        }
+    }
+}
+
+<span class="hljs-comment">//&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">ReactCompositeUnit</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Unit</span></span>{
+    <span class="hljs-comment">//&#x63A5;&#x6536;&#x5230;&#x65B0;&#x7684;&#x66F4;&#x65B0;,&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x4F20;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x539F;&#x751F;&#x548C;text&#x4F20;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x6CA1;&#x6709;&#x72B6;&#x6001;</span>
+    update(nextElement,newState){
+      <span class="hljs-comment">//&#x5982;&#x679C;&#x63A5;&#x6536;&#x4E86;&#x65B0;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x5C31;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7684;nextElement</span>
+      <span class="hljs-keyword">this</span>._currentElement = nextElement || <span class="hljs-keyword">this</span>._currentElement;
+      <span class="hljs-comment">//&#x628A;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5408;&#x5E76;&#x5230;&#x8001;&#x7684;&#x5B9E;&#x4F8B;&#x7684;&#x72B6;&#x6001;&#x4E0A;,&#x5E76;&#x4E14;&#x7ED9;&#x7EC4;&#x4EF6;&#x91CD;&#x65B0;&#x8D4B;&#x65B0;&#x7684;&#x72B6;&#x6001;</span>
+      <span class="hljs-keyword">let</span> nextState = <span class="hljs-keyword">this</span>._componentInstance.state = <span class="hljs-built_in">Object</span>.assign(<span class="hljs-keyword">this</span>._componentInstance.state, newState);
+      <span class="hljs-comment">//&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x5BF9;&#x8C61;</span>
+      <span class="hljs-keyword">var</span> nextProps = <span class="hljs-keyword">this</span>._currentElement.props;
+      <span class="hljs-keyword">if</span> (
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate &amp;&amp;
+            <span class="hljs-keyword">this</span>._componentInstance.shouldComponentUpdate(nextProps, nextState) === <span class="hljs-literal">false</span>
+        ) {
+            <span class="hljs-comment">// &#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x7684; shouldComponentUpdate &#x8FD4;&#x56DE; false&#xFF0C;&#x5219;&#x4E0D;&#x9700;&#x8981;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x6267;&#x884C;&#x66F4;&#x65B0;</span>
+            <span class="hljs-keyword">return</span>;
+        }
+      <span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate&amp;&amp;<span class="hljs-keyword">this</span>._componentInstance.componentWillUpdate(nextProps, nextState);
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;</span>
+      <span class="hljs-keyword">let</span> prevRenderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance;
+      <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;&#x865A;&#x62DF;DOM</span>
+      <span class="hljs-keyword">let</span> prevRenderedElement = prevRenderedUnitInstance._currentElement;
+      <span class="hljs-comment">// &#x901A;&#x8FC7;&#x65B0;&#x7684;&#x72B6;&#x6001;&#x5BF9;&#x8C61;&#x91CD;&#x65B0;&#x6267;&#x884C;render&#x62FF;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x65B0;element</span>
+      <span class="hljs-keyword">var</span> nextRenderedElement = <span class="hljs-keyword">this</span>._componentInstance.render();
+      <span class="hljs-comment">//&#x5224;&#x65AD;&#x662F;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x8FD8;&#x662F;&#x76F4;&#x63A5;&#x5C31;&#x91CD;&#x65B0;&#x6E32;&#x67D3;</span>
+      <span class="hljs-keyword">if</span>(shouldDeepCompare(prevRenderedElement, nextRenderedElement)){
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x5C31;&#x7EE7;&#x7EED;&#x8C03;&#x7528;&#x5B50;&#x8282;&#x70B9;&#x7684;update&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4F20;&#x5165;&#x65B0;&#x7684;element&#x66F4;&#x65B0;&#x5B50;&#x8282;&#x70B9;&#x3002;</span>
+         prevRenderedUnitInstance.update(nextRenderedElement);
+         <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate &amp;&amp; <span class="hljs-keyword">this</span>._componentInstance.componentDidUpdate();
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x53D1;&#x73B0;&#x5B8C;&#x5168;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x4E24;&#x79CD;element&#xFF0C;&#x90A3;&#x5C31;&#x5E72;&#x8106;&#x91CD;&#x65B0;&#x6E32;&#x67D3;&#x4E86;</span>
+        <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(nextRenderedElement);
+        <span class="hljs-keyword">let</span> nextMarkup = <span class="hljs-keyword">this</span>._renderedUnitInstance.getMarkup(<span class="hljs-keyword">this</span>.rootId);
+        <span class="hljs-comment">//&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x8282;&#x70B9;</span>
+        $(<span class="hljs-string">&apos;[data-reactid=&quot;&apos;</span> + <span class="hljs-keyword">this</span>._rootId + <span class="hljs-string">&apos;&quot;]&apos;</span>).replaceWith(nextMarkup);
+      }
+    }
+    getMarkup(rootId){
+        <span class="hljs-keyword">this</span>._rootId = rootId;
+        <span class="hljs-comment">//type&#x662F;&#x4E00;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;&#x7C7B;&#x5B9A;&#x4E49;</span>
+        <span class="hljs-keyword">let</span> {<span class="hljs-attr">type</span>:Component} = <span class="hljs-keyword">this</span>._currentElement;
+        <span class="hljs-comment">//&#x521B;&#x5EFA;Counter&#x7EC4;&#x4EF6;&#x7C7B;&#x7684;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">let</span> componentInstance = <span class="hljs-keyword">this</span>._componentInstance = <span class="hljs-keyword">new</span> Component();
+        <span class="hljs-comment">//&#x8BB0;&#x5F55;&#x5B83;&#x8FD9;&#x4E2A;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x6240;&#x5728;&#x7684;&#x5355;&#x4F4D;unit</span>
+        componentInstance.unit = <span class="hljs-keyword">this</span>;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x6709;componentWillMount&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5C31;&#x8BA9;&#x5B83;&#x6267;&#x884C;</span>
+        componentInstance.componentWillMount&amp;&amp;componentInstance.componentWillMount();
+        <span class="hljs-comment">//&#x8C03;&#x7528;render&#x65B9;&#x6CD5;&#x83B7;&#x5F97;&#x8FD4;&#x56DE;&#x7684;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;</span>
+        <span class="hljs-keyword">let</span> renderedElement =  componentInstance.render();
+        <span class="hljs-comment">//&#x6839;&#x636E;&#x865A;&#x62DF;DOM&#x5143;&#x7D20;&#x5B9E;&#x4F8B;&#x5316;,&#x53EF;&#x80FD;&#x662F;ReactCompositeComponent&#x3001;ReactNativeComponent&#x6216;ReactTextComponent</span>
+        <span class="hljs-keyword">let</span> renderedUnitInstance = <span class="hljs-keyword">this</span>._renderedUnitInstance = createReactUnit(renderedElement);
+        <span class="hljs-comment">//&#x83B7;&#x5F97;renderedComponentInstance&#x7684;HTML&#x5B57;&#x7B26;&#x4E2D;</span>
+        <span class="hljs-keyword">let</span> renderedMarkup = renderedUnitInstance.getMarkup(rootId);
+        <span class="hljs-comment">//&#x6CE8;&#x518C;&#x6302;&#x8F7D;&#x5B8C;&#x6210;&#x7684;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5E95;&#x5C42;&#x7684;&#x7EC4;&#x4EF6;&#x8D8A;&#x5148;&#x76D1;&#x542C;&#xFF0C;&#x8D8A;&#x5148;&#x6267;&#x884C;</span>
+        $(<span class="hljs-built_in">document</span>).on(<span class="hljs-string">&apos;mounted&apos;</span>,()=&gt;{
+            componentInstance.componentDidMount&amp;&amp;componentInstance.componentDidMount();
+        });
+        <span class="hljs-keyword">return</span> renderedMarkup;
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">shouldDeepCompare</span>(<span class="hljs-params">prevElement, nextElement</span>) </span>{
+    <span class="hljs-comment">//&#x4E0D;&#x7BA1;&#x65B0;&#x5143;&#x7D20;&#x8FD8;&#x662F;&#x8001;&#x5143;&#x7D20;&#x662F;NULL,&#x90FD;&#x5B8C;&#x5168;&#x91CD;&#x5EFA;</span>
+    <span class="hljs-keyword">if</span> (prevElement != <span class="hljs-literal">null</span> &amp;&amp; nextElement != <span class="hljs-literal">null</span>) {
+        <span class="hljs-keyword">let</span> prevType = <span class="hljs-keyword">typeof</span> prevElement;
+        <span class="hljs-keyword">let</span> nextType = <span class="hljs-keyword">typeof</span> nextElement;
+        <span class="hljs-comment">//&#x5982;&#x679C;&#x8001;&#x8282;&#x70B9;&#x662F;&#x6587;&#x672C;&#xFF0C;&#x65B0;&#x8282;&#x70B9;&#x4E5F;&#x662F;&#x6587;&#x672C;&#x5219;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</span>
+        <span class="hljs-keyword">if</span> (prevType === <span class="hljs-string">&apos;string&apos;</span> || prevType === <span class="hljs-string">&apos;number&apos;</span>) {
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;string&apos;</span> || nextType === <span class="hljs-string">&apos;number&apos;</span>;
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-comment">//&#x5982;&#x679C;&#x662F;&#x539F;&#x751F;&#x5143;&#x7D20;&#x6216;&#x8005;&#x81EA;&#x5B9A;&#x4E49;&#x5143;&#x7D20;&#xFF0C;&#x5219;&#x770B;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x76F8;&#x540C;&#xFF0C;&#x76F8;&#x540C;&#x5219;&#x8FDB;&#x884C;&#x6DF1;&#x5EA6;&#x6BD4;&#x8F83;</span>
+            <span class="hljs-keyword">return</span> nextType === <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; prevElement.type === nextElement.type;
+        }
+    }
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createReactUnit</span>(<span class="hljs-params">element</span>)</span>{
+    <span class="hljs-comment">//&#x5982;&#x679C;&#x5143;&#x7D20;&#x7684;&#x7C7B;&#x578B;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x5B57;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;text&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;string&apos;</span> || <span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;number&apos;</span>){
+        <span class="hljs-comment">//&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x5143;&#x7D20;&#x5B9E;&#x4F8B;</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactTextUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;string&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactNativeUnit(element);
+    }
+    <span class="hljs-keyword">if</span>(<span class="hljs-keyword">typeof</span> element == <span class="hljs-string">&apos;object&apos;</span> &amp;&amp; <span class="hljs-keyword">typeof</span> element.type == <span class="hljs-string">&apos;function&apos;</span>){
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ReactCompositeUnit(element);
+    }
+}
+<span class="hljs-keyword">export</span> {
+    createReactUnit
+}
+</code></pre>
+<h2 id="t419. todos">9. todos <a href="#t419. todos"> # </a></h2>
+<p><a href="https://gitee.com/zhufengpeixun/zhufeng_react2/commit/466915a20e4bb8d0d019b3325ad47867a3891fae">commit</a></p>
+<h3 id="t429.1 src/index.js">9.1 src/index.js <a href="#t429.1 src/index.js"> # </a></h3>
+<p>src/index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./react&apos;</span>;
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Todos</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">React</span>.<span class="hljs-title">Component</span></span>{
+    <span class="hljs-keyword">constructor</span>(props){
+        <span class="hljs-keyword">super</span>(props);
+        <span class="hljs-keyword">this</span>.state = {<span class="hljs-attr">list</span>:[],<span class="hljs-attr">text</span>:<span class="hljs-string">&apos;&apos;</span>};
+    }
+    add(){
+      <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.state.text &amp;&amp; <span class="hljs-keyword">this</span>.state.text.length&gt;<span class="hljs-number">0</span>){
+        <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">list</span>:[...this.state.list,<span class="hljs-keyword">this</span>.state.text],<span class="hljs-attr">text</span>:<span class="hljs-string">&apos;&apos;</span>});
+      }
+    }
+    onChange(event) {
+        <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">text</span>: event.target.value});
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.state)
+    }
+    onDel(index) {
+        <span class="hljs-keyword">this</span>.state.list.splice(index,<span class="hljs-number">1</span>);
+        <span class="hljs-keyword">this</span>.setState({<span class="hljs-attr">list</span>: <span class="hljs-keyword">this</span>.state.list});
+    }
+    render(){
+        <span class="hljs-keyword">var</span> createItem = <span class="hljs-function">(<span class="hljs-params">itemText,index</span>)=&gt;</span> {
+            <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&quot;div&quot;</span>, {}, itemText,React.createElement(<span class="hljs-string">&apos;button&apos;</span>,{<span class="hljs-attr">onClick</span>: <span class="hljs-keyword">this</span>.onDel.bind(<span class="hljs-keyword">this</span>,index)},<span class="hljs-string">&apos;X&apos;</span>));
+        };
+
+        <span class="hljs-keyword">var</span> lists = <span class="hljs-keyword">this</span>.state.list.map(createItem);
+        <span class="hljs-keyword">var</span> input = React.createElement(<span class="hljs-string">&quot;input&quot;</span>, {<span class="hljs-attr">onKeyup</span>: <span class="hljs-keyword">this</span>.onChange.bind(<span class="hljs-keyword">this</span>),<span class="hljs-attr">value</span>: <span class="hljs-keyword">this</span>.state.text});
+        <span class="hljs-keyword">var</span> button = React.createElement(<span class="hljs-string">&quot;button&quot;</span>, {<span class="hljs-attr">onClick</span>: <span class="hljs-keyword">this</span>.add.bind(<span class="hljs-keyword">this</span>)}, <span class="hljs-string">&apos;Add&apos;</span>)
+        <span class="hljs-keyword">return</span> React.createElement(<span class="hljs-string">&apos;div&apos;</span>,{},input,button,...lists);
+    }
+}
+<span class="hljs-keyword">let</span> todos = React.createElement(Todos);
+React.render(todos,<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;root&apos;</span>));
+</code></pre>
+<h3 id="t439.2 react/unit.js">9.2 react/unit.js <a href="#t439.2 react/unit.js"> # </a></h3>
+<p>src/react/unit.js</p>
+<pre><code class="lang-js">        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> oldKey <span class="hljs-keyword">in</span> oldChildrenMap){
+            <span class="hljs-keyword">if</span>(!newMap.hasOwnProperty(oldKey)){
+                <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[oldKey];
+                diffQueue.push({
+                    <span class="hljs-attr">parentId</span>:<span class="hljs-keyword">this</span>._rootId,
+                    <span class="hljs-attr">parentNode</span>:$(<span class="hljs-string">`[data-reactid=&quot;<span class="hljs-subst">${<span class="hljs-keyword">this</span>._rootId}</span>&quot;]`</span>),
+                    <span class="hljs-attr">type</span>:types.REMOVE,
+                    <span class="hljs-attr">fromIndex</span>:oldChild._mountIndex
+                });
++                <span class="hljs-keyword">this</span>.renderedChildren = <span class="hljs-keyword">this</span>.renderedChildren.filter(<span class="hljs-function"><span class="hljs-params">item</span>=&gt;</span>item != oldChild);
+                $(<span class="hljs-built_in">document</span>).undelegate(<span class="hljs-string">&apos;.&apos;</span>+oldChild._rootId);
+            }
+        }
+
+
+getNewChildren(oldChildrenMap,newChildrenElements){
+       <span class="hljs-keyword">let</span> newChildren = [];
+       <span class="hljs-keyword">let</span> newMap = {};
+       newChildrenElements.forEach(<span class="hljs-function">(<span class="hljs-params">newElement,idx</span>)=&gt;</span>{
+         <span class="hljs-keyword">let</span> newKey = (newElement.props&amp;&amp;newElement.props.key) || idx.toString();
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit</span>
+         <span class="hljs-keyword">let</span> oldChild = oldChildrenMap[newKey];
+         <span class="hljs-comment">//&#x83B7;&#x53D6;&#x8001;&#x7684;Unit&#x5BF9;&#x5E94;&#x7684;Element&#x5143;&#x7D20;</span>
+         <span class="hljs-keyword">let</span> oldElement = oldChild &amp;&amp; oldChild._currentElement;
+         <span class="hljs-keyword">if</span>(shouldDeepCompare(oldElement,newElement)){
+            oldChild.update(newElement);
+            newChildren.push(oldChild);
+            newMap[newKey] = oldChild;
+         }<span class="hljs-keyword">else</span>{
+             <span class="hljs-keyword">let</span> newChildInstance = createReactUnit(newElement);
+             newMap[newKey] = newChildInstance;
+             newChildren.push(newChildInstance);
++            <span class="hljs-keyword">this</span>.renderedChildren[idx]=newChildInstance
+         }
+       });
+       <span class="hljs-keyword">return</span> {newMap,newChildren};
+    }        
+</code></pre>
+<h2 id="t4410. diff &#x7B56;&#x7565;">10. diff &#x7B56;&#x7565; <a href="#t4410. diff &#x7B56;&#x7565;"> # </a></h2>
+<ul>
+<li>Web UI &#x4E2D; DOM &#x8282;&#x70B9;&#x8DE8;&#x5C42;&#x7EA7;&#x7684;&#x79FB;&#x52A8;&#x64CD;&#x4F5C;&#x7279;&#x522B;&#x5C11;&#xFF0C;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x4E0D;&#x8BA1;&#x3002;</li>
+<li>&#x62E5;&#x6709;&#x76F8;&#x540C;&#x7C7B;&#x7684;&#x4E24;&#x4E2A;&#x7EC4;&#x4EF6;&#x5C06;&#x4F1A;&#x751F;&#x6210;&#x76F8;&#x4F3C;&#x7684;&#x6811;&#x5F62;&#x7ED3;&#x6784;&#xFF0C;&#x62E5;&#x6709;&#x4E0D;&#x540C;&#x7C7B;&#x7684;&#x4E24;&#x4E2A;&#x7EC4;&#x4EF6;&#x5C06;&#x4F1A;&#x751F;&#x6210;&#x4E0D;&#x540C;&#x7684;&#x6811;&#x5F62;&#x7ED3;&#x6784;&#x3002;</li>
+<li>&#x5BF9;&#x4E8E;&#x540C;&#x4E00;&#x5C42;&#x7EA7;&#x7684;&#x4E00;&#x7EC4;&#x5B50;&#x8282;&#x70B9;&#xFF0C;&#x5B83;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x552F;&#x4E00;<code>key</code>&#x8FDB;&#x884C;&#x533A;&#x5206;&#x3002;</li>
+</ul>
+<h3 id="t4510.1 tree diff">10.1 tree diff <a href="#t4510.1 tree diff"> # </a></h3>
+<ul>
+<li>React &#x5BF9;&#x6811;&#x7684;&#x7B97;&#x6CD5;&#x8FDB;&#x884C;&#x4E86;&#x7B80;&#x6D01;&#x660E;&#x4E86;&#x7684;&#x4F18;&#x5316;&#xFF0C;&#x5373;&#x5BF9;&#x6811;&#x8FDB;&#x884C;&#x5206;&#x5C42;&#x6BD4;&#x8F83;&#xFF0C;&#x4E24;&#x68F5;&#x6811;&#x53EA;&#x4F1A;&#x5BF9;&#x540C;&#x4E00;&#x5C42;&#x6B21;&#x7684;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;</li>
+</ul>
+<p><img src="../static/img/sametree.png" alt="sametree"></p>
+<ul>
+<li>&#x5F53;&#x51FA;&#x73B0;&#x8282;&#x70B9;&#x8DE8;&#x5C42;&#x7EA7;&#x79FB;&#x52A8;&#x65F6;&#xFF0C;&#x5E76;&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x60F3;&#x8C61;&#x4E2D;&#x7684;&#x79FB;&#x52A8;&#x64CD;&#x4F5C;&#xFF0C;&#x800C;&#x662F;&#x4EE5; A &#x4E3A;&#x6839;&#x8282;&#x70B9;&#x7684;&#x6811;&#x88AB;&#x6574;&#x4E2A;&#x91CD;&#x65B0;&#x521B;&#x5EFA;</li>
+</ul>
+<p><img src="../static/img/movemytree.png" alt="movemytree"></p>
+<h3 id="t4610.2 component  diff">10.2 component  diff <a href="#t4610.2 component  diff"> # </a></h3>
+<ul>
+<li>&#x5982;&#x679C;&#x662F;&#x540C;&#x4E00;&#x7C7B;&#x578B;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x6309;&#x7167;&#x539F;&#x7B56;&#x7565;&#x7EE7;&#x7EED;&#x6BD4;&#x8F83; <code>virtual DOM tree</code></li>
+<li>&#x5982;&#x679C;&#x4E0D;&#x662F;&#xFF0C;&#x5219;&#x5C06;&#x8BE5;&#x7EC4;&#x4EF6;&#x5224;&#x65AD;&#x4E3A;<code>dirty component</code>,&#x4ECE;&#x800C;&#x66FF;&#x6362;&#x6574;&#x4E2A;&#x7EC4;&#x4EF6;&#x4E0B;&#x7684;&#x6240;&#x6709;&#x5B50;&#x8282;&#x70B9;</li>
+</ul>
+<p><img src="../static/img/deleteall.png" alt="deleteall"></p>
+<h3 id="t4710.3 element diff">10.3 element diff <a href="#t4710.3 element diff"> # </a></h3>
+<ul>
+<li>&#x5F53;&#x8282;&#x70B9;&#x5904;&#x4E8E;&#x540C;&#x4E00;&#x5C42;&#x7EA7;&#x65F6;&#xFF0C;React diff &#x63D0;&#x4F9B;&#x4E86;&#x4E09;&#x79CD;&#x8282;&#x70B9;&#x64CD;&#x4F5C;,&#x5206;&#x522B;&#x4E3A;&#xFF1A;INSERT(&#x63D2;&#x5165;)&#x3001;MOVE(&#x79FB;&#x52A8;)&#x548C; REMOVE(&#x5220;&#x9664;)</li>
+<li>INSERT &#x65B0;&#x7684; component &#x7C7B;&#x578B;&#x4E0D;&#x5728;&#x8001;&#x96C6;&#x5408;&#x91CC;&#xFF0C; &#x5373;&#x662F;&#x5168;&#x65B0;&#x7684;&#x8282;&#x70B9;&#xFF0C;&#x9700;&#x8981;&#x5BF9;&#x65B0;&#x8282;&#x70B9;&#x6267;&#x884C;&#x63D2;&#x5165;&#x64CD;&#x4F5C;</li>
+<li>MOVE &#x5728;&#x8001;&#x96C6;&#x5408;&#x6709;&#x65B0; component &#x7C7B;&#x578B;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x505A;&#x79FB;&#x52A8;&#x64CD;&#x4F5C;&#xFF0C;&#x53EF;&#x4EE5;&#x590D;&#x7528;&#x4EE5;&#x524D;&#x7684; DOM &#x8282;&#x70B9;</li>
+<li>REMOVE &#x8001; component &#x4E0D;&#x5728;&#x65B0;&#x96C6;&#x5408;&#x91CC;&#x7684;&#xFF0C;&#x4E5F;&#x9700;&#x8981;&#x6267;&#x884C;&#x5220;&#x9664;&#x64CD;&#x4F5C;</li>
+</ul>
+<h3 id="t4810.4 key">10.4 key <a href="#t4810.4 key"> # </a></h3>
+<p><img src="../static/img/oldnewmove.png" alt="oldnewmove"></p>
+<p><img src="../static/img/oldnewmove2.png" alt="oldnewmove2"></p>
+<p><img src="../static/img/oldnewmove3.png" alt="oldnewmove3"></p>
+<h2 id="t4911.delegate">11.delegate <a href="#t4911.delegate"> # </a></h2>
+<ul>
+<li><a href="http://api.jquery.com/undelegate/">delegate</a></li>
+</ul>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> $<span class="hljs-built_in">document</span> = $(<span class="hljs-built_in">document</span>);
+
+$<span class="hljs-built_in">document</span>.delegate(<span class="hljs-string">&quot;#btn1&quot;</span>, <span class="hljs-string">&quot;click.foo.bar&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>)</span>{
+    alert(<span class="hljs-string">&quot;click-1&quot;</span>);
+});
+
+$<span class="hljs-built_in">document</span>.delegate(<span class="hljs-string">&quot;#btn1&quot;</span>, <span class="hljs-string">&quot;click.test&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>)</span>{
+    alert(<span class="hljs-string">&quot;click-2&quot;</span>);
+});
+
+$<span class="hljs-built_in">document</span>.delegate(<span class="hljs-string">&quot;#btn1&quot;</span>, <span class="hljs-string">&quot;click.test.foo&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">event</span>)</span>{
+    alert(<span class="hljs-string">&quot;click-3&quot;</span>);
+});
+
+<span class="hljs-comment">// $document.undelegate(&quot;.test&quot;); // &#x79FB;&#x9664;click-2&#x3001;click-3</span>
+
+<span class="hljs-comment">// $document.undelegate(&quot;.foo&quot;);  // &#x79FB;&#x9664;click-1&#x3001;click-3</span>
+
+<span class="hljs-comment">// $document.undelegate(&quot;.foo.bar&quot;);  // &#x79FB;&#x9664;click-1</span>
+</code></pre>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>

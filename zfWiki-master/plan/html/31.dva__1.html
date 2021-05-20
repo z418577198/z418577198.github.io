@@ -1,0 +1,595 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>笔记</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="nav">
+    <div class="logo">笔记</div>
+    <ul> 
+        <li><a href="../html/0.editor.html">0.editor</a></li>
+        <li><a href="../html/0.Async.html">0.Async</a></li>
+        <li><a href="../html/0.module.html">0.module</a></li>
+        <li><a href="../html/1.ES2015.html">1.ES2015</a></li>
+        <li><a href="../html/2.Promise.html">2.Promise</a></li>
+        <li><a href="../html/3.Node.html">3.Node</a></li>
+        <li><a href="../html/4.NodeInstall.html">4.NodeInstall</a></li>
+        <li><a href="../html/5.REPL.html">5.REPL</a></li>
+        <li><a href="../html/6.NodeCore.html">6.NodeCore</a></li>
+        <li><a href="../html/7.module&NPM.html">7.module&NPM</a></li>
+        <li><a href="../html/8.Encoding.html">8.Encoding</a></li>
+        <li><a href="../html/9.Buffer.html">9.Buffer</a></li>
+        <li><a href="../html/10.fs.html">10.fs</a></li>
+        <li><a href="../html/10.fs__1.html">10.fs__1</a></li>
+        <li><a href="../html/11.Stream-1.html">11.Stream-1</a></li>
+        <li><a href="../html/11.Stream-2.html">11.Stream-2</a></li>
+        <li><a href="../html/11.Stream-3.html">11.Stream-3</a></li>
+        <li><a href="../html/11.Stream-4.html">11.Stream-4</a></li>
+        <li><a href="../html/12.Network-1.html">12.Network-1</a></li>
+        <li><a href="../html/12-Network-2.html">12-Network-2</a></li>
+        <li><a href="../html/12.NetWork-3.html">12.NetWork-3</a></li>
+        <li><a href="../html/13.tcp.html">13.tcp</a></li>
+        <li><a href="../html/14.http-1.html">14.http-1</a></li>
+        <li><a href="../html/14.http-2.html">14.http-2</a></li>
+        <li><a href="../html/15.compress.html">15.compress</a></li>
+        <li><a href="../html/16.crypto.html">16.crypto</a></li>
+        <li><a href="../html/17.process.html">17.process</a></li>
+        <li><a href="../html/18.yargs.html">18.yargs</a></li>
+        <li><a href="../html/19.cache.html">19.cache</a></li>
+        <li><a href="../html/20.action.html">20.action</a></li>
+        <li><a href="../html/21.https.html">21.https</a></li>
+        <li><a href="../html/22.cookie.html">22.cookie</a></li>
+        <li><a href="../html/23.session.html">23.session</a></li>
+        <li><a href="../html/23.session__1.html">23.session__1</a></li>
+        <li><a href="../html/24.express-1.html">24.express-1</a></li>
+        <li><a href="../html/24.express-2.html">24.express-2</a></li>
+        <li><a href="../html/24.express-3.html">24.express-3</a></li>
+        <li><a href="../html/24.express-4.html">24.express-4</a></li>
+        <li><a href="../html/25.koa-1.html">25.koa-1</a></li>
+        <li><a href="../html/26.webpack-1.html">26.webpack-1</a></li>
+        <li><a href="../html/26.webpack-1-basic__1.html">26.webpack-1-basic__1</a></li>
+        <li><a href="../html/26.webpack-2.html">26.webpack-2</a></li>
+        <li><a href="../html/26.webpack-2-optimize__1.html">26.webpack-2-optimize__1</a></li>
+        <li><a href="../html/26.webpack-3.html">webpack-3</a></li>
+        <li><a href="../html/26.tapable.html">26.tapable</a></li>
+        <li><a href="../html/26.webpack-3.tapable__1.html">26.webpack-3.tapable__1</a></li>
+        <li><a href="../html/26.webpack-4.html">26.webpack-4</a></li>
+        <li><a href="../html/26.AST.html">26.AST</a></li>
+        <li><a href="../html/26.webpack-4-AST__1.html">26.webpack-4-AST__1</a></li>
+        <li><a href="../html/26.webpack-5.html">26.webpack-5</a></li>
+        <li><a href="../html/26.webpack-5-source__1.html">26.webpack-5-source__1</a></li>
+        <li><a href="../html/26.webpack-loader.html">26.webpack-loader</a></li>
+        <li><a href="../html/26.webpack-6-loader__1.html">26.webpack-6-loader__1</a></li>
+        <li><a href="../html/26.webpack-plugin.html">26.webpack-plugin</a></li>
+        <li><a href="../html/26.webpack-7-plugin__1.html">26.webpack-7-plugin__1</a></li>
+        <li><a href="../html/26.webpack-8-hand__1.html">26.webpack-8-hand__1</a></li>
+        <li><a href="../html/27.react-1.html">27.react-1</a></li>
+        <li><a href="../html/27.react-2.html">27.react-2</a></li>
+        <li><a href="../html/27.react-3.html">27.react-3</a></li>
+        <li><a href="../html/27.react-3__1.html">27.react-3__1</a></li>
+        <li><a href="../html/27.react-4-immutable.html">27.react-4-immutable</a></li>
+        <li><a href="../html/27.react-4-immutable__1.html">27.react-4-immutable__1</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff.html">27.react-5-react-dom-diff</a></li>
+        <li><a href="../html/27.react-5-react-dom-diff__1.html">27.react-5-react-dom-diff__1</a></li>
+        <li><a href="../html/27.react-6__1.html">27.react-6__1</a></li>
+        <li><a href="../html/28.react-mobx__1.html">28.react-mobx__1</a></li>
+        <li><a href="../html/28.redux-0.html">28.redux-0</a></li>
+        <li><a href="../html/28.redux-1.html">28.redux-1</a></li>
+        <li><a href="../html/28.redux-1__1.html">28.redux-1__1</a></li>
+        <li><a href="../html/28.redux-2-中间件__1.html">28.redux-2-中间件__1</a></li>
+        <li><a href="../html/28.redux-3-saga.html">28.redux-3-saga</a></li>
+        <li><a href="../html/28.redux-4-dva.html">28.redux-4-dva</a></li>
+        <li><a href="../html/28.redux-jwt-back__1.html">28.redux-jwt-back__1</a></li>
+        <li><a href="../html/28.redux-jwt-front__1.html">28.redux-jwt-front__1</a></li>
+        <li><a href="../html/29.mongodb-1.html">29.mongodb-1</a></li>
+        <li><a href="../html/29.mongodb-1__1.html">29.mongodb-1__1</a></li>
+        <li><a href="../html/29.mongodb-2.html">29.mongodb-2</a></li>
+        <li><a href="../html/29.mongodb-3.html">29.mongodb-3</a></li>
+        <li><a href="../html/29.mongodb-4.html">29.mongodb-4</a></li>
+        <li><a href="../html/29.mongodb-5.html">29.mongodb-5</a></li>
+        <li><a href="../html/29.mongodb-6.html">29.mongodb-6</a></li>
+        <li><a href="../html/29.mongodb-6__1.html">29.mongodb-6__1</a></li>
+        <li><a href="../html/30.mysql-1.html">30.mysql-1</a></li>
+        <li><a href="../html/30.mysql-2.html">30.mysql-2</a></li>
+        <li><a href="../html/30.cms-1-mysql__1.html">30.cms-1-mysql__1</a></li>
+        <li><a href="../html/30.cms-2-mysql__1.html">30.cms-2-mysql__1</a></li>
+        <li><a href="../html/30.cms-3-mysql__1.html">30.cms-3-mysql__1</a></li>
+        <li><a href="../html/30.cms-4-nunjucks__1.html">30.cms-4-nunjucks__1</a></li>
+        <li><a href="../html/30.cms-5-mock__1.html">30.cms-5-mock__1</a></li>
+        <li><a href="../html/31.egg-1.html">31.egg-1</a></li>
+        <li><a href="../html/31.egg-2.html">31.egg-2</a></li>
+        <li><a href="../html/31.egg-3.html">31.egg-3</a></li>
+        <li><a href="../html/30.cms-6-egg__1.html">30.cms-6-egg__1</a></li>
+        <li><a href="../html/30.cms-7-api__1.html">30.cms-7-api__1</a></li>
+        <li><a href="../html/30.cms-8-roadhog__1.html">30.cms-8-roadhog__1</a></li>
+        <li><a href="../html/30.cms-9-yaml__1.html">30.cms-9-yaml__1</a></li>
+        <li><a href="../html/30.cms-10-umi__1.html">30.cms-10-umi__1</a></li>
+        <li><a href="../html/30.cms-11-saga__1.html">30.cms-11-saga__1</a></li>
+        <li><a href="../html/31.dva__1.html">30.dva__1</a></li>
+        <li><a href="../html/30.cms-12-dva__1.html">30.cms-12-dva__1</a></li>
+        <li><a href="../html/32.ant.html">32.ant</a></li>
+        <li><a href="../html/30.cms-13-dva-ant__1.html">30.cms-13-dva-ant__1</a></li>
+        <li><a href="../html/30.cms-14-front__1.html">30.cms-14-front__1</a></li>
+        <li><a href="../html/30.cms-15-deploy__1.html">30.cms-15-deploy__1</a></li>
+        <li><a href="../html/31.dva.html">31.dva</a></li>
+        <li><a href="../html/31.saga__1.html">31.saga__1</a></li>
+        <li><a href="../html/33.redis__1.html">33.redis__1</a></li>
+        <li><a href="../html/34.unittest__1.html">34.unittest__1</a></li>
+        <li><a href="../html/35.jwt.html">35.jwt</a></li>
+        <li><a href="../html/35.jwt__1.html">35.jwt__1</a></li>
+        <li><a href="../html/36.websocket-1.html">36.websocket-1</a></li>
+        <li><a href="../html/36.websocket-1__1.html">36.websocket-1__1</a></li>
+        <li><a href="../html/36.websocket-2.html">36.websocket-2</a></li>
+        <li><a href="../html/36.websocket-2__1.html">36.websocket-2__1</a></li>
+        <li><a href="../html/38.chat-api-1__1.html">38.chat-api-1__1</a></li>
+        <li><a href="../html/38.chat-api-2__1.html">38.chat-api-2__1</a></li>
+        <li><a href="../html/38.chat-api-3__1.html">38.chat-api-3__1</a></li>
+        <li><a href="../html/38.chat__1.html">38.chat__1</a></li>
+        <li><a href="../html/38.chat-2__1.html">38.chat-2__1</a></li>
+        <li><a href="../html/38.chat-3__1.html">38.chat-3__1</a></li>
+        <li><a href="../html/39.crawl-0__1.html">39.crawl-0__1</a></li>
+        <li><a href="../html/39.crawl-1__1.html">39.crawl-1__1</a></li>
+        <li><a href="../html/39.crawl-2__1.html">39.crawl-2__1</a></li>
+        <li><a href="../html/40.deploy__1.html">40.deploy__1</a></li>
+        <li><a href="../html/41.safe__1.html">41.safe__1</a></li>
+        <li><a href="../html/42.test__1.html">42.test__1</a></li>
+        <li><a href="../html/43.nginx__1.html">43.nginx__1</a></li>
+        <li><a href="../html/44.enzyme__1.html">44.enzyme__1</a></li>
+        <li><a href="../html/45.docker__1.html">45.docker__1</a></li>
+        <li><a href="../html/46.elastic__1.html">46.elastic__1</a></li>
+        <li><a href="../html/47.oauth__1.html">47.oauth__1</a></li>
+        <li><a href="../html/48.wxpay__1.html">48.wxpay__1</a></li>
+        <li><a href="../html/51.typescript__1.html">51.typescript__1</a></li>
+        <li><a href="../html/52.UML__1.html">52.UML__1</a></li>
+        <li><a href="../html/53.design__1.html">53.design__1</a></li>
+        <li><a href="../html/54.linux__1.html">54.linux__1</a></li>
+        <li><a href="../html/56.react-ssr__1.html">56.react-ssr__1</a></li>
+        <li><a href="../html/57.ts__1.html">57.ts__1</a></li>
+        <li><a href="../html/58.ts_react__1.html">58.ts_react__1</a></li>
+        <li><a href="../html/59.ketang__1.html">59.ketang__1</a></li>
+        <li><a href="../html/59.ketang2__1.html">59.ketang2__1</a></li>
+        <li><a href="../html/60.react__1.html">60.react__1</a></li>
+        <li><a href="../html/60.react-1__1.html">60.react-1__1</a></li>
+        <li><a href="../html/61.1.devops-linux__1.html">61.1.devops-linux__1</a></li>
+        <li><a href="../html/61.2.devops-vi__1.html">61.2.devops-vi__1</a></li>
+        <li><a href="../html/61.3.devops-user__1.html">61.3.devops-user__1</a></li>
+        <li><a href="../html/61.4.devops-auth__1.html">61.4.devops-auth__1</a></li>
+        <li><a href="../html/61.5.devops-shell__1.html">61.5.devops-shell__1</a></li>
+        <li><a href="../html/61.6.devops-install__1.html">61.6.devops-install__1</a></li>
+        <li><a href="../html/61.7.devops-system__1.html">61.7.devops-system__1</a></li>
+        <li><a href="../html/61.8.devops-service__1.html">61.8.devops-service__1</a></li>
+        <li><a href="../html/61.9.devops-network__1.html">61.9.devops-network__1</a></li>
+        <li><a href="../html/61.10.devops-nginx__1.html">61.10.devops-nginx__1</a></li>
+        <li><a href="../html/61.11.devops-docker__1.html">61.11.devops-docker__1</a></li>
+        <li><a href="../html/61.12.devops-jekins__1.html">61.12.devops-jekins__1</a></li>
+        <li><a href="../html/61.13.devops-groovy__1.html">61.13.devops-groovy__1</a></li>
+        <li><a href="../html/61.14.devops-php__1.html">61.14.devops-php__1</a></li>
+        <li><a href="../html/61.15.devops-java__1.html">61.15.devops-java__1</a></li>
+        <li><a href="../html/61.16.devops-node__1.html">61.16.devops-node__1</a></li>
+        <li><a href="../html/62.1.react-basic__1.html">62.1.react-basic__1</a></li>
+        <li><a href="../html/62.2.react-state__1.html">62.2.react-state__1</a></li>
+        <li><a href="../html/62.3.react-high__1.html">62.3.react-high__1</a></li>
+        <li><a href="../html/62.4.react-hooks__1.html">62.4.react-hooks__1</a></li>
+        <li><a href="../html/63.1.redux__1.html">63.1.redux__1</a></li>
+        <li><a href="../html/63.2.redux-middleware__1.html">63.2.redux-middleware__1</a></li>
+        <li><a href="../html/63.3.redux-saga__1.html">63.3.redux-saga__1</a></li>
+        <li><a href="../html/63.4.redux-saga-hand__1.html">63.4.redux-saga-hand__1</a></li>
+        <li><a href="../html/64.1.router__1.html">64.1.router__1</a></li>
+        <li><a href="../html/64.2.router-connected__1.html">64.2.router-connected__1</a></li>
+        <li><a href="../html/65.1.typescript__1.html">65.1.typescript__1</a></li>
+        <li><a href="../html/65.2.typescript__1.html">65.2.typescript__1</a></li>
+        <li><a href="../html/65.3.typescript__1.html">65.3.typescript__1</a></li>
+        <li><a href="../html/65.4.antd__1.html">65.4.antd__1</a></li>
+        <li><a href="../html/66-1.vue-base__1.html">66-1.vue-base__1</a></li>
+        <li><a href="../html/66-2.vue-component__1.html">66-2.vue-component__1</a></li>
+        <li><a href="../html/66-3.vue-cli3.0__1.html">66-3.vue-cli3.0__1</a></li>
+        <li><a href="../html/66-4.$message组件__1.html">66-4.$message组件__1</a></li>
+        <li><a href="../html/66-5.From组件__1.html">66-5.Form组件__1</a></li>
+        <li><a href="../html/66-6.tree__1.html">66-6.tree__1</a></li>
+        <li><a href="../html/66-7.vue-router-apply__1.html">66-7.vue-router-apply__1</a></li>
+        <li><a href="../html/66-8.axios-apply__1.html">66-8.axios-apply__1</a></li>
+        <li><a href="../html/66-9.vue-apply__1.html">66-9.vue-apply__1</a></li>
+        <li><a href="../html/66-10.jwt-vue__1.html">66-10.jwt-vue__1</a></li>
+        <li><a href="../html/66-11.vue-ssr__1.html">66-11.vue-ssr__1</a></li>
+        <li><a href="../html/66-12.nuxt-apply__1.html">66-12.nuxt-apply__1</a></li>
+        <li><a href="../html/66-13.pwa__1.html">66-13.pwa__1</a></li>
+        <li><a href="../html/66-14.vue单元测试__1.html">66-14.vue单元测试__1</a></li>
+        <li class="active"><a href="../html/66-15.权限校验__1.html">66-15.权限校验__1</a></li>
+    </ul>
+</div>
+
+
+<div class="warpper">
+
+    <div class="page-toc">
+        <ul><li><a href="#t00.dva介绍">0.dva介绍</a><ul><li><a href="#t10.1 前置知识">0.1 前置知识</a></li></ul></li><li><a href="#t21. 初始化项目">1. 初始化项目</a></li><li><a href="#t32. 基本计数器">2. 基本计数器</a><ul><li><a href="#t42.1 src\index.js">2.1 src\index.js</a></li><li><a href="#t52.2 src\dva\index.js">2.2 src\dva\index.js</a></li></ul></li><li><a href="#t63. 支持effects">3. 支持effects</a><ul><li><a href="#t73.1 src\index.js">3.1 src\index.js</a></li><li><a href="#t83.2 src\dva\index.js">3.2 src\dva\index.js</a></li></ul></li><li><a href="#t94.支持路由">4.支持路由</a><ul><li><a href="#t104.1 src\index.js">4.1 src\index.js</a></li><li><a href="#t114.2 src\dva\index.js">4.2 src\dva\index.js</a></li><li><a href="#t124.3 src\dva\router.js">4.3 src\dva\router.js</a></li></ul></li><li><a href="#t13参考">参考</a></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <h2 id="t00.dva&#x4ECB;&#x7ECD;">0.dva&#x4ECB;&#x7ECD; <a href="#t00.dva&#x4ECB;&#x7ECD;"> # </a></h2>
+<p><img src="../static/img/PPrerEAKbIoDZYr.png" alt="dva"></p>
+<h3 id="t10.1 &#x524D;&#x7F6E;&#x77E5;&#x8BC6;">0.1 &#x524D;&#x7F6E;&#x77E5;&#x8BC6; <a href="#t10.1 &#x524D;&#x7F6E;&#x77E5;&#x8BC6;"> # </a></h3>
+<ul>
+<li>react</li>
+<li>react-router-dom</li>
+<li>redux</li>
+<li>react-redux</li>
+<li>react-router-redux</li>
+<li>history</li>
+<li>dva</li>
+</ul>
+<h2 id="t21. &#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;">1. &#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE; <a href="#t21. &#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;"> # </a></h2>
+<pre><code class="lang-js">create-react-app zhufeng-dva-source
+cd  zhufeng-dva-source
+cnpm install dva redux react-redux react-router-dom react-router-redux history
+npm start
+</code></pre>
+<h2 id="t32. &#x57FA;&#x672C;&#x8BA1;&#x6570;&#x5668;">2. &#x57FA;&#x672C;&#x8BA1;&#x6570;&#x5668; <a href="#t32. &#x57FA;&#x672C;&#x8BA1;&#x6570;&#x5668;"> # </a></h2>
+<h3 id="t42.1 src\index.js">2.1 src\index.js <a href="#t42.1 src\index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> dva,{connect} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;dva&apos;</span>;
+<span class="hljs-keyword">const</span> app = dva();
+app.model({
+    <span class="hljs-attr">namespace</span>:<span class="hljs-string">&apos;counter&apos;</span>,
+    <span class="hljs-attr">state</span>:{<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>},
+    <span class="hljs-attr">reducers</span>:{
+        add(state){
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>:state.number+<span class="hljs-number">1</span>};
+        }
+    }
+});
+<span class="hljs-keyword">const</span> Counter = connect(
+    <span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state.counter
+)(<span class="hljs-function"><span class="hljs-params">props</span>=&gt;</span>(
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>props.dispatch({type:&quot;counter/add&quot;})}&gt;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+));
+app.router(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Counter</span>/&gt;</span></span>);
+app.start(<span class="hljs-string">&apos;#root&apos;</span>);
+</code></pre>
+<h3 id="t52.2 src\dva\index.js">2.2 src\dva\index.js <a href="#t52.2 src\dva\index.js"> # </a></h3>
+<p>src\dva\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> {createStore,combineReducers} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>;
+<span class="hljs-keyword">import</span> {connect,Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>;
+<span class="hljs-keyword">export</span> {
+    connect
+};
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">const</span> app = {
+        <span class="hljs-attr">_models</span>:[],
+        model,
+        <span class="hljs-attr">_router</span>:<span class="hljs-literal">null</span>,
+        router,
+        start
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">model</span>(<span class="hljs-params">model</span>)</span>{
+        app._models.push(model);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">router</span>(<span class="hljs-params">routerConfig</span>)</span>{
+        app._router = routerConfig;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">start</span>(<span class="hljs-params">root</span>)</span>{
+        <span class="hljs-keyword">let</span> reducers = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;app._models.length;i++){
+            <span class="hljs-keyword">let</span> model = app._models[i];
+            reducers[model.namespace] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">state=model.state,action</span>)</span>{
+                 <span class="hljs-keyword">let</span> actionType = action.type;
+                 <span class="hljs-keyword">let</span> values = actionType.split(<span class="hljs-string">&apos;/&apos;</span>);
+                 <span class="hljs-keyword">if</span>(values[<span class="hljs-number">0</span>] == model.namespace){
+                    <span class="hljs-keyword">let</span> reducer = model.reducers[values[<span class="hljs-number">1</span>]];
+                    <span class="hljs-keyword">if</span>(reducer){
+                        <span class="hljs-keyword">return</span> reducer(state,action);
+                    }
+                 }
+                 <span class="hljs-keyword">return</span> state;
+            }
+        }
+        <span class="hljs-keyword">let</span> rootReducer = combineReducers(reducers);
+        <span class="hljs-keyword">let</span> store = createStore(rootReducer);
+        <span class="hljs-keyword">let</span> App = app._router;
+        ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">App</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(root));
+    }
+    <span class="hljs-keyword">return</span> app;
+}
+</code></pre>
+<h2 id="t63. &#x652F;&#x6301;effects">3. &#x652F;&#x6301;effects <a href="#t63. &#x652F;&#x6301;effects"> # </a></h2>
+<h3 id="t73.1 src\index.js">3.1 src\index.js <a href="#t73.1 src\index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> dva,{connect} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./dva&apos;</span>;
+<span class="hljs-keyword">const</span> app = dva();
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">delay</span>(<span class="hljs-params">ms</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+        setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            resolve();
+        },ms);
+    });
+}
+app.model({
+    <span class="hljs-attr">namespace</span>:<span class="hljs-string">&apos;counter&apos;</span>,
+    <span class="hljs-attr">state</span>:{<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>},
+    <span class="hljs-attr">reducers</span>:{
+        add(state){
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>:state.number+<span class="hljs-number">1</span>};
+        }
+    },
+    <span class="hljs-attr">effects</span>:{
+        *asyncAdd({call,put},action){
+          <span class="hljs-keyword">yield</span> call(delay,<span class="hljs-number">1000</span>);
+          <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">&apos;counter/add&apos;</span>});
+        }
+    }
+});
+<span class="hljs-keyword">const</span> Counter = connect(
+    <span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state.counter
+)(<span class="hljs-function"><span class="hljs-params">props</span>=&gt;</span>(
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>props.dispatch({type:&quot;counter/add&quot;})}&gt;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>props.dispatch({type:&quot;counter/asyncAdd&quot;})}&gt;&#x5F02;&#x6B65;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+));
+app.router(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Counter</span>/&gt;</span></span>);
+app.start(<span class="hljs-string">&apos;#root&apos;</span>);
+</code></pre>
+<h3 id="t83.2 src\dva\index.js">3.2 src\dva\index.js <a href="#t83.2 src\dva\index.js"> # </a></h3>
+<p>src\dva\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> {createStore,combineReducers,applyMiddleware} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>;
+<span class="hljs-keyword">import</span> {connect,Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>;
+<span class="hljs-keyword">import</span> createSagaMiddleware <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-saga&apos;</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> effects <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-saga/effects&apos;</span>;
+<span class="hljs-keyword">export</span> {
+    connect
+};
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">const</span> app = {
+        <span class="hljs-attr">_models</span>:[],
+        model,
+        <span class="hljs-attr">_router</span>:<span class="hljs-literal">null</span>,
+        router,
+        start
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">model</span>(<span class="hljs-params">model</span>)</span>{
+        app._models.push(model);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">router</span>(<span class="hljs-params">routerConfig</span>)</span>{
+        app._router = routerConfig;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">start</span>(<span class="hljs-params">root</span>)</span>{
+        <span class="hljs-keyword">let</span> reducers = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;app._models.length;i++){
+            <span class="hljs-keyword">let</span> model = app._models[i];
+            reducers[model.namespace] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">state=model.state,action</span>)</span>{
+                 <span class="hljs-keyword">let</span> actionType = action.type;
+                 <span class="hljs-keyword">let</span> values = actionType.split(<span class="hljs-string">&apos;/&apos;</span>);
+                 <span class="hljs-keyword">if</span>(values[<span class="hljs-number">0</span>] == model.namespace){
+                    <span class="hljs-keyword">let</span> reducer = model.reducers[values[<span class="hljs-number">1</span>]];
+                    <span class="hljs-keyword">if</span>(reducer){
+                        <span class="hljs-keyword">return</span> reducer(state,action);
+                    }
+                 }
+                 <span class="hljs-keyword">return</span> state;
+            }
+        }
+        <span class="hljs-keyword">let</span> sagaMiddleware = createSagaMiddleware();
+        <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">const</span> model <span class="hljs-keyword">of</span> app._models){
+                <span class="hljs-keyword">for</span>(<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> model.effects){
+                    <span class="hljs-keyword">yield</span> effects.takeEvery(model.namespace+<span class="hljs-string">&apos;/&apos;</span>+key,model.effects[key],effects);
+                }
+            }
+        }
+        <span class="hljs-keyword">let</span> rootReducer = combineReducers(reducers);
+        <span class="hljs-keyword">let</span> store = createStore(rootReducer,applyMiddleware(sagaMiddleware));
+        sagaMiddleware.run(rootSaga);
+        <span class="hljs-keyword">let</span> App = app._router;
+        ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">App</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(root));
+    }
+    <span class="hljs-keyword">return</span> app;
+}
+</code></pre>
+<h2 id="t94.&#x652F;&#x6301;&#x8DEF;&#x7531;">4.&#x652F;&#x6301;&#x8DEF;&#x7531; <a href="#t94.&#x652F;&#x6301;&#x8DEF;&#x7531;"> # </a></h2>
+<h3 id="t104.1 src\index.js">4.1 src\index.js <a href="#t104.1 src\index.js"> # </a></h3>
+<p>src\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React,{Fragment} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> dva,{connect} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./dva&apos;</span>;
+<span class="hljs-keyword">import</span> {Router,Route} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./dva/router&apos;</span>;
+<span class="hljs-keyword">const</span> app = dva();
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">delay</span>(<span class="hljs-params">ms</span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function">(<span class="hljs-params">resolve,reject</span>) =&gt;</span> {
+        setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+            resolve();
+        },ms);
+    });
+}
+app.model({
+    <span class="hljs-attr">namespace</span>:<span class="hljs-string">&apos;counter&apos;</span>,
+    <span class="hljs-attr">state</span>:{<span class="hljs-attr">number</span>:<span class="hljs-number">0</span>},
+    <span class="hljs-attr">reducers</span>:{
+        add(state){
+            <span class="hljs-keyword">return</span> {<span class="hljs-attr">number</span>:state.number+<span class="hljs-number">1</span>};
+        }
+    },
+    <span class="hljs-attr">effects</span>:{
+        *asyncAdd({call,put},action){
+          <span class="hljs-keyword">yield</span> call(delay,<span class="hljs-number">1000</span>);
+          <span class="hljs-keyword">yield</span> put({<span class="hljs-attr">type</span>:<span class="hljs-string">&apos;counter/add&apos;</span>});
+        }
+    }
+});
+<span class="hljs-keyword">const</span> Counter = connect(
+    <span class="hljs-function"><span class="hljs-params">state</span>=&gt;</span>state.counter
+)(<span class="hljs-function"><span class="hljs-params">props</span>=&gt;</span>(
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{props.number}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>props.dispatch({type:&quot;counter/add&quot;})}&gt;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">onClick</span>=<span class="hljs-string">{()</span>=&gt;</span>props.dispatch({type:&quot;counter/asyncAdd&quot;})}&gt;&#x5F02;&#x6B65;+<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+));
+<span class="hljs-keyword">const</span> Home = <span class="hljs-function"><span class="hljs-params">()</span>=&gt;</span><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+app.router(<span class="hljs-function">(<span class="hljs-params">{history}</span>)=&gt;</span>(
+    &lt;Router history={history}&gt;
+        &lt;Fragment&gt;
+            &lt;Route path=&quot;/&quot; exact={true} component={Home}/&gt;
+            &lt;Route path=&quot;/counter&quot; component={Counter}/&gt;
+        &lt;/Fragment&gt;
+    &lt;/Router&gt;
+));
+app.start(&apos;#root&apos;);
+</code></pre>
+<h3 id="t114.2 src\dva\index.js">4.2 src\dva\index.js <a href="#t114.2 src\dva\index.js"> # </a></h3>
+<p>src\dva\index.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react&apos;</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-dom&apos;</span>;
+<span class="hljs-keyword">import</span> {createStore,combineReducers,applyMiddleware} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux&apos;</span>;
+<span class="hljs-keyword">import</span> {connect,Provider} <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-redux&apos;</span>;
+<span class="hljs-keyword">import</span> createSagaMiddleware <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-saga&apos;</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> effects <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;redux-saga/effects&apos;</span>;
+<span class="hljs-keyword">import</span> createHashHistory <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;history/createHashHistory&apos;</span>;
+<span class="hljs-keyword">export</span> {
+    connect
+};
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">const</span> app = {
+        <span class="hljs-attr">_models</span>:[],
+        model,
+        <span class="hljs-attr">_router</span>:<span class="hljs-literal">null</span>,
+        router,
+        start
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">model</span>(<span class="hljs-params">model</span>)</span>{
+        app._models.push(model);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">router</span>(<span class="hljs-params">routerConfig</span>)</span>{
+        app._router = routerConfig;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">start</span>(<span class="hljs-params">root</span>)</span>{
+        <span class="hljs-keyword">let</span> reducers = {};
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>;i&lt;app._models.length;i++){
+            <span class="hljs-keyword">let</span> model = app._models[i];
+            reducers[model.namespace] = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">state=model.state,action</span>)</span>{
+                 <span class="hljs-keyword">let</span> actionType = action.type;
+                 <span class="hljs-keyword">let</span> values = actionType.split(<span class="hljs-string">&apos;/&apos;</span>);
+                 <span class="hljs-keyword">if</span>(values[<span class="hljs-number">0</span>] == model.namespace){
+                    <span class="hljs-keyword">let</span> reducer = model.reducers[values[<span class="hljs-number">1</span>]];
+                    <span class="hljs-keyword">if</span>(reducer){
+                        <span class="hljs-keyword">return</span> reducer(state,action);
+                    }
+                 }
+                 <span class="hljs-keyword">return</span> state;
+            }
+        }
+        <span class="hljs-keyword">let</span> sagaMiddleware = createSagaMiddleware();
+        <span class="hljs-function"><span class="hljs-keyword">function</span>* <span class="hljs-title">rootSaga</span>(<span class="hljs-params"></span>)</span>{
+            <span class="hljs-keyword">for</span>(<span class="hljs-keyword">const</span> model <span class="hljs-keyword">of</span> app._models){
+                <span class="hljs-keyword">for</span>(<span class="hljs-keyword">const</span> key <span class="hljs-keyword">in</span> model.effects){
+                    <span class="hljs-keyword">yield</span> effects.takeEvery(model.namespace+<span class="hljs-string">&apos;/&apos;</span>+key,model.effects[key],effects);
+                }
+            }
+        }
+        <span class="hljs-keyword">let</span> rootReducer = combineReducers(reducers);
+        <span class="hljs-keyword">let</span> store = createStore(rootReducer,applyMiddleware(sagaMiddleware));
+        sagaMiddleware.run(rootSaga);
+        <span class="hljs-keyword">let</span> history = createHashHistory();
+        <span class="hljs-keyword">let</span> App = app._router({history});
+        ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Provider</span> <span class="hljs-attr">store</span>=<span class="hljs-string">{store}</span>&gt;</span>{App}<span class="hljs-tag">&lt;/<span class="hljs-name">Provider</span>&gt;</span></span>,<span class="hljs-built_in">document</span>.querySelector(root));
+    }
+    <span class="hljs-keyword">return</span> app;
+}
+</code></pre>
+<h3 id="t124.3 src\dva\router.js">4.3 src\dva\router.js <a href="#t124.3 src\dva\router.js"> # </a></h3>
+<p>src\dva\router.js</p>
+<pre><code class="lang-js"><span class="hljs-keyword">export</span> * <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;react-router-dom&apos;</span>;
+</code></pre>
+<h2 id="t13&#x53C2;&#x8003;">&#x53C2;&#x8003; <a href="#t13&#x53C2;&#x8003;"> # </a></h2>
+<ul>
+<li><a href="https://gitee.com/zhufengpeixun/zhufeng-dva-source.git">zhufeng-dva-source</a></li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+    
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+$('.warpper .page-toc ul ul li a').on('click',function(){
+  $('.warpper .page-toc ul ul li a').removeClass('my-active')
+  $(this).addClass('my-active')
+})
+
+$('.logo').on('mouseenter',function(){
+  $('.nav').height('400px');
+})
+$('.nav').on('mouseleave',function(){
+  $('.nav').height('80px');
+})
+
+// if (!$('.understand-me').length) {
+  //   var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+  //   var count = bar / 26 / 2;
+  //   var barHeight = $('.page-toc').outerHeight();
+  //   $('.page-toc li').eq(0).children('a').addClass('red');
+  //   var arr = [];
+  //   $("h1,h2,h3,h4,h5,h6").each(function () {
+  //     arr.push($(this).position().top);
+  //   });
+  //   var timer
+  //   function dark() {
+  //     clearTimeout(timer)
+  //      timer = setTimeout(function () {
+  //      var top = Math.abs($('.page-toc > ul').position().top);
+  //      var cur = $('.content').scrollTop();
+  //      for (var i = arr.length; i >= 0; i--) {
+  //        if (arr[i] <= cur) {
+  //          break;
+  //        }
+  //      }
+  //      if (i === -1) {
+  //        i = 0;
+  //      }
+  //      $('.page-toc li a').removeClass('red');
+  //      $('.page-toc li').eq(i).children('a').addClass('red');
+  //      let height = $('.page-toc li').eq(i).position().top-$('.page-toc').height(); // 如果当前的offset出去了 回到中间可好？
+  //      $('.page-toc').scrollTop(height+$('.page-toc').height()/2);
+  //    },200)
+  //   }
+
+  //   $('.content').on('scroll', dark);
+  // }
+</script>
+<style>
+
+    /* ::-webkit-scrollbar{width:14px;}
+    ::-webkit-scrollbar-track{background-color:transparent;}
+    ::-webkit-scrollbar-thumb{background-color:transparent;}
+    ::-webkit-scrollbar-thumb:hover {background-color:transparent}
+    ::-webkit-scrollbar-thumb:active {background-color:transparent} */
+
+    .page-toc > ul .red {
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+        color: #000
+    }
+
+
+
+
+
+</style>
+</body>
+</html>
