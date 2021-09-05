@@ -1,0 +1,11 @@
+#
+# robots.txt for EmpireCMS
+#
+
+User-agent: *
+
+Disallow: /d/
+Disallow: /e/cla
+Disallow: /e/da
+Disallow: /e/ene
+Disallow: /e/upda
