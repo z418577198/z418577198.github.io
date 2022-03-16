@@ -52,3 +52,17 @@ body {
     top: 21%;
     width: 19.5%;
 }
+
+.my-vido {
+    padding: 30px;
+    background: url(../image/33_3_10.jpg) no-repeat center center;
+    /* display: flex; */
+    /* justify-content:space-around; */
+    /* align-items: center; */
+    position: relative;
+}
+.my-vido video {
+    width: 25%;
+    position: absolute;
+    top: 280px;
+}
